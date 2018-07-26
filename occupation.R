@@ -1398,3 +1398,76 @@ foe.table <- read_csv("foe_table.csv") %>% select(-X3)
         
 
         
+        
+### Additional research ####
+        
+        # LF participation for 55-64 bachelor men by married v unmarried
+        lfs.5564 <- lfs %>% 
+                    filter(gender == "m" &
+                             age >= 55 & age <= 64 &
+                             !is.na(married)) %>% 
+                    group_by(year, qualfield, age, gender, married, lfs) %>% 
+                    summarise(count = sum(count)) %>% 
+                    mutate(temp.pc = count / sum(count)) %>% 
+                    ungroup() %>% 
+                    group_by(year, qualfield, gender, married, lfs) %>% 
+                    summarise(pc = mean(temp.pc, na.rm = TRUE))
+        
+      
+        add <- lfs %>%
+          filter(gender == "m" &
+                   age >= 55 & age <= 64 &
+                   !is.na(married)) %>% 
+          group_by(year, qual, qualfield, age, gender, married, lfs) %>% 
+          summarise(count = sum(count)) %>% 
+          mutate(temp.pc = count / sum(count)) %>% 
+          ungroup() %>% 
+          group_by(year, qual, gender, married, lfs) %>% 
+          summarise(pc = mean(temp.pc, na.rm = TRUE)) %>% 
+          mutate(qualfield = ifelse(qual == "Bachelor", "B. all", 
+                                    ifelse(qual == "Diploma & AdDip", "D. all", "Y12")))
+        
+        lfs.5564 <- bind_rows(lfs.5564, add) %>% 
+          ungroup() %>% 
+          select(-qual) %>%                   
+          group_by(year, qualfield, gender, married, lfs)
+        
+        # Chart
+        pair <- 
+        pairlabel <- c("Male, married", "Male, unmarried")
+        
+        lfs.current.chart <- usedata %>%  filter()
+          
+          filter(qualfield %in% chartfields) %>% 
+          ggplot(aes(x = year, color=lfs, group=interaction(lfs, code))) + 
+          geom_line(aes(y = pc, linetype = code), stat="identity") + 
+          geom_point(aes(y = pc), stat="identity") + 
+          theme_minimal() +
+          labs(title = title,
+               subtitle = subtitle,
+               x = "",
+               y = ""
+          ) +
+          theme(plot.title    = element_text(size = 12, hjust = 0.5),
+                plot.subtitle = element_text(size = 10, hjust = 0.5, face = "italic"),
+                legend.position="bottom",
+                legend.title = element_blank(),
+                legend.text = element_text(size=8),
+                strip.text.x = element_text(size = 10, colour = "black"),
+                axis.text.x=element_text(size=8, angle = 90),
+                panel.grid.major.x=element_blank()
+          ) +
+          scale_y_continuous(breaks = seq(0, 1, .1),
+                             minor_breaks = seq(0 , 1, .05)) +
+          scale_color_manual(labels = lfs.labels, 
+                             values =  lfs.colors) +
+          scale_linetype_manual(labels = pairlabel,
+                                values = c("solid", "dotted")) + 
+          facet_wrap(. ~ qualfield, ncol= facetcol,
+                     labeller = label_wrap_gen(width = 10)) +
+          
+          NULL
+        
+        
+        
+        
