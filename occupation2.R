@@ -308,6 +308,7 @@ lfs.order =  c("Employed, worked full-time",
 lfs <- lfs %>% mutate(lfs = factor(lfs, levels = lfs.order))
 
 
+
 ##1.2: OCC data####    
 
 ##Read in 2006 field data
@@ -857,7 +858,7 @@ lfs.combined <- lfs.combined %>%
                                        NA_character_))),
          bach = if_else(grepl("B.", qualfield) | qualfield == "Y12", TRUE, FALSE),
          uniform = grepl("uniform", group),
-         field = substr(qualfield, 4, nchar(qualfield))
+         field = if_else(qualfield == "Y12" , "Y12" ,substr(qualfield, 4, nchar(qualfield)))
   )
 
 
@@ -923,7 +924,7 @@ qualfields.order <- c( "Y12",
                        "D. Performing Arts")
 
 # Order levels
-# lfs.combined <- lfs.combined %>%mutate(qualfield = factor(qualfield, levels = qualfields.order))
+lfs.combined <- lfs.combined %>%mutate(qualfield = factor(qualfield, levels = qualfields.order))
 
 
 
@@ -1201,7 +1202,7 @@ occ.combined <- occ.combined %>%
                                        NA_character_))),
          bach = if_else(grepl("B.", qualfield) | qualfield == "Y12", TRUE, FALSE),
          uniform = grepl("uniform", group),
-         field = substr(qualfield, 4, nchar(qualfield))
+         field = if_else(qualfield == "Y12" , "Y12" ,substr(qualfield, 4, nchar(qualfield)))
   )
 
 
@@ -1209,7 +1210,7 @@ occ.combined <- occ.combined %>%
 occ.combined <- left_join(occ.combined, shortfield) %>% mutate(field = if_else(shortfield == "y12", "Y12", field))
 
 # Set field order
-# occ.combined <- occ.combined %>% mutate(qualfield = factor(qualfield, levels = qualfields.order))
+occ.combined <- occ.combined %>% mutate(qualfield = factor(qualfield, levels = qualfields.order))
 
 
 
@@ -1848,17 +1849,19 @@ chartfields1 <- c("Y12",
                   "Law",
                   "Medicine",
                   "Commerce",
-                  "IT"
-)
+                  "IT",
+                  "Education")
 
 
-chartfields2 <- c("Education",
-                  "Other health",
+chartfields2 <- c("Other health",
                   "Science (excl maths)",
                   "Nursing",
+                  "Maths",
                   "Humanities",
                   "Other CA",
-                  "Performing Arts")
+                  "Dentistry",
+                  "Performing Arts",
+                  "Agriculture")
 
 
 for (x in 1:2) {
@@ -1912,7 +1915,20 @@ for (x in 1:2) {
 chart1
 chart2
 
+chartdata <- bind_rows(chart1$data, chart2$data)
+write_csv(chartdata, "mfc_fullpage_date.csv")
+
+
 grid.arrange(chart1, chart2, nrow = 1)
 
 
+  unique(lfs.combined$field)
+  
+# Top list
+  lfs.combined %>% 
+    filter(!is.na(mfc)) %>% 
+    group_by(field, lfs) %>% 
+    summarise(top = mean(pc, na.rm = TRUE)) %>% 
+    filter(lfs == "Employed, worked full-time") %>% 
+    arrange(top)
   
