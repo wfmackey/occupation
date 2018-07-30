@@ -58,7 +58,7 @@ fields <- c("Y12",
 x <- "06"
 
 lfs06 <- read_csv(paste0("sheets/",x,"_long_bach_lfs.csv"), n_max = 478848) %>% 
-  rename(qual = "QALLP - 1 Digit Level",
+  dplyr::rename(qual = "QALLP - 1 Digit Level",
          age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          foe = "QALFP - 4 Digit Level",
@@ -85,7 +85,7 @@ lfs06 <- read_csv(paste0("sheets/",x,"_long_bach_lfs.csv"), n_max = 478848) %>%
          -marriage,
          -total) %>% 
   left_join(., foe.table, by = "foe") %>%  ## add Grattan fields 
-  rename(field = broad, 
+  dplyr::rename(field = broad, 
          foe4digit = foe) %>% 
   filter(lfs != "Not applicable" & lfs != "Not stated", 
          field != "Not applicable" & field != "Not stated")
@@ -95,7 +95,7 @@ lfs06 <- read_csv(paste0("sheets/",x,"_long_bach_lfs.csv"), n_max = 478848) %>%
 
 # 2006 Year 12 data  
 lfs06.y12 <- read_csv(paste0("sheets/",x,"_long_y12_lfs.csv")) %>% 
-  rename(age = "AGEP Age",
+  dplyr::rename(age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          lfs = "LFSP Labour Force Status",
          f.nochild = "None",
@@ -132,7 +132,7 @@ lfs06 <- bind_rows(lfs06, lfs06.y12)
 x <- 11
 
 lfs11 <- read_csv(paste0("sheets/",x,"_long_bach_lfs.csv")) %>% 
-  rename(qual = "QALLP Non-School Qualification: Level of Education",
+  dplyr::rename(qual = "QALLP Non-School Qualification: Level of Education",
          age = "AGEP Age in Single Years",
          marriage = "MDCP Social Marital Status",
          foe = "QALFP Non-School Qualification: Field of Study",
@@ -161,7 +161,7 @@ lfs11 <- read_csv(paste0("sheets/",x,"_long_bach_lfs.csv")) %>%
          -marriage,
          -total) %>% 
   left_join(., foe.table, by = "foe") %>%  ## add Grattan fields 
-  rename(field = broad, 
+  dplyr::rename(field = broad, 
          foe4digit = foe) %>% 
   filter(lfs != "Not applicable" & lfs != "Not stated", 
          field != "Not applicable" & field != "Not stated")
@@ -169,7 +169,7 @@ lfs11 <- read_csv(paste0("sheets/",x,"_long_bach_lfs.csv")) %>%
 
 # 2011 Year 12 data 
 lfs11.y12 <- read_csv(paste0("sheets/",x,"_long_y12_lfs.csv")) %>% 
-  rename(age = "AGEP Age",
+  dplyr::rename(age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          lfs = "LFSP Labour Force Status",
          f.nochild = "No children",
@@ -207,7 +207,7 @@ lfs11 <- bind_rows(lfs11, lfs11.y12)
 x <- 16
 # Field
 lfs16 <- read_csv(paste0("sheets/",x,"_long_bach_lfs.csv")) %>% 
-  rename(qual = "QALLP - 1 Digit Level",
+  dplyr::rename(qual = "QALLP - 1 Digit Level",
          age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          foe = "QALFP - 4 Digit Level",
@@ -234,7 +234,7 @@ lfs16 <- read_csv(paste0("sheets/",x,"_long_bach_lfs.csv")) %>%
          qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
          year = paste0("20",x)) %>% 
   left_join(., foe.table, by = "foe") %>%  ## add Grattan fields 
-  rename(field = broad, 
+  dplyr::rename(field = broad, 
          foe4digit = foe) %>% 
   filter(lfs != "Not applicable" & lfs != "Not stated", 
          field != "Not applicable" & field != "Not stated") %>%
@@ -246,7 +246,7 @@ lfs16 <- read_csv(paste0("sheets/",x,"_long_bach_lfs.csv")) %>%
 
 # 2016 Year 12 data  
 lfs16.y12 <- read_csv(paste0("sheets/",x,"_long_y12_lfs.csv")) %>% 
-  rename(age = "AGEP Age",
+  dplyr::rename(age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          lfs = "LFSP Labour Force Status",
          f.nochild = "No children",
@@ -315,7 +315,7 @@ lfs <- lfs %>% mutate(lfs = factor(lfs, levels = lfs.order))
 x <- "06"
 
 occ06 <- read_csv(paste0("sheets/",x,"_long_bach_occ.csv"), n_max = 658416) %>% 
-  rename(qual = "QALLP - 1 Digit Level",
+  dplyr::rename(qual = "QALLP - 1 Digit Level",
          age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          foe = "QALFP - 4 Digit Level",
@@ -342,7 +342,7 @@ occ06 <- read_csv(paste0("sheets/",x,"_long_bach_occ.csv"), n_max = 658416) %>%
          -marriage,
          -total) %>% 
   left_join(., foe.table, by = "foe") %>%  ## add Grattan fields 
-  rename(field = broad, 
+  dplyr::rename(field = broad, 
          foe4digit = foe) %>% 
   filter(occ != "Inadequately described" & occ != "Not stated", 
          field != "Not applicable" & field != "Not stated")
@@ -351,7 +351,7 @@ occ06 <- read_csv(paste0("sheets/",x,"_long_bach_occ.csv"), n_max = 658416) %>%
 
 # 2006 Year 12 data  
 occ06.y12 <- read_csv(paste0("sheets/",x,"_long_y12_occ.csv"))%>% 
-  rename(age = "AGEP Age",
+  dplyr::rename(age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          occ = "OCC06P Occupation 06 (ANZSCO)",
          f.nochild = "None",
@@ -387,7 +387,7 @@ occ06 <- bind_rows(occ06, occ06.y12)
 x <- "11"
 
 occ11 <- read_csv(paste0("sheets/",x,"_long_bach_occ.csv"), n_max = 658416) %>% 
-  rename(qual = "QALLP - 1 Digit Level",
+  dplyr::rename(qual = "QALLP - 1 Digit Level",
          age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          foe = "QALFP - 4 Digit Level",
@@ -416,7 +416,7 @@ occ11 <- read_csv(paste0("sheets/",x,"_long_bach_occ.csv"), n_max = 658416) %>%
          -marriage,
          -total) %>% 
   left_join(., foe.table, by = "foe") %>%  ## add Grattan fields 
-  rename(field = broad, 
+  dplyr::rename(field = broad, 
          foe4digit = foe) %>% 
   filter(occ != "Inadequately described" & occ != "Not stated", 
          field != "Not applicable" & field != "Not stated")
@@ -425,7 +425,7 @@ occ11 <- read_csv(paste0("sheets/",x,"_long_bach_occ.csv"), n_max = 658416) %>%
 
 # 2011 occupation Year 12 data  
 occ11.y12 <- read_csv(paste0("sheets/",x,"_long_y12_occ.csv")) %>%  
-  rename(age = "AGEP Age in Single Years",
+  dplyr::rename(age = "AGEP Age in Single Years",
          marriage = "MDCP Social Marital Status",
          occ = "OCCP Occupation",
          f.nochild = "No children",
@@ -463,7 +463,7 @@ occ11 <- bind_rows(occ11, occ11.y12)
 x <- "16"
 
 occ16 <- read_csv(paste0("sheets/",x,"_long_bach_occ.csv"), n_max = 658416) %>% 
-  rename(qual = "QALLP - 1 Digit Level",
+  dplyr::rename(qual = "QALLP - 1 Digit Level",
          age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          foe = "QALFP - 4 Digit Level",
@@ -492,7 +492,7 @@ occ16 <- read_csv(paste0("sheets/",x,"_long_bach_occ.csv"), n_max = 658416) %>%
          -marriage,
          -total) %>% 
   left_join(., foe.table, by = "foe") %>%  ## add Grattan fields 
-  rename(field = broad, 
+  dplyr::rename(field = broad, 
          foe4digit = foe) %>% 
   filter(occ != "Inadequately described" & occ != "Not stated", 
          field != "Not applicable" & field != "Not stated")
@@ -501,7 +501,7 @@ occ16 <- read_csv(paste0("sheets/",x,"_long_bach_occ.csv"), n_max = 658416) %>%
 
 # 2016 occupation Year 12 data  
 occ16.y12 <- read_csv(paste0("sheets/",x,"_long_y12_occ.csv")) %>%  
-  rename(age = "AGEP Age",
+  dplyr::rename(age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          occ = "OCC06P Occupation 06 (ANZSCO)",
          f.nochild = "No children",
@@ -574,7 +574,7 @@ occgroup <- as_tibble(data.frame("occ" = occlist, "occgroup" = occgrouplist))
 
 # Then merge into occ data, and rename for ease of use
 occ <- left_join(occ, occgroup, by = "occ") %>% 
-  rename(occ.detail = occ,
+  dplyr::rename(occ.detail = occ,
          occ = occgroup)
 
 # And change factor levels of occ to something more logical
@@ -845,7 +845,7 @@ lfs.combined <- lfs.combined %>% mutate(code = if_else(is.na(married), gender,
 
 ## Restructure to variable format
 lfs.combined <- lfs.combined %>% 
-  rename(gender_detail = gender) %>% 
+  dplyr::rename(gender_detail = gender) %>% 
   mutate(gender     = if_else(grepl("f", gender_detail),"f","m"),
          childgroup = if_else(grepl("child", gender_detail), TRUE, FALSE),
          child   = if_else(grepl("haschild", gender_detail), TRUE, 
@@ -1189,7 +1189,7 @@ occ.combined <- occ.combined %>%
 
 ## Restructure to variable format
 occ.combined <- occ.combined %>% 
-  rename(gender_detail = gender) %>% 
+  dplyr::rename(gender_detail = gender) %>% 
   mutate(gender     = if_else(grepl("f", gender_detail),"f","m"),
          childgroup = if_else(grepl("child", gender_detail), TRUE, FALSE),
          child   = if_else(grepl("haschild", gender_detail), TRUE, 
