@@ -1887,12 +1887,12 @@ for (x in 1:2) {
                 x = "",
                 y = ""
            ) +
-           theme(plot.title    = element_text(size = 12, hjust = 0.5),
-                 plot.subtitle = element_text(size = 10, hjust = 0.5, face = "italic"),
+           theme(plot.title     = element_text(size = 12, hjust = 0.5),
+                 plot.subtitle  = element_text(size = 10, hjust = 0.5, face = "italic"),
                  legend.position="bottom",
-                 legend.title = element_blank(),
-                 legend.text = element_text(size=8),
-                 strip.text.x = element_text(size = 10, colour = "black"),
+                 legend.title   = element_blank(),
+                 legend.text    = element_text(size=8),
+                 strip.text.x   = element_text(size = 10, colour = "black"),
                  axis.text.x=element_text(size=8, angle = 90),
                  panel.grid.major.x=element_blank()
            ) +
