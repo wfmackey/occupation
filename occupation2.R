@@ -1516,7 +1516,9 @@ flex.chart <- function(type = lfs,
                        pair = c("m.mar", "f.haschild"),
                        chartfields = fields,
                        display = TRUE,
-                       save = TRUE) {
+                       save = TRUE,
+                       object = FALSE,
+                       exportdata = FALSE) {
   
   typename <- deparse(substitute(type))
   
@@ -1679,11 +1681,27 @@ flex.chart <- function(type = lfs,
     
     NULL
   
+  
+  chart.name <- paste0(typename, "_",age,"age_",level,"level_",pair[1],"_",pair[2])
+  
+  
+  if (object == TRUE) {
+    assign(chart.name,
+           current.chart,
+           .GlobalEnv) 
+    print(paste0("Object ",chart.name," is now saved."))
+  }
+  
+  if (exportdata == TRUE) {
+  write_csv(current.chart$data,
+            path = paste0("chartdata/",chart.name,".csv"))
+  }
+  
   if (display == TRUE) plot(current.chart)
   
   if (save == TRUE) {
-    chart.name <- paste0(typename, "_",age,"age_",level,"level_",pair[1],"_",pair[2],".pdf")
-    ggsave(chart.name, plot = last_plot(), device = "pdf", path = "plots",
+    ggsave(paste0(chart.name,".pdf"), 
+           plot = last_plot(), device = "pdf", path = "plots",
            scale = 1, width = 297, height = 210, units = "mm",
            dpi = 320, limitsize = TRUE)
   }
@@ -1834,6 +1852,47 @@ for(a in c("4554")) {
              display = TRUE
   )
 }
+
+
+
+
+
+
+
+flex.chart(type = lfs,
+           age = "2534",
+           pair = (c("f.nochild", "m")),
+           uniform = TRUE,
+           display = FALSE,
+           object = TRUE,
+           exportdata = TRUE
+           )
+
+
+
+flex.chart(type = lfs,
+           age = "2534",
+           pair = (c("f", "m")),
+           uniform = TRUE,
+           display = FALSE,
+           object = TRUE,
+           exportdata = TRUE
+)
+
+
+
+flex.chart(type = occ,
+           age = "2534",
+           pair = (c("f", "m")),
+           uniform = TRUE,
+           display = FALSE,
+           object = TRUE,
+           exportdata = TRUE
+)
+
+
+
+
 
 
 
