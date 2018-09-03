@@ -1868,6 +1868,23 @@ flex.chart(type = lfs,
            exportdata = TRUE
            )
 
+flex.chart(type = lfs,
+           age = "2534",
+           pair = (c("f.haschild", "f.nochild")),
+           uniform = TRUE,
+           display = TRUE,
+           object = FALSE,
+           exportdata = TRUE
+)
+
+flex.chart(type = occ,
+           age = "2534",
+           pair = (c("f.haschild", "f.nochild")),
+           uniform = TRUE,
+           display = TRUE,
+           object = FALSE,
+           exportdata = TRUE
+)
 
 
 flex.chart(type = lfs,
@@ -1971,23 +1988,7 @@ for (x in 1:2) {
   
 }  
 
-chart1
-chart2
-
-chartdata <- bind_rows(chart1$data, chart2$data)
-write_csv(chartdata, "mfc_fullpage_date.csv")
-
-
-grid.arrange(chart1, chart2, nrow = 1)
-
-
-  unique(lfs.combined$field)
   
-# Top list
-  lfs.combined %>% 
-    filter(!is.na(mfc)) %>% 
-    group_by(field, lfs) %>% 
-    summarise(top = mean(pc, na.rm = TRUE)) %>% 
-    filter(lfs == "Employed, worked full-time") %>% 
-    arrange(top)
+  
+#   
   
