@@ -60,95 +60,95 @@ x <- "06"
 
 lfs06 <- read_csv(paste0("data/",x,"_long_bach_lfs_notattending.csv"), skip = 11) %>% 
   
-         rename(
-                      qual = "X1",
-                      age = "X2",
-                      marriage = "X3",
-                      foe = "X4",
-                      lfs = "TISP Number of Children Ever Born",  # Not an error; dealing with the odd way ABS structures their csv exports
-                      f.nochild = "None",
-                      f.child1 = "One",
-                      f.child2 = "Two",
-                      f.child3 = "Three",
-                      f.child4 = "Four",
-                      f.child5 = "Five",
-                      f.child6 = "Six or more",
-                      m = "Not applicable",
-                      total = "Total"
-                ) %>% 
+  rename(
+    qual = "X1",
+    age = "X2",
+    marriage = "X3",
+    foe = "X4",
+    lfs = "TISP Number of Children Ever Born",  # Not an error; dealing with the odd way ABS structures their csv exports
+    f.nochild = "None",
+    f.child1 = "One",
+    f.child2 = "Two",
+    f.child3 = "Three",
+    f.child4 = "Four",
+    f.child5 = "Five",
+    f.child6 = "Six or more",
+    m = "Not applicable",
+    total = "Total"
+  ) %>% 
   
-        slice(-1) %>% select(-X15) %>%  filter(!is.na(lfs)) %>% #tidy
+  slice(-1) %>% select(-X15) %>%  filter(!is.na(lfs)) %>% #tidy
   
-        do(na.locf(.)) %>%   # fill in label columns
+  do(na.locf(.)) %>%   # fill in label columns
+  
+  mutate(
+    age = as.numeric(gsub("(.*)\\syears?", "\\1", age)),  
+    f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
+    f = ifelse(total - m < 0, 0, total - m),
+    married = (marriage == married.def[1] | marriage == married.def[2]),
+    is.2534 = (age >= 25 & age <= 34),
+    lfs = replace(lfs, lfs=="Unemployed, looking for full-time work", "Unemployed"),
+    lfs = replace(lfs, lfs=="Unemployed, looking for part-time work", "Unemployed"),
+    qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
+    qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
+    year = paste0("20",x)
+  ) %>% 
+  
+  select(
+    -starts_with("f.child"), 
+    -marriage, 
+    -total
+  ) %>% 
+  
+  left_join(., foe.table, by = "foe") %>%  ## add Grattan fields 
+  
+  rename(
+    field = broad, 
+    foe4digit = foe
+  ) %>% 
+  
+  filter(
+    lfs != "Not applicable" & lfs != "Not stated", 
+    field != "Not applicable" & field != "Not stated",
+    qual != "Total"
+  )
 
-        mutate(
-                     age = as.numeric(gsub("(.*)\\syears?", "\\1", age)),  
-                     f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
-                     f = ifelse(total - m < 0, 0, total - m),
-                     married = (marriage == married.def[1] | marriage == married.def[2]),
-                     is.2534 = (age >= 25 & age <= 34),
-                     lfs = replace(lfs, lfs=="Unemployed, looking for full-time work", "Unemployed"),
-                     lfs = replace(lfs, lfs=="Unemployed, looking for part-time work", "Unemployed"),
-                     qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
-                     qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
-                     year = paste0("20",x)
-                ) %>% 
-  
-        select(
-                    -starts_with("f.child"), 
-                    -marriage, 
-                    -total
-              ) %>% 
-  
-        left_join(., foe.table, by = "foe") %>%  ## add Grattan fields 
-  
-        rename(
-                    field = broad, 
-                    foe4digit = foe
-              ) %>% 
-  
-        filter(
-                    lfs != "Not applicable" & lfs != "Not stated", 
-                    field != "Not applicable" & field != "Not stated",
-                    qual != "Total"
-              )
 
 
 
-            
-            ## 2006 Year 12 data
-            ### note that this is the same data-source as occupation2.R
-            lfs06.y12 <- read_csv(paste0("data/",x,"_long_y12_lfs.csv")) %>% 
-              rename(age = "AGEP Age",
-                     marriage = "MDCP Social Marital Status",
-                     lfs = "LFSP Labour Force Status",
-                     f.nochild = "None",
-                     f.child1 = "One",
-                     f.child2 = "Two",
-                     f.child3 = "Three",
-                     f.child4 = "Four",
-                     f.child5 = "Five",
-                     f.child6 = "Six or more",
-                     m = "Not applicable",
-                     total = "Total") %>%
-              mutate(qual = "Y12",
-                     field = "Y12",
-                     foe4digit = "Y12",
-                     f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
-                     f = ifelse(total - m < 0, 0, total - m),
-                     married = (marriage == married.def[1] | marriage == married.def[2]),
-                     is.2534 = (age >= 25 & age <= 34),
-                     lfs = replace(lfs, lfs=="Unemployed, looking for full-time work", "Unemployed"),
-                     lfs = replace(lfs, lfs=="Unemployed, looking for part-time work", "Unemployed"),
-                     qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
-                     qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
-                     year = paste0("20",x)) %>% 
-              select(-starts_with("f.child"),
-                     -marriage,
-                     -total) %>% 
-              filter(lfs != "Not applicable" & lfs != "Not stated")
-            
-            lfs06 <- bind_rows(lfs06, lfs06.y12)
+## 2006 Year 12 data
+### note that this is the same data-source as occupation2.R
+lfs06.y12 <- read_csv(paste0("data/",x,"_long_y12_lfs.csv")) %>% 
+  rename(age = "AGEP Age",
+         marriage = "MDCP Social Marital Status",
+         lfs = "LFSP Labour Force Status",
+         f.nochild = "None",
+         f.child1 = "One",
+         f.child2 = "Two",
+         f.child3 = "Three",
+         f.child4 = "Four",
+         f.child5 = "Five",
+         f.child6 = "Six or more",
+         m = "Not applicable",
+         total = "Total") %>%
+  mutate(qual = "Y12",
+         field = "Y12",
+         foe4digit = "Y12",
+         f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
+         f = ifelse(total - m < 0, 0, total - m),
+         married = (marriage == married.def[1] | marriage == married.def[2]),
+         is.2534 = (age >= 25 & age <= 34),
+         lfs = replace(lfs, lfs=="Unemployed, looking for full-time work", "Unemployed"),
+         lfs = replace(lfs, lfs=="Unemployed, looking for part-time work", "Unemployed"),
+         qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
+         qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
+         year = paste0("20",x)) %>% 
+  select(-starts_with("f.child"),
+         -marriage,
+         -total) %>% 
+  filter(lfs != "Not applicable" & lfs != "Not stated")
+
+lfs06 <- bind_rows(lfs06, lfs06.y12)
 
 
 
@@ -181,20 +181,20 @@ lfs11 <- read_csv(paste0("data/",x,"_long_bach_lfs_notattending.csv"), skip = 11
   slice(-1) %>% select(-X17) %>% filter(!is.na(lfs)) %>%  #tidy
   
   do(na.locf(.)) %>%   # fill in label columns
-
+  
   mutate(
-             age = as.numeric(gsub("(.*)\\syears?", "\\1", age)),  
-             f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
-             f = ifelse(total - m < 0, 0, total - m),
-             married = (marriage == married.def[1] | marriage == married.def[2]),
-             is.2534 = (age >= 25 & age <= 34),
-             lfs = replace(lfs, lfs=="Unemployed, looking for full-time work", "Unemployed"),
-             lfs = replace(lfs, lfs=="Unemployed, looking for part-time work", "Unemployed"),
-             qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
-             qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
-             year = paste0("20",x)
-             
-         ) %>% 
+    age = as.numeric(gsub("(.*)\\syears?", "\\1", age)),  
+    f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
+    f = ifelse(total - m < 0, 0, total - m),
+    married = (marriage == married.def[1] | marriage == married.def[2]),
+    is.2534 = (age >= 25 & age <= 34),
+    lfs = replace(lfs, lfs=="Unemployed, looking for full-time work", "Unemployed"),
+    lfs = replace(lfs, lfs=="Unemployed, looking for part-time work", "Unemployed"),
+    qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
+    qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
+    year = paste0("20",x)
+    
+  ) %>% 
   
   select(-starts_with("f.child"),
          -marriage,
@@ -207,42 +207,42 @@ lfs11 <- read_csv(paste0("data/",x,"_long_bach_lfs_notattending.csv"), skip = 11
          qual != "Total")
 
 
-  
 
-        # 2011 Year 12 data 
-        lfs11.y12 <- read_csv(paste0("data/",x,"_long_y12_lfs.csv")) %>% 
-          rename(age = "AGEP Age",
-                 marriage = "MDCP Social Marital Status",
-                 lfs = "LFSP Labour Force Status",
-                 f.nochild = "No children",
-                 f.child1 = "1 child",
-                 f.child2 = "2 children",
-                 f.child3 = "3 children",
-                 f.child4 = "4 children",
-                 f.child5 = "5 children",
-                 f.child6 = "6 children",
-                 f.child7 = "7 children",
-                 f.child8 = "8 children",
-                 m = "Not applicable",
-                 total = "Total") %>%
-          mutate(qual = "Y12",
-                 field = "Y12",
-                 foe4digit = "Y12",
-                 f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
-                 f = ifelse(total - m < 0, 0, total - m),
-                 married = (marriage == married.def[1] | marriage == married.def[2]),
-                 is.2534 = (age >= 25 & age <= 34),
-                 lfs = replace(lfs, lfs=="Unemployed, looking for full-time work", "Unemployed"),
-                 lfs = replace(lfs, lfs=="Unemployed, looking for part-time work", "Unemployed"),
-                 qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
-                 qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
-                 year = paste0("20",x)) %>% 
-          select(-starts_with("f.child"),
-                 -marriage,
-                 -total) %>% 
-          filter(lfs != "Not applicable" & lfs != "Not stated")
-        
-  lfs11 <- bind_rows(lfs11, lfs11.y12)
+
+# 2011 Year 12 data 
+lfs11.y12 <- read_csv(paste0("data/",x,"_long_y12_lfs.csv")) %>% 
+  rename(age = "AGEP Age",
+         marriage = "MDCP Social Marital Status",
+         lfs = "LFSP Labour Force Status",
+         f.nochild = "No children",
+         f.child1 = "1 child",
+         f.child2 = "2 children",
+         f.child3 = "3 children",
+         f.child4 = "4 children",
+         f.child5 = "5 children",
+         f.child6 = "6 children",
+         f.child7 = "7 children",
+         f.child8 = "8 children",
+         m = "Not applicable",
+         total = "Total") %>%
+  mutate(qual = "Y12",
+         field = "Y12",
+         foe4digit = "Y12",
+         f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
+         f = ifelse(total - m < 0, 0, total - m),
+         married = (marriage == married.def[1] | marriage == married.def[2]),
+         is.2534 = (age >= 25 & age <= 34),
+         lfs = replace(lfs, lfs=="Unemployed, looking for full-time work", "Unemployed"),
+         lfs = replace(lfs, lfs=="Unemployed, looking for part-time work", "Unemployed"),
+         qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
+         qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
+         year = paste0("20",x)) %>% 
+  select(-starts_with("f.child"),
+         -marriage,
+         -total) %>% 
+  filter(lfs != "Not applicable" & lfs != "Not stated")
+
+lfs11 <- bind_rows(lfs11, lfs11.y12)
 
 
 
@@ -253,41 +253,42 @@ x <- 16
 lfs16 <- read_csv(paste0("data/",x,"_long_bach_lfs_notattending.csv"), skip = 11) %>% 
   
   rename(
-            qual = "X1",
-            age = "X2",
-            marriage = "X3",
-            foe = "X4",
-            lfs = "TISRP Number of Children Ever Born (ranges)",  # Not an error; dealing with the odd way ABS structures their csv exports
-            f.nochild = "No children",
-            f.child1 = "One child",
-            f.child2 = "Two children",
-            f.child3 = "Three children",
-            f.child4 = "Four children",
-            f.child5 = "Five children",
-            f.child6 = "Six children",
-            f.child7 = "Seven children",
-            f.child8 = "Eight or more children",
-            m = "Not applicable",
-            total = "Total"
+    qual = "X1",
+    age = "X2",
+    marriage = "X3",
+    foe = "X4",
+    lfs = "TISRP Number of Children Ever Born (ranges)",  # Not an error; dealing with the odd way ABS structures their csv exports
+    f.nochild = "No children",
+    f.child1 = "One child",
+    f.child2 = "Two children",
+    f.child3 = "Three children",
+    f.child4 = "Four children",
+    f.child5 = "Five children",
+    f.child6 = "Six children",
+    f.child7 = "Seven children",
+    f.child8 = "Eight or more children",
+    m = "Not applicable",
+    ns = "Not stated",
+    total = "Total"
   ) %>% 
   
   slice(-1) %>% select(-X18) %>%  filter(!is.na(lfs)) %>% #tidy
   
   do(na.locf(.)) %>%   # fill in label columns
-
+  
   mutate(
-             age = as.numeric(age),
-             f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
-             f = ifelse(total - m < 0, 0, total - m),
-             married = (marriage == married.def[1] | marriage == married.def[2]),
-             is.2534 = (age >= 25 & age <= 34),
-             lfs = replace(lfs, lfs=="Unemployed, looking for full-time work", "Unemployed"),
-             lfs = replace(lfs, lfs=="Unemployed, looking for part-time work", "Unemployed"),
-             qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
-             qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
-             year = paste0("20",x)
-             
-         ) %>% 
+    age = as.numeric(age),
+    f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
+    f = ifelse(total - m < 0, 0, total - m),
+    married = (marriage == married.def[1] | marriage == married.def[2]),
+    is.2534 = (age >= 25 & age <= 34),
+    lfs = replace(lfs, lfs=="Unemployed, looking for full-time work", "Unemployed"),
+    lfs = replace(lfs, lfs=="Unemployed, looking for part-time work", "Unemployed"),
+    qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
+    qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
+    year = paste0("20",x)
+    
+  ) %>% 
   left_join(foe.table, by = "foe") %>% 
   ## add Grattan fields 
   rename(field = "broad",
@@ -297,46 +298,44 @@ lfs16 <- read_csv(paste0("data/",x,"_long_bach_lfs_notattending.csv"), skip = 11
          qual != "Total") %>%
   select(-starts_with("f.child"),
          -marriage,
-         -'Not stated',
+         -ns,
          -total)
 
-filter(lfs != "Not applicable" & lfs != "Not stated", 
-       field != "Not applicable" & field != "Not stated",
-       qual != "Total")
-        # 2016 Year 12 data  
-        lfs16.y12 <- read_csv(paste0("data/",x,"_long_y12_lfs.csv")) %>% 
-          rename(age = "AGEP Age",
-                 marriage = "MDCP Social Marital Status",
-                 lfs = "LFSP Labour Force Status",
-                 f.nochild = "No children",
-                 f.child1 = "One child",
-                 f.child2 = "Two children",
-                 f.child3 = "Three children",
-                 f.child4 = "Four children",
-                 f.child5 = "Five children",
-                 f.child6 = "Six children",
-                 f.child7 = "Seven children",
-                 f.child8 = "Eight or more children",
-                 m = "Not applicable",
-                 drop = "Not stated",
-                 total = "Total") %>%
-          mutate(qual = "Y12",
-                 field = "Y12",
-                 foe4digit = "Y12",
-                 f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
-                 f = ifelse(total - m < 0, 0, total - m),
-                 married = (marriage == married.def[1] | marriage == married.def[2]),
-                 is.2534 = (age >= 25 & age <= 34),
-                 lfs = replace(lfs, lfs=="Unemployed, looking for full-time work", "Unemployed"),
-                 lfs = replace(lfs, lfs=="Unemployed, looking for part-time work", "Unemployed"),
-                 qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
-                 qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
-                 year = paste0("20",x)) %>% 
-          select(-starts_with("f.child"),
-                 -marriage,
-                 -drop,
-                 -total) %>% 
-          filter(lfs != "Not applicable" & lfs != "Not stated")
+
+# 2016 Year 12 data  
+lfs16.y12 <- read_csv(paste0("data/",x,"_long_y12_lfs.csv")) %>% 
+  rename(age = "AGEP Age",
+         marriage = "MDCP Social Marital Status",
+         lfs = "LFSP Labour Force Status",
+         f.nochild = "No children",
+         f.child1 = "One child",
+         f.child2 = "Two children",
+         f.child3 = "Three children",
+         f.child4 = "Four children",
+         f.child5 = "Five children",
+         f.child6 = "Six children",
+         f.child7 = "Seven children",
+         f.child8 = "Eight or more children",
+         m = "Not applicable",
+         drop = "Not stated",
+         total = "Total") %>%
+  mutate(qual = "Y12",
+         field = "Y12",
+         foe4digit = "Y12",
+         f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
+         f = ifelse(total - m < 0, 0, total - m),
+         married = (marriage == married.def[1] | marriage == married.def[2]),
+         is.2534 = (age >= 25 & age <= 34),
+         lfs = replace(lfs, lfs=="Unemployed, looking for full-time work", "Unemployed"),
+         lfs = replace(lfs, lfs=="Unemployed, looking for part-time work", "Unemployed"),
+         qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
+         qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
+         year = paste0("20",x)) %>% 
+  select(-starts_with("f.child"),
+         -marriage,
+         -drop,
+         -total) %>% 
+  filter(lfs != "Not applicable" & lfs != "Not stated")
 
 lfs16 <- bind_rows(lfs16, lfs16.y12) 
 
@@ -404,17 +403,17 @@ occ06 <- read_csv(paste0("data/",x,"_long_bach_occ_notattending.csv"), skip = 11
   do(na.locf(.)) %>%   # fill in label columns
   
   mutate(
-         age = as.numeric(gsub("(.*)\\syears?", "\\1", age)),  
-         f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
-         f = ifelse(total - m < 0, 0, total - m),
-         married = (marriage == married.def[1] | marriage == married.def[2]),
-         is.2534 = (age >= 25 & age <= 34),
-         occ = replace(occ, occ=="Not applicable", "Not working"),
-         occ = replace(occ, occ=="Machinery Operators And Drivers", "Machinery Operators and Drivers"),
-         qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
-         qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
-         year = paste0("20",x)
-         ) %>% 
+    age = as.numeric(gsub("(.*)\\syears?", "\\1", age)),  
+    f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
+    f = ifelse(total - m < 0, 0, total - m),
+    married = (marriage == married.def[1] | marriage == married.def[2]),
+    is.2534 = (age >= 25 & age <= 34),
+    occ = replace(occ, occ=="Not applicable", "Not working"),
+    occ = replace(occ, occ=="Machinery Operators And Drivers", "Machinery Operators and Drivers"),
+    qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
+    qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
+    year = paste0("20",x)
+  ) %>% 
   select(-starts_with("f.child"),
          -marriage,
          -total) %>% 
@@ -427,38 +426,38 @@ occ06 <- read_csv(paste0("data/",x,"_long_bach_occ_notattending.csv"), skip = 11
 
 
 
-          # 2006 Year 12 data  
-          occ06.y12 <- read_csv(paste0("data/",x,"_long_y12_occ.csv"))%>% 
-            rename(age = "AGEP Age",
-                   marriage = "MDCP Social Marital Status",
-                   occ = "OCC06P Occupation 06 (ANZSCO)",
-                   f.nochild = "None",
-                   f.child1 = "One",
-                   f.child2 = "Two",
-                   f.child3 = "Three",
-                   f.child4 = "Four",
-                   f.child5 = "Five",
-                   f.child6 = "Six or more",
-                   m = "Not applicable",
-                   total = "Total") %>%
-            mutate(qual = "Y12",
-                   field = "Y12",
-                   foe4digit = "Y12",
-                   f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
-                   f = ifelse(total - m < 0, 0, total - m),
-                   married = (marriage == married.def[1] | marriage == married.def[2]),
-                   is.2534 = (age >= 25 & age <= 34),
-                   occ = replace(occ, occ=="Not applicable", "Not working"),
-                   occ = replace(occ, occ=="Machinery Operators And Drivers", "Machinery Operators and Drivers"),
-                   qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
-                   qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
-                   year = paste0("20",x)) %>% 
-            select(-starts_with("f.child"),
-                   -marriage,
-                   -total) %>% 
-            filter(occ != "Inadequately described" & occ != "Not stated")
-          
-          occ06 <- bind_rows(occ06, occ06.y12)
+# 2006 Year 12 data  
+occ06.y12 <- read_csv(paste0("data/",x,"_long_y12_occ.csv"))%>% 
+  rename(age = "AGEP Age",
+         marriage = "MDCP Social Marital Status",
+         occ = "OCC06P Occupation 06 (ANZSCO)",
+         f.nochild = "None",
+         f.child1 = "One",
+         f.child2 = "Two",
+         f.child3 = "Three",
+         f.child4 = "Four",
+         f.child5 = "Five",
+         f.child6 = "Six or more",
+         m = "Not applicable",
+         total = "Total") %>%
+  mutate(qual = "Y12",
+         field = "Y12",
+         foe4digit = "Y12",
+         f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
+         f = ifelse(total - m < 0, 0, total - m),
+         married = (marriage == married.def[1] | marriage == married.def[2]),
+         is.2534 = (age >= 25 & age <= 34),
+         occ = replace(occ, occ=="Not applicable", "Not working"),
+         occ = replace(occ, occ=="Machinery Operators And Drivers", "Machinery Operators and Drivers"),
+         qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
+         qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
+         year = paste0("20",x)) %>% 
+  select(-starts_with("f.child"),
+         -marriage,
+         -total) %>% 
+  filter(occ != "Inadequately described" & occ != "Not stated")
+
+occ06 <- bind_rows(occ06, occ06.y12)
 
 
 ##Read in 2011 occupation field data
@@ -487,17 +486,17 @@ occ11 <- read_csv(paste0("data/",x,"_long_bach_occ_notattending.csv"), skip = 11
   do(na.locf(.)) %>%   # fill in label columns
   
   mutate(
-         age = as.numeric(gsub("(.*)\\syears?", "\\1", age)),  
-         f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
-         f = ifelse(total - m < 0, 0, total - m),
-         married = (marriage == married.def[1] | marriage == married.def[2]),
-         is.2534 = (age >= 25 & age <= 34),
-         occ = replace(occ, occ=="Not applicable", "Not working"),
-         occ = replace(occ, occ=="Machinery Operators And Drivers", "Machinery Operators and Drivers"),
-         qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
-         qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
-         year = paste0("20",x)
-         ) %>% 
+    age = as.numeric(gsub("(.*)\\syears?", "\\1", age)),  
+    f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
+    f = ifelse(total - m < 0, 0, total - m),
+    married = (marriage == married.def[1] | marriage == married.def[2]),
+    is.2534 = (age >= 25 & age <= 34),
+    occ = replace(occ, occ=="Not applicable", "Not working"),
+    occ = replace(occ, occ=="Machinery Operators And Drivers", "Machinery Operators and Drivers"),
+    qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
+    qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
+    year = paste0("20",x)
+  ) %>% 
   
   select(-starts_with("f.child"),
          -marriage,
@@ -511,40 +510,40 @@ occ11 <- read_csv(paste0("data/",x,"_long_bach_occ_notattending.csv"), skip = 11
 
 
 
-      # 2011 occupation Year 12 data  
-      occ11.y12 <- read_csv(paste0("data/",x,"_long_y12_occ.csv")) %>%  
-        rename(age = "AGEP Age in Single Years",
-               marriage = "MDCP Social Marital Status",
-               occ = "OCCP Occupation",
-               f.nochild = "No children",
-               f.child1 = "1 child",
-               f.child2 = "2 children",
-               f.child3 = "3 children",
-               f.child4 = "4 children",
-               f.child5 = "5 children",
-               f.child6 = "6 children",
-               f.child7 = "7 children",
-               f.child8 = "8 children",
-               m = "Not applicable",
-               total = "Total") %>%
-        mutate(qual = "Y12",
-               field = "Y12",
-               foe4digit = "Y12",
-               f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
-               f = ifelse(total - m < 0, 0, total - m),
-               married = (marriage == married.def[1] | marriage == married.def[2]),
-               is.2534 = (age >= 25 & age <= 34),
-               occ = replace(occ, occ=="Not applicable", "Not working"),
-               occ = replace(occ, occ=="Machinery Operators And Drivers", "Machinery Operators and Drivers"),
-               qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
-               qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
-               year = paste0("20",x)) %>% 
-        select(-starts_with("f.child"),
-               -marriage,
-               -total) %>% 
-        filter(occ != "Inadequately described" & occ != "Not stated")
-      
-      occ11 <- bind_rows(occ11, occ11.y12)
+# 2011 occupation Year 12 data  
+occ11.y12 <- read_csv(paste0("data/",x,"_long_y12_occ.csv")) %>%  
+  rename(age = "AGEP Age in Single Years",
+         marriage = "MDCP Social Marital Status",
+         occ = "OCCP Occupation",
+         f.nochild = "No children",
+         f.child1 = "1 child",
+         f.child2 = "2 children",
+         f.child3 = "3 children",
+         f.child4 = "4 children",
+         f.child5 = "5 children",
+         f.child6 = "6 children",
+         f.child7 = "7 children",
+         f.child8 = "8 children",
+         m = "Not applicable",
+         total = "Total") %>%
+  mutate(qual = "Y12",
+         field = "Y12",
+         foe4digit = "Y12",
+         f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
+         f = ifelse(total - m < 0, 0, total - m),
+         married = (marriage == married.def[1] | marriage == married.def[2]),
+         is.2534 = (age >= 25 & age <= 34),
+         occ = replace(occ, occ=="Not applicable", "Not working"),
+         occ = replace(occ, occ=="Machinery Operators And Drivers", "Machinery Operators and Drivers"),
+         qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
+         qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
+         year = paste0("20",x)) %>% 
+  select(-starts_with("f.child"),
+         -marriage,
+         -total) %>% 
+  filter(occ != "Inadequately described" & occ != "Not stated")
+
+occ11 <- bind_rows(occ11, occ11.y12)
 
 
 ##Read in 2016 occupation field data
@@ -573,17 +572,17 @@ occ16 <- read_csv(paste0("data/",x,"_long_bach_occ_notattending.csv"), skip = 11
   do(na.locf(.)) %>%   # fill in label columns
   
   mutate(
-         age = as.numeric(age),
-         f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
-         f = ifelse(total - m < 0, 0, total - m),
-         married = (marriage == married.def[1] | marriage == married.def[2]),
-         is.2534 = (age >= 25 & age <= 34),
-         occ = replace(occ, occ=="Not applicable", "Not working"),
-         occ = replace(occ, occ=="Machinery Operators And Drivers", "Machinery Operators and Drivers"),
-         qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
-         qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
-         year = paste0("20",x)
-         ) %>% 
+    age = as.numeric(age),
+    f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
+    f = ifelse(total - m < 0, 0, total - m),
+    married = (marriage == married.def[1] | marriage == married.def[2]),
+    is.2534 = (age >= 25 & age <= 34),
+    occ = replace(occ, occ=="Not applicable", "Not working"),
+    occ = replace(occ, occ=="Machinery Operators And Drivers", "Machinery Operators and Drivers"),
+    qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
+    qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
+    year = paste0("20",x)
+  ) %>% 
   
   select(-starts_with("f.child"),
          -marriage,
@@ -598,38 +597,38 @@ occ16 <- read_csv(paste0("data/",x,"_long_bach_occ_notattending.csv"), skip = 11
 
 
 
-      # 2016 occupation Year 12 data  
-      occ16.y12 <- read_csv(paste0("data/",x,"_long_y12_occ.csv")) %>%  
-        rename(age = "AGEP Age",
-               marriage = "MDCP Social Marital Status",
-               occ = "OCC06P Occupation 06 (ANZSCO)",
-               f.nochild = "No children",
-               f.child1 = "One child",
-               f.child2 = "Two children",
-               f.child3 = "Three children",
-               f.child4 = "Four children",
-               f.child5 = "Five children",
-               f.child6 = "Six children",
-               f.child7 = "Seven children",
-               f.child8 = "Eight or more children",
-               m = "Not applicable",
-               total = "Total") %>%
-        mutate(qual = "Y12",
-               field = "Y12",
-               foe4digit = "Y12",
-               f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
-               f = ifelse(total - m < 0, 0, total - m),
-               married = (marriage == married.def[1] | marriage == married.def[2]),
-               is.2534 = (age >= 25 & age <= 34),
-               occ = replace(occ, occ=="Not applicable", "Not working"),
-               occ = replace(occ, occ=="Machinery Operators And Drivers", "Machinery Operators and Drivers"),
-               qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
-               qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
-               year = paste0("20",x)) %>% 
-        select(-starts_with("f.child"),
-               -marriage,
-               -total) %>% 
-        filter(occ != "Inadequately described" & occ != "Not stated")
+# 2016 occupation Year 12 data  
+occ16.y12 <- read_csv(paste0("data/",x,"_long_y12_occ.csv")) %>%  
+  rename(age = "AGEP Age",
+         marriage = "MDCP Social Marital Status",
+         occ = "OCC06P Occupation 06 (ANZSCO)",
+         f.nochild = "No children",
+         f.child1 = "One child",
+         f.child2 = "Two children",
+         f.child3 = "Three children",
+         f.child4 = "Four children",
+         f.child5 = "Five children",
+         f.child6 = "Six children",
+         f.child7 = "Seven children",
+         f.child8 = "Eight or more children",
+         m = "Not applicable",
+         total = "Total") %>%
+  mutate(qual = "Y12",
+         field = "Y12",
+         foe4digit = "Y12",
+         f.haschild = ifelse(total - m - f.nochild < 0, 0, total - m - f.nochild),
+         f = ifelse(total - m < 0, 0, total - m),
+         married = (marriage == married.def[1] | marriage == married.def[2]),
+         is.2534 = (age >= 25 & age <= 34),
+         occ = replace(occ, occ=="Not applicable", "Not working"),
+         occ = replace(occ, occ=="Machinery Operators And Drivers", "Machinery Operators and Drivers"),
+         qual = replace(qual, qual=="Bachelor Degree Level", "Bachelor"),
+         qual = replace(qual, qual=="Advanced Diploma and Diploma Level", "Diploma & AdDip"),
+         year = paste0("20",x)) %>% 
+  select(-starts_with("f.child"),
+         -marriage,
+         -total) %>% 
+  filter(occ != "Inadequately described" & occ != "Not stated")
 
 occ16 <- bind_rows(occ16, occ16.y12)   
 
@@ -937,39 +936,39 @@ for(agel in seq(from=15, to=55, by=10)){
 
 # single-year-old analysis
 for (x in 23:65) {
-
-a <- lfs %>%
-  filter(age == x) %>%
-  group_by(year, qualfield, age, gender, lfs) %>% 
-  summarise(count = sum(count)) %>% 
-  mutate(temp.pc = count / sum(count)) %>% 
-  ungroup() %>% 
-  group_by(year, qualfield, gender, lfs) %>% 
-  summarise(pc = mean(temp.pc, na.rm = TRUE))
-# Add total bach + dip totals
-b <- lfs %>%
-  filter(age == x) %>%
-  group_by(year, qual, age, gender, lfs) %>% 
-  summarise(count = sum(count)) %>% 
-  mutate(temp.pc = count / sum(count)) %>% 
-  ungroup() %>% 
-  group_by(year, qual, gender, lfs) %>% 
-  summarise(pc = mean(temp.pc, na.rm = TRUE)) %>% 
-  mutate(qualfield = ifelse(qual == "Bachelor", "B. all", 
-                            ifelse(qual == "Diploma & AdDip", "D. all", "Y12")))
-#Combine rows
-assign(paste0("lfs.",x,".uniform"),
-       bind_rows(a, b) %>% 
-         ungroup() %>% 
-         select(-qual) %>%                   
-         group_by(year, qualfield, gender, lfs) %>% 
-         mutate(group = paste0("lfs.",x,".uniform"),
-                agegroup = paste0(x)))
-
-
-
-lfs.combined <- bind_rows(lfs.combined, 
-                          get(paste0("lfs.",x, ".uniform")))
+  
+  a <- lfs %>%
+    filter(age == x) %>%
+    group_by(year, qualfield, age, gender, lfs) %>% 
+    summarise(count = sum(count)) %>% 
+    mutate(temp.pc = count / sum(count)) %>% 
+    ungroup() %>% 
+    group_by(year, qualfield, gender, lfs) %>% 
+    summarise(pc = mean(temp.pc, na.rm = TRUE))
+  # Add total bach + dip totals
+  b <- lfs %>%
+    filter(age == x) %>%
+    group_by(year, qual, age, gender, lfs) %>% 
+    summarise(count = sum(count)) %>% 
+    mutate(temp.pc = count / sum(count)) %>% 
+    ungroup() %>% 
+    group_by(year, qual, gender, lfs) %>% 
+    summarise(pc = mean(temp.pc, na.rm = TRUE)) %>% 
+    mutate(qualfield = ifelse(qual == "Bachelor", "B. all", 
+                              ifelse(qual == "Diploma & AdDip", "D. all", "Y12")))
+  #Combine rows
+  assign(paste0("lfs.",x,".uniform"),
+         bind_rows(a, b) %>% 
+           ungroup() %>% 
+           select(-qual) %>%                   
+           group_by(year, qualfield, gender, lfs) %>% 
+           mutate(group = paste0("lfs.",x,".uniform"),
+                  agegroup = paste0(x)))
+  
+  
+  
+  lfs.combined <- bind_rows(lfs.combined, 
+                            get(paste0("lfs.",x, ".uniform")))
 }
 
 
@@ -1620,23 +1619,11 @@ flex.chart(type = lfs,
 #5: Animation(?) ####
 library(gganimate)
 library(tweenr)
+library(ggrepel)  # end-line labels
 
-
-library(gapminder)
-
-ggplot(gapminder, aes(gdpPercap, lifeExp, size = pop, colour = country)) +
-  geom_point(alpha = 0.7, show.legend = FALSE) +
-  scale_colour_manual(values = country_colors) +
-  scale_size(range = c(2, 12)) +
-  scale_x_log10() +
-  facet_wrap(~continent) +
-  # Here comes the gganimate specific bits
-  labs(title = 'Year: {frame_time}', x = 'GDP per capita', y = 'life expectancy') +
-  transition_time(year) +
-  ease_aes('linear')
 
 # Prep animate
-  ## Set labels and colours for each TYPE (this is called via TYPE within the ggplot function)
+## Set labels and colours for each TYPE (this is called via TYPE within the ggplot function)
 lfs.labels = c( "Unemployed",
                 "NILF",
                 "Employed AWAY",
@@ -1647,66 +1634,337 @@ lfs.colors = c( gred,
                 gdark,
                 gorange,
                 gyellow
-                )
+)
 
 
 # Prep data
-  animate <- lfs.combined %>% 
-             mutate(single = grepl("^[0-9]{2}$", agegroup)) %>% 
-             filter(single == TRUE,
-                    qualfield == "Y12" | qualfield == "B. all",
-                    uniform == TRUE) %>% 
-             mutate(age = as.integer(agegroup)) %>% 
-             group_by(year, qualfield, gender_detail, age, lfs) %>% 
-             summarise(pc = mean(pc)) %>% ungroup() %>% 
-             mutate(gender_detail = case_when(gender_detail == "f" ~ "Female",
-                                              gender_detail == "f.nochild" ~ "Female, no child",
-                                              gender_detail == "f.haschild" ~ "Female, has child",
-                                              gender_detail == "m" ~ "Male"),
-                    qualfield = case_when(qualfield == "Y12" ~ "Year 12 only",
-                                          qualfield == "B. all" ~ "Bachelor graduate"))
-  
-  
-  animate %>% 
-    filter(gender_detail == "Male" |  gender_detail == "Female") %>% 
-    # filter(age == 30) %>%  ##
-    ggplot(aes(y = pc, x = year, fill = lfs, order = as.numeric(lfs))) + 
-      geom_bar(stat="identity") +
-      theme_minimal() +
-      labs(title = "Labour-force status",
-           x = "",
-           y = ""
-      ) +
-      theme(plot.title    = element_text(size = 12, hjust = 0.5),
-            plot.subtitle = element_text(size = 12, hjust = 0.5, face = "italic"),
-            legend.position="bottom",
-            legend.title = element_blank(),
-            legend.text = element_text(size=10),
-            strip.text.x = element_text(size = 12, colour = "black", angle = 0, hjust = 1, vjust = 1),
-            axis.text.x=element_text(size=12, angle = 0),
-            panel.grid.major.x=element_blank()
-      ) +
-      scale_fill_manual(values = c("Not in the labour force" = ggrey,
-                                   "Unemployed" = gred,
-                                   "Employed, away from work" = gdark,
-                                   "Employed, worked part-time" = gorange,
-                                   "Employed, worked full-time" = gyellow),
-                        breaks = c("Not in the labour force",
-                                   "Unemployed",
-                                   "Employed, away from work",
-                                   "Employed, worked part-time",
-                                   "Employed, worked full-time"),
-                        labels = c("NILF",
-                                   "Unemployed",
-                                   "Employed AWAY",
-                                   "Employed PT",
-                                   "Employed FT")) +
-     facet_grid(. ~ qualfield + gender_detail) +
-      # ## gganimate
-      labs(title = 'Age: {frame_time}', x = 'Year', y = '') +
-      transition_time(age) +
-      enter_grow() +
-      exit_shrink() +
-      ease_aes('sine-in-out') +
-      NULL
+# Single age
+animate.single <- lfs.combined %>% 
+  mutate(single = grepl("^[0-9]{2}$", agegroup)) %>% 
+  filter(single == TRUE,
+         qualfield == "Y12" | qualfield == "B. all",
+         uniform == TRUE) %>% 
+  mutate(age = as.integer(agegroup)) %>% 
+  group_by(year, qualfield, gender_detail, age, lfs) %>% 
+  summarise(pc = mean(pc)) %>% ungroup() %>% 
+  mutate(gender_detail = case_when(gender_detail == "f" ~ "Female",
+                                   gender_detail == "f.nochild" ~ "Female, no child",
+                                   gender_detail == "f.haschild" ~ "Female, has child",
+                                   gender_detail == "m" ~ "Male"),
+         qualfield = case_when(qualfield == "Y12" ~ "Year 12 only",
+                               qualfield == "B. all" ~ "Bachelor graduate"),
+         year = as.integer(year))
+# Age groups
+animate.group <- lfs.combined %>% 
+  mutate(single = grepl("^[0-9]{2}$", agegroup)) %>% 
+  filter(single == FALSE,
+         qualfield == "Y12" | qualfield == "B. all",
+         uniform == TRUE) %>% 
+  mutate(
+    age = case_when(agegroup == "2534" ~ 30,
+                    agegroup == "3544" ~ 40,
+                    agegroup == "4554" ~ 50,
+                    agegroup == "5564" ~ 60
+    ),
     
+    age = as.integer(age)
+    
+  ) %>% 
+  group_by(year, qualfield, gender_detail, age, lfs) %>% 
+  summarise(pc = mean(pc)) %>% ungroup() %>% 
+  mutate(gender_detail = case_when(gender_detail == "f" ~ "Female",
+                                   gender_detail == "f.nochild" ~ "Female, no child",
+                                   gender_detail == "f.haschild" ~ "Female, has child",
+                                   gender_detail == "m" ~ "Male"),
+         qualfield = case_when(qualfield == "Y12" ~ "Year 12 only",
+                               qualfield == "B. all" ~ "Bachelor graduate"))
+
+# Plot
+
+# Accordion plot by single age
+animate.single %>% 
+  filter(gender_detail == "Male" |  gender_detail == "Female") %>% 
+  
+  ggplot(aes(y = pc, x = year, fill = lfs, order = as.numeric(lfs))) + 
+  geom_bar(stat="identity") +
+  theme_minimal() +
+  labs(title = "Labour-force status",
+       x = "",
+       y = ""
+  ) +
+  theme(plot.title    = element_text(size = 12, hjust = 0.5),
+        plot.subtitle = element_text(size = 12, hjust = 0.5, face = "italic"),
+        legend.position="bottom",
+        legend.title = element_blank(),
+        legend.text = element_text(size=10),
+        strip.text.x = element_text(size = 12, colour = "black", angle = 0, hjust = 1, vjust = 1),
+        axis.text.x=element_text(size=12, angle = 0),
+        panel.grid.major.x=element_blank()
+  ) +
+  scale_fill_manual(values = c("Not in the labour force" = ggrey,
+                               "Unemployed" = gred,
+                               "Employed, away from work" = gdark,
+                               "Employed, worked part-time" = gorange,
+                               "Employed, worked full-time" = gyellow),
+                    breaks = c("Not in the labour force",
+                               "Unemployed",
+                               "Employed, away from work",
+                               "Employed, worked part-time",
+                               "Employed, worked full-time"),
+                    labels = c("NILF",
+                               "Unemployed",
+                               "Employed AWAY",
+                               "Employed PT",
+                               "Employed FT")) +
+  facet_grid(. ~ qualfield + gender_detail) +
+  # gganimate
+  labs(title = 'Age: {frame_time}', x = 'Year', y = '') +
+  transition_time(age) +
+  enter_grow() +
+  exit_shrink() +
+  ease_aes('sine-in-out') +
+  NULL
+
+
+
+# Accordion plot by age single; 2016 bach only
+animate.single %>% 
+  filter(gender_detail == "Male" |  gender_detail == "Female") %>% 
+  filter(year == 2016) %>% 
+  filter(qualfield == "Bachelor graduate") %>% 
+  
+  ggplot(aes(y = pc, x = lfs, fill = lfs, order = as.numeric(lfs))) + 
+  geom_bar(stat="identity") +
+  geom_hline(yintercept = 0) +
+  theme_minimal() +
+  labs(title = "Labour-force status",
+       x = "",
+       y = ""
+  ) +
+  theme(plot.title    = element_text(size = 12, hjust = 0.5),
+        plot.subtitle = element_text(size = 12, hjust = 0.5, face = "italic"),
+        legend.position="bottom",
+        legend.title = element_blank(),
+        legend.text = element_text(size=10),
+        strip.text.x = element_text(size = 12, colour = "black", angle = 0, hjust = .5, vjust = .5),
+        # axis.text.x=element_text(size=12, angle = 0),
+        axis.text.x=element_blank(),
+        panel.grid.major.x=element_blank()
+  ) +
+  scale_fill_manual(values = c("Not in the labour force" = ggrey,
+                               "Unemployed" = gred,
+                               "Employed, away from work" = gdark,
+                               "Employed, worked part-time" = gorange,
+                               "Employed, worked full-time" = gyellow),
+                    breaks = c("Not in the labour force",
+                               "Unemployed",
+                               "Employed, away from work",
+                               "Employed, worked part-time",
+                               "Employed, worked full-time"),
+                    labels = c("NILF",
+                               "Unemployed",
+                               "Employed AWAY",
+                               "Employed PT",
+                               "Employed FT")) +
+  facet_grid(. ~ qualfield + gender_detail) +
+  # gganimate
+  labs(title = 'Age: {frame_time}', x = '', y = 'Per cent of group') +
+  transition_time(age) +
+  enter_grow() +
+  exit_shrink() +
+  ease_aes('sine-in-out') +
+  NULL
+
+
+
+
+# ~Wriggle~ plot: all ages
+animate.single %>% 
+  filter(gender_detail == "Male" |  gender_detail == "Female") %>% 
+  # filter(year == 2016) %>% 
+  filter(qualfield == "Bachelor graduate") %>% 
+  
+  ggplot(aes(y = pc, x = age, color = lfs, group = lfs)) + 
+  geom_line(stat="identity") +
+  geom_hline(yintercept = 0) +
+  theme_minimal() +
+  labs(title = "Labour-force status",
+       x = "",
+       y = "Age"
+  ) +
+  theme(plot.title    = element_text(size = 12, hjust = 0.5),
+        plot.subtitle = element_text(size = 12, hjust = 0.5, face = "italic"),
+        legend.position="bottom",
+        legend.title = element_blank(),
+        legend.text = element_text(size=10),
+        strip.text.x = element_text(size = 12, colour = "black", angle = 0, hjust = .5, vjust = .5),
+        axis.text.x=element_text(size=12, angle = 0),
+        # axis.text.x=element_blank(),
+        panel.grid.major.x=element_blank()
+  ) +
+  scale_color_manual(values = c("Not in the labour force" = ggrey,
+                                "Unemployed" = gred,
+                                "Employed, away from work" = gdark,
+                                "Employed, worked part-time" = gorange,
+                                "Employed, worked full-time" = gyellow),
+                     breaks = c("Not in the labour force",
+                                "Unemployed",
+                                "Employed, away from work",
+                                "Employed, worked part-time",
+                                "Employed, worked full-time"),
+                     labels = c("NILF",
+                                "Unemployed",
+                                "Employed AWAY",
+                                "Employed PT",
+                                "Employed FT")) +
+  facet_grid(. ~ qualfield + gender_detail) +
+  # gganimate
+  labs(title = 'Year: {frame_time}', x = '', y = 'Per cent of group') +
+  transition_time(year) +
+  enter_grow() +
+  exit_shrink() +
+  ease_aes('sine-in-out') +
+  NULL
+
+
+
+# ~Slither~ plot: 25-44
+animate.single %>% 
+  filter(gender_detail == "Male" |  gender_detail == "Female") %>% 
+  filter(age >= 25 & age <= 44) %>%
+  filter(qualfield == "Bachelor graduate") %>% 
+  
+  ggplot(aes(y = pc, x = age, color = lfs, group = lfs)) + 
+  geom_line(stat="identity") +
+  geom_hline(yintercept = 0) +
+  theme_minimal() +
+  labs(title = "Labour-force status",
+       x = "",
+       y = "Age"
+  ) +
+  theme(plot.title    = element_text(size = 12, hjust = 0.5),
+        plot.subtitle = element_text(size = 12, hjust = 0.5, face = "italic"),
+        legend.position="bottom",
+        legend.title = element_blank(),
+        legend.text = element_text(size=10),
+        strip.text.x = element_text(size = 12, colour = "black", angle = 0, hjust = .5, vjust = .5),
+        axis.text.x=element_text(size=12, angle = 0),
+        # axis.text.x=element_blank(),
+        panel.grid.major.x=element_blank()
+  ) +
+  scale_color_manual(values = c("Not in the labour force" = ggrey,
+                                "Unemployed" = gred,
+                                "Employed, away from work" = gdark,
+                                "Employed, worked part-time" = gorange,
+                                "Employed, worked full-time" = gyellow),
+                     breaks = c("Not in the labour force",
+                                "Unemployed",
+                                "Employed, away from work",
+                                "Employed, worked part-time",
+                                "Employed, worked full-time"),
+                     labels = c("NILF",
+                                "Unemployed",
+                                "Employed AWAY",
+                                "Employed PT",
+                                "Employed FT")) +
+  facet_grid(. ~ qualfield + gender_detail) +
+  # gganimate
+  labs(title = 'Year: {frame_time}', x = '', y = 'Per cent of group') +
+  transition_time(year) +
+  enter_grow() +
+  exit_shrink() +
+  ease_aes('sine-in-out') +
+  NULL
+
+
+
+
+
+
+# For line charts we have to make our own 
+x = 30
+count = 25
+animate.large <- animate.single %>% filter(age == x) %>% mutate(Age = as.integer(count))
+for (x in 26:65) {
+  count = count + 1
+  if (x != 65) {
+    assign("animate.large",
+           bind_rows(animate.large, 
+                     animate.single %>% filter(age <= x) %>% mutate(Age = as.integer(count))
+           )
+    )
+  }
+  if (x == 65) {
+    # repeat age == 65 (ie end) 59 times to complete 100 frame loop
+    for (y in 1:59) {
+      assign("animate.large",
+             bind_rows(animate.large, 
+                       animate.single %>% filter(age <= x) %>% mutate(Age = as.integer(count))
+             )
+      )
+    }
+  }
+}
+
+library(directlabels)
+
+
+# ~Slither~ plot
+animate.large %>% 
+  filter(gender_detail == "Male" |  gender_detail == "Female") %>% 
+  filter(qualfield == "Bachelor graduate") %>% 
+  filter(year == 2016) %>% 
+  # group_by(Age) %>% 
+  # mutate(lfs.label = if_else(age == max(age), as.character(lfs), NA_character_)) %>%
+  # ungroup() %>% 
+  
+  ggplot(aes(y = pc, x = age, color = lfs, group = interaction(gender_detail, lfs))) + 
+  geom_line(stat="identity", size = 2) +
+  geom_hline(yintercept = 0) +
+  # geom_label_repel(aes(label = lfs.label),
+  #                  nudge_x = 1,
+  #                  na.rm = TRUE,
+  #                  force = 0) +
+  
+  theme_minimal() +
+  labs(title = "Labour-force status",
+       x = "Age",
+       y = "Per cent of group"
+  ) +
+  theme(plot.title    = element_text(size = 12, hjust = 0.5),
+        plot.subtitle = element_text(size = 12, hjust = 0.5, face = "italic"),
+        legend.position="right",
+        legend.title = element_blank(),
+        legend.text = element_text(size=10),
+        strip.text.x = element_text(size = 12, colour = "black", angle = 0, hjust = .5, vjust = .5),
+        axis.text.x=element_text(size=12, angle = 0),
+        # axis.text.x=element_blank(),
+        panel.grid.major.x=element_blank()
+  ) +
+  scale_color_manual(values = c("Not in the labour force" = ggrey,
+                                "Unemployed" = gred,
+                                "Employed, away from work" = gdark,
+                                "Employed, worked part-time" = gorange,
+                                "Employed, worked full-time" = gyellow),
+                     breaks = c("Not in the labour force",
+                                "Unemployed",
+                                "Employed, away from work",
+                                "Employed, worked part-time",
+                                "Employed, worked full-time"),
+                     labels = c("NILF",
+                                "Unemployed",
+                                "Employed AWAY",
+                                "Employed PT",
+                                "Employed FT")) +
+  facet_grid(. ~ qualfield + gender_detail) +
+  # gganimate
+  labs(title = 'Labour-force status by age, 2016', x = 'Age', y = 'Per cent of group') +
+  transition_time(Age) +
+  enter_grow() +
+  exit_shrink() +
+  ease_aes('sine-in-out') +
+  NULL
+
+
+
+
