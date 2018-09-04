@@ -1,0 +1,421 @@
+year,qualfield,gender_detail,occ,count,pc,group,married,code,agegroup,gender,childgroup,child,mfc,bach,uniform,field,.group
+2006,B. Commerce,f,Manager/prof.,NA,0.6050402681709757,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Commerce,11
+2006,B. Commerce,f,Tech/trade,NA,0.007039113561156972,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Commerce,12
+2006,B. Commerce,f,Sales/admin/service,NA,0.2615192355207118,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Commerce,13
+2006,B. Commerce,f,Labourer/machine,NA,0.0073357778054810915,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Commerce,14
+2006,B. Commerce,f,Not working,NA,0.11906560494167445,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Commerce,15
+2006,B. Education,f,Manager/prof.,NA,0.7706235065069991,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Education,21
+2006,B. Education,f,Tech/trade,NA,0.0030370817517667036,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Education,22
+2006,B. Education,f,Sales/admin/service,NA,0.0764619074267034,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Education,23
+2006,B. Education,f,Labourer/machine,NA,0.0034953867287100967,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Education,24
+2006,B. Education,f,Not working,NA,0.1463821175858207,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Education,25
+2006,B. Engineering,f,Manager/prof.,NA,0.7035774847269815,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Engineering,31
+2006,B. Engineering,f,Tech/trade,NA,0.04917931980703882,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Engineering,32
+2006,B. Engineering,f,Sales/admin/service,NA,0.12920630420768603,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Engineering,33
+2006,B. Engineering,f,Labourer/machine,NA,0.013382068832112275,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Engineering,34
+2006,B. Engineering,f,Not working,NA,0.10465482242618149,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Engineering,35
+2006,B. Humanities,f,Manager/prof.,NA,0.40773516526445536,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Humanities,41
+2006,B. Humanities,f,Tech/trade,NA,0.02114244490283147,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Humanities,42
+2006,B. Humanities,f,Sales/admin/service,NA,0.38697502141008616,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Humanities,43
+2006,B. Humanities,f,Labourer/machine,NA,0.01075321990402033,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Humanities,44
+2006,B. Humanities,f,Not working,NA,0.1733941485186067,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Humanities,45
+2006,B. IT,f,Manager/prof.,NA,0.6230735192510872,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,IT,51
+2006,B. IT,f,Tech/trade,NA,0.07246369595157735,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,IT,52
+2006,B. IT,f,Sales/admin/service,NA,0.16826768635015002,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,IT,53
+2006,B. IT,f,Labourer/machine,NA,0.007956975323285938,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,IT,54
+2006,B. IT,f,Not working,NA,0.12823812312389943,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,IT,55
+2006,B. Law,f,Manager/prof.,NA,0.7724916820918521,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Law,61
+2006,B. Law,f,Tech/trade,NA,0.0022733896657742875,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Law,62
+2006,B. Law,f,Sales/admin/service,NA,0.13009612857287187,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Law,63
+2006,B. Law,f,Labourer/machine,NA,7.461810361874629e-4,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Law,64
+2006,B. Law,f,Not working,NA,0.09439261863331425,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Law,65
+2006,B. Medicine,f,Manager/prof.,NA,0.918565683040644,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Medicine,71
+2006,B. Medicine,f,Tech/trade,NA,0.0028785319155983967,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Medicine,72
+2006,B. Medicine,f,Sales/admin/service,NA,0.01100566530170231,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Medicine,73
+2006,B. Medicine,f,Labourer/machine,NA,0,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Medicine,74
+2006,B. Medicine,f,Not working,NA,0.06755011974205531,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Medicine,75
+2006,B. Nursing,f,Manager/prof.,NA,0.8238633269676398,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Nursing,81
+2006,B. Nursing,f,Tech/trade,NA,0.0037099846122510068,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Nursing,82
+2006,B. Nursing,f,Sales/admin/service,NA,0.05338031997758244,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Nursing,83
+2006,B. Nursing,f,Labourer/machine,NA,0.004158286908367603,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Nursing,84
+2006,B. Nursing,f,Not working,NA,0.11488808153415915,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Nursing,85
+2006,B. Other health,f,Manager/prof.,NA,0.7670483383279795,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Other health,91
+2006,B. Other health,f,Tech/trade,NA,0.010051602890249483,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Other health,92
+2006,B. Other health,f,Sales/admin/service,NA,0.11081298577969434,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Other health,93
+2006,B. Other health,f,Labourer/machine,NA,0.0019455007284564798,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Other health,94
+2006,B. Other health,f,Not working,NA,0.11014157227362026,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Other health,95
+2006,B. Performing Arts,f,Manager/prof.,NA,0.5158558328905393,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,101
+2006,B. Performing Arts,f,Tech/trade,NA,0.02227191509104193,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,102
+2006,B. Performing Arts,f,Sales/admin/service,NA,0.2815944397179845,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,103
+2006,B. Performing Arts,f,Labourer/machine,NA,0.02096269314110819,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,104
+2006,B. Performing Arts,f,Not working,NA,0.15931511915932617,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,105
+2006,B. Science (excl maths),f,Manager/prof.,NA,0.5424832108700003,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),111
+2006,B. Science (excl maths),f,Tech/trade,NA,0.09283715028546484,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),112
+2006,B. Science (excl maths),f,Sales/admin/service,NA,0.2095009698402837,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),113
+2006,B. Science (excl maths),f,Labourer/machine,NA,0.020639104616317346,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),114
+2006,B. Science (excl maths),f,Not working,NA,0.13453956438793377,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),115
+2006,Y12,f,Manager/prof.,NA,0.13866190167893475,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,121
+2006,Y12,f,Tech/trade,NA,0.02320332365288011,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,122
+2006,Y12,f,Sales/admin/service,NA,0.458747736614742,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,123
+2006,Y12,f,Labourer/machine,NA,0.06226296913382121,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,124
+2006,Y12,f,Not working,NA,0.31712406891962197,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,125
+2011,B. Commerce,f,Manager/prof.,NA,0.5845645626003917,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Commerce,141
+2011,B. Commerce,f,Tech/trade,NA,0.008296032014983325,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Commerce,142
+2011,B. Commerce,f,Sales/admin/service,NA,0.28350929238504174,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Commerce,143
+2011,B. Commerce,f,Labourer/machine,NA,0.0070294172311990595,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Commerce,144
+2011,B. Commerce,f,Not working,NA,0.11660069576838421,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Commerce,145
+2011,B. Education,f,Manager/prof.,NA,0.7888257712970521,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Education,151
+2011,B. Education,f,Tech/trade,NA,0.0025503562367096416,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Education,152
+2011,B. Education,f,Sales/admin/service,NA,0.07421598858132288,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Education,153
+2011,B. Education,f,Labourer/machine,NA,0.004034074988735363,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Education,154
+2011,B. Education,f,Not working,NA,0.13037380889618003,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Education,155
+2011,B. Engineering,f,Manager/prof.,NA,0.735210618400181,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Engineering,161
+2011,B. Engineering,f,Tech/trade,NA,0.04553050430736867,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Engineering,162
+2011,B. Engineering,f,Sales/admin/service,NA,0.09975915381599038,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Engineering,163
+2011,B. Engineering,f,Labourer/machine,NA,0.009994303871956323,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Engineering,164
+2011,B. Engineering,f,Not working,NA,0.10950541960450368,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Engineering,165
+2011,B. Humanities,f,Manager/prof.,NA,0.4175640654030564,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Humanities,171
+2011,B. Humanities,f,Tech/trade,NA,0.020902268206441574,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Humanities,172
+2011,B. Humanities,f,Sales/admin/service,NA,0.3831545034019841,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Humanities,173
+2011,B. Humanities,f,Labourer/machine,NA,0.011120165775731857,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Humanities,174
+2011,B. Humanities,f,Not working,NA,0.1672589972127861,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Humanities,175
+2011,B. IT,f,Manager/prof.,NA,0.6059008508553215,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,IT,181
+2011,B. IT,f,Tech/trade,NA,0.06672885958040693,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,IT,182
+2011,B. IT,f,Sales/admin/service,NA,0.1907479536807051,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,IT,183
+2011,B. IT,f,Labourer/machine,NA,0.011407780688419286,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,IT,184
+2011,B. IT,f,Not working,NA,0.12521455519514713,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,IT,185
+2011,B. Law,f,Manager/prof.,NA,0.7725609888692937,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Law,191
+2011,B. Law,f,Tech/trade,NA,0.0015303837830223561,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Law,192
+2011,B. Law,f,Sales/admin/service,NA,0.13814820255718724,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Law,193
+2011,B. Law,f,Labourer/machine,NA,0.0011139395297489899,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Law,194
+2011,B. Law,f,Not working,NA,0.08664648526074774,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Law,195
+2011,B. Medicine,f,Manager/prof.,NA,0.9263748992240626,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Medicine,201
+2011,B. Medicine,f,Tech/trade,NA,0.002982693923475549,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Medicine,202
+2011,B. Medicine,f,Sales/admin/service,NA,0.00885553127233909,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Medicine,203
+2011,B. Medicine,f,Labourer/machine,NA,0,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Medicine,204
+2011,B. Medicine,f,Not working,NA,0.0617868755801228,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Medicine,205
+2011,B. Nursing,f,Manager/prof.,NA,0.8607820693486476,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Nursing,211
+2011,B. Nursing,f,Tech/trade,NA,0.0032653181840236216,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Nursing,212
+2011,B. Nursing,f,Sales/admin/service,NA,0.04414151607169464,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Nursing,213
+2011,B. Nursing,f,Labourer/machine,NA,0.0018225242061967102,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Nursing,214
+2011,B. Nursing,f,Not working,NA,0.08998857218943739,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Nursing,215
+2011,B. Other health,f,Manager/prof.,NA,0.7626211077234237,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Other health,221
+2011,B. Other health,f,Tech/trade,NA,0.006548859328654112,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Other health,222
+2011,B. Other health,f,Sales/admin/service,NA,0.12520686330274294,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Other health,223
+2011,B. Other health,f,Labourer/machine,NA,0.0018483517338834657,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Other health,224
+2011,B. Other health,f,Not working,NA,0.10377481791129574,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Other health,225
+2011,B. Performing Arts,f,Manager/prof.,NA,0.5362123442553354,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,231
+2011,B. Performing Arts,f,Tech/trade,NA,0.020992390160812478,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,232
+2011,B. Performing Arts,f,Sales/admin/service,NA,0.27349239678789117,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,233
+2011,B. Performing Arts,f,Labourer/machine,NA,0.008338595800442978,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,234
+2011,B. Performing Arts,f,Not working,NA,0.16096427299551805,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,235
+2011,B. Science (excl maths),f,Manager/prof.,NA,0.5552259632381694,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),241
+2011,B. Science (excl maths),f,Tech/trade,NA,0.09078503130207663,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),242
+2011,B. Science (excl maths),f,Sales/admin/service,NA,0.20710827534037196,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),243
+2011,B. Science (excl maths),f,Labourer/machine,NA,0.017981767992498517,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),244
+2011,B. Science (excl maths),f,Not working,NA,0.12889896212688343,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),245
+2011,Y12,f,Manager/prof.,NA,0.14446268423830716,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,251
+2011,Y12,f,Tech/trade,NA,0.02352504871319175,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,252
+2011,Y12,f,Sales/admin/service,NA,0.4566178226205362,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,253
+2011,Y12,f,Labourer/machine,NA,0.05732887621667353,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,254
+2011,Y12,f,Not working,NA,0.3180655682112914,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,255
+2016,B. Commerce,f,Manager/prof.,NA,0.5666806708324837,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Commerce,271
+2016,B. Commerce,f,Tech/trade,NA,0.0087981933724641,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Commerce,272
+2016,B. Commerce,f,Sales/admin/service,NA,0.3074284794171872,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Commerce,273
+2016,B. Commerce,f,Labourer/machine,NA,0.009827487953520253,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Commerce,274
+2016,B. Commerce,f,Not working,NA,0.10726516842434472,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Commerce,275
+2016,B. Education,f,Manager/prof.,NA,0.8153082363853452,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Education,281
+2016,B. Education,f,Tech/trade,NA,0.003123128587543445,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Education,282
+2016,B. Education,f,Sales/admin/service,NA,0.07718646156231478,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Education,283
+2016,B. Education,f,Labourer/machine,NA,0.0031679767091872214,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Education,284
+2016,B. Education,f,Not working,NA,0.10121419675560937,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Education,285
+2016,B. Engineering,f,Manager/prof.,NA,0.6790724429504313,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Engineering,291
+2016,B. Engineering,f,Tech/trade,NA,0.04983218584049546,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Engineering,292
+2016,B. Engineering,f,Sales/admin/service,NA,0.1314926490805552,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Engineering,293
+2016,B. Engineering,f,Labourer/machine,NA,0.023088038920149444,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Engineering,294
+2016,B. Engineering,f,Not working,NA,0.11651468320836854,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Engineering,295
+2016,B. Humanities,f,Manager/prof.,NA,0.3886345292204955,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Humanities,301
+2016,B. Humanities,f,Tech/trade,NA,0.02366236481100624,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Humanities,302
+2016,B. Humanities,f,Sales/admin/service,NA,0.40545045051828354,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Humanities,303
+2016,B. Humanities,f,Labourer/machine,NA,0.021047474906985365,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Humanities,304
+2016,B. Humanities,f,Not working,NA,0.1612051805432293,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Humanities,305
+2016,B. IT,f,Manager/prof.,NA,0.5622480351667064,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,IT,311
+2016,B. IT,f,Tech/trade,NA,0.06514455619330836,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,IT,312
+2016,B. IT,f,Sales/admin/service,NA,0.2138611582738739,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,IT,313
+2016,B. IT,f,Labourer/machine,NA,0.009477256085658275,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,IT,314
+2016,B. IT,f,Not working,NA,0.14926899428045307,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,IT,315
+2016,B. Law,f,Manager/prof.,NA,0.7532968878500808,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Law,321
+2016,B. Law,f,Tech/trade,NA,0.0044868733191508765,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Law,322
+2016,B. Law,f,Sales/admin/service,NA,0.16024888110468907,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Law,323
+2016,B. Law,f,Labourer/machine,NA,0.002758913112324498,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Law,324
+2016,B. Law,f,Not working,NA,0.07920844461375476,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Law,325
+2016,B. Medicine,f,Manager/prof.,NA,0.9235777831269661,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Medicine,331
+2016,B. Medicine,f,Tech/trade,NA,0.0028225026162503743,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Medicine,332
+2016,B. Medicine,f,Sales/admin/service,NA,0.012534849217216924,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Medicine,333
+2016,B. Medicine,f,Labourer/machine,NA,0,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Medicine,334
+2016,B. Medicine,f,Not working,NA,0.06106486503956655,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Medicine,335
+2016,B. Nursing,f,Manager/prof.,NA,0.8754499124596046,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Nursing,341
+2016,B. Nursing,f,Tech/trade,NA,0.003106657260632126,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Nursing,342
+2016,B. Nursing,f,Sales/admin/service,NA,0.04866277723817813,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Nursing,343
+2016,B. Nursing,f,Labourer/machine,NA,0.0031970782283584735,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Nursing,344
+2016,B. Nursing,f,Not working,NA,0.0695835748132267,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Nursing,345
+2016,B. Other health,f,Manager/prof.,NA,0.7441681177622586,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Other health,351
+2016,B. Other health,f,Tech/trade,NA,0.012688801723904321,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Other health,352
+2016,B. Other health,f,Sales/admin/service,NA,0.153609977791776,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Other health,353
+2016,B. Other health,f,Labourer/machine,NA,0.004274522830846072,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Other health,354
+2016,B. Other health,f,Not working,NA,0.08525857989121505,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Other health,355
+2016,B. Performing Arts,f,Manager/prof.,NA,0.5021274301394347,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,361
+2016,B. Performing Arts,f,Tech/trade,NA,0.037993732031083055,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,362
+2016,B. Performing Arts,f,Sales/admin/service,NA,0.29865888179466976,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,363
+2016,B. Performing Arts,f,Labourer/machine,NA,0.023955743113248006,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,364
+2016,B. Performing Arts,f,Not working,NA,0.1372642129215644,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,365
+2016,B. Science (excl maths),f,Manager/prof.,NA,0.5190240202076265,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),371
+2016,B. Science (excl maths),f,Tech/trade,NA,0.11005302093912366,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),372
+2016,B. Science (excl maths),f,Sales/admin/service,NA,0.22813977014155504,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),373
+2016,B. Science (excl maths),f,Labourer/machine,NA,0.021780648948993543,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),374
+2016,B. Science (excl maths),f,Not working,NA,0.1210025397627013,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),375
+2016,Y12,f,Manager/prof.,NA,0.15394298059264616,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,381
+2016,Y12,f,Tech/trade,NA,0.023751648199591396,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,382
+2016,Y12,f,Sales/admin/service,NA,0.4531818553587249,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,383
+2016,Y12,f,Labourer/machine,NA,0.06222349386346856,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,384
+2016,Y12,f,Not working,NA,0.306900021985569,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,385
+2006,B. all,f,Manager/prof.,NA,0.6801305778667617,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,all,1
+2006,B. all,f,Tech/trade,NA,0.0176406291403353,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,all,2
+2006,B. all,f,Sales/admin/service,NA,0.1663967343232485,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,all,3
+2006,B. all,f,Labourer/machine,NA,0.0077581515140907106,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,all,4
+2006,B. all,f,Not working,NA,0.12807390715556377,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,all,5
+2006,Y12,f,Manager/prof.,NA,0.13866190167893475,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,121
+2006,Y12,f,Tech/trade,NA,0.02320332365288011,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,122
+2006,Y12,f,Sales/admin/service,NA,0.458747736614742,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,123
+2006,Y12,f,Labourer/machine,NA,0.06226296913382121,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,124
+2006,Y12,f,Not working,NA,0.31712406891962197,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,125
+2011,B. all,f,Manager/prof.,NA,0.6861937057450558,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,all,131
+2011,B. all,f,Tech/trade,NA,0.016286291997917177,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,all,132
+2011,B. all,f,Sales/admin/service,NA,0.1729120210892845,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,all,133
+2011,B. all,f,Labourer/machine,NA,0.006382229537811029,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,all,134
+2011,B. all,f,Not working,NA,0.11822575162993144,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,all,135
+2011,Y12,f,Manager/prof.,NA,0.14446268423830716,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,251
+2011,Y12,f,Tech/trade,NA,0.02352504871319175,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,252
+2011,Y12,f,Sales/admin/service,NA,0.4566178226205362,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,253
+2011,Y12,f,Labourer/machine,NA,0.05732887621667353,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,254
+2011,Y12,f,Not working,NA,0.3180655682112914,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,255
+2016,B. all,f,Manager/prof.,NA,0.6860221625143815,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,all,261
+2016,B. all,f,Tech/trade,NA,0.017939587330520812,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,all,262
+2016,B. all,f,Sales/admin/service,NA,0.18569555213850208,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,all,263
+2016,B. all,f,Labourer/machine,NA,0.008397909242473698,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,all,264
+2016,B. all,f,Not working,NA,0.10194478877412189,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,all,265
+2016,Y12,f,Manager/prof.,NA,0.15394298059264616,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,381
+2016,Y12,f,Tech/trade,NA,0.023751648199591396,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,382
+2016,Y12,f,Sales/admin/service,NA,0.4531818553587249,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,383
+2016,Y12,f,Labourer/machine,NA,0.06222349386346856,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,384
+2016,Y12,f,Not working,NA,0.306900021985569,occ.2534.uniform,NA,f,2534,f,FALSE,NA,NA,TRUE,TRUE,Y12,385
+2006,B. Commerce,m,Manager/prof.,NA,0.7159219923388047,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Commerce,16
+2006,B. Commerce,m,Tech/trade,NA,0.019505137716532978,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Commerce,17
+2006,B. Commerce,m,Sales/admin/service,NA,0.21341838592281717,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Commerce,18
+2006,B. Commerce,m,Labourer/machine,NA,0.018641610652718552,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Commerce,19
+2006,B. Commerce,m,Not working,NA,0.03251287336912662,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Commerce,20
+2006,B. Education,m,Manager/prof.,NA,0.8867448827550991,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Education,26
+2006,B. Education,m,Tech/trade,NA,0.01381540607455541,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Education,27
+2006,B. Education,m,Sales/admin/service,NA,0.06510964433381408,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Education,28
+2006,B. Education,m,Labourer/machine,NA,0.01333441943947219,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Education,29
+2006,B. Education,m,Not working,NA,0.02099564739705918,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Education,30
+2006,B. Engineering,m,Manager/prof.,NA,0.8400236799382811,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Engineering,36
+2006,B. Engineering,m,Tech/trade,NA,0.06396380017678469,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Engineering,37
+2006,B. Engineering,m,Sales/admin/service,NA,0.05608950234631509,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Engineering,38
+2006,B. Engineering,m,Labourer/machine,NA,0.014651741499696691,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Engineering,39
+2006,B. Engineering,m,Not working,NA,0.02527127603892245,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Engineering,40
+2006,B. Humanities,m,Manager/prof.,NA,0.5345412958157247,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Humanities,46
+2006,B. Humanities,m,Tech/trade,NA,0.04162539613061327,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Humanities,47
+2006,B. Humanities,m,Sales/admin/service,NA,0.3058775927738251,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Humanities,48
+2006,B. Humanities,m,Labourer/machine,NA,0.03836887264358322,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Humanities,49
+2006,B. Humanities,m,Not working,NA,0.0795868426362537,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Humanities,50
+2006,B. IT,m,Manager/prof.,NA,0.7457394421206719,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,IT,56
+2006,B. IT,m,Tech/trade,NA,0.11037889346373883,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,IT,57
+2006,B. IT,m,Sales/admin/service,NA,0.08037412234486778,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,IT,58
+2006,B. IT,m,Labourer/machine,NA,0.021130944780207248,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,IT,59
+2006,B. IT,m,Not working,NA,0.0423765972905142,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,IT,60
+2006,B. Law,m,Manager/prof.,NA,0.8662435020876538,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Law,66
+2006,B. Law,m,Tech/trade,NA,0.004146085507146013,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Law,67
+2006,B. Law,m,Sales/admin/service,NA,0.09454314576044223,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Law,68
+2006,B. Law,m,Labourer/machine,NA,0.002881438329526345,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Law,69
+2006,B. Law,m,Not working,NA,0.03218582831523163,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Law,70
+2006,B. Medicine,m,Manager/prof.,NA,0.9824102537906927,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Medicine,76
+2006,B. Medicine,m,Tech/trade,NA,8.670520231213872e-4,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Medicine,77
+2006,B. Medicine,m,Sales/admin/service,NA,9.554140127388535e-4,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Medicine,78
+2006,B. Medicine,m,Labourer/machine,NA,0,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Medicine,79
+2006,B. Medicine,m,Not working,NA,0.015767280173447036,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Medicine,80
+2006,B. Nursing,m,Manager/prof.,NA,0.8906531985119613,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Nursing,86
+2006,B. Nursing,m,Tech/trade,NA,0.005919477016958421,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Nursing,87
+2006,B. Nursing,m,Sales/admin/service,NA,0.06898916273320072,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Nursing,88
+2006,B. Nursing,m,Labourer/machine,NA,0.007886643945739739,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Nursing,89
+2006,B. Nursing,m,Not working,NA,0.026551517792139753,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Nursing,90
+2006,B. Other health,m,Manager/prof.,NA,0.851849854619262,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Other health,96
+2006,B. Other health,m,Tech/trade,NA,0.01436012802563966,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Other health,97
+2006,B. Other health,m,Sales/admin/service,NA,0.10913347638401046,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Other health,98
+2006,B. Other health,m,Labourer/machine,NA,0.0076888743685957755,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Other health,99
+2006,B. Other health,m,Not working,NA,0.01696766660249209,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Other health,100
+2006,B. Performing Arts,m,Manager/prof.,NA,0.6391678581751851,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,106
+2006,B. Performing Arts,m,Tech/trade,NA,0.05760675695215821,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,107
+2006,B. Performing Arts,m,Sales/admin/service,NA,0.1946353557042636,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,108
+2006,B. Performing Arts,m,Labourer/machine,NA,0.03345630262477088,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,109
+2006,B. Performing Arts,m,Not working,NA,0.07513372654362224,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,110
+2006,B. Science (excl maths),m,Manager/prof.,NA,0.6588614723923215,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),116
+2006,B. Science (excl maths),m,Tech/trade,NA,0.10995429901494032,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),117
+2006,B. Science (excl maths),m,Sales/admin/service,NA,0.14781052025213506,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),118
+2006,B. Science (excl maths),m,Labourer/machine,NA,0.0391039984967069,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),119
+2006,B. Science (excl maths),m,Not working,NA,0.04426970984389623,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),120
+2006,Y12,m,Manager/prof.,NA,0.2415847192721799,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,126
+2006,Y12,m,Tech/trade,NA,0.12150570283159194,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,127
+2006,Y12,m,Sales/admin/service,NA,0.26342888782725415,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,128
+2006,Y12,m,Labourer/machine,NA,0.26430151770377,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,129
+2006,Y12,m,Not working,NA,0.10917917236520404,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,130
+2011,B. Commerce,m,Manager/prof.,NA,0.6693328767721949,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Commerce,146
+2011,B. Commerce,m,Tech/trade,NA,0.021060300533962788,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Commerce,147
+2011,B. Commerce,m,Sales/admin/service,NA,0.24410583510539177,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Commerce,148
+2011,B. Commerce,m,Labourer/machine,NA,0.025811075482581335,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Commerce,149
+2011,B. Commerce,m,Not working,NA,0.03968991210586924,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Commerce,150
+2011,B. Education,m,Manager/prof.,NA,0.8887771411071076,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Education,156
+2011,B. Education,m,Tech/trade,NA,0.013010542128436588,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Education,157
+2011,B. Education,m,Sales/admin/service,NA,0.06936911327451756,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Education,158
+2011,B. Education,m,Labourer/machine,NA,0.010955001902655671,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Education,159
+2011,B. Education,m,Not working,NA,0.0178882015872826,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Education,160
+2011,B. Engineering,m,Manager/prof.,NA,0.8500442746400896,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Engineering,166
+2011,B. Engineering,m,Tech/trade,NA,0.05936760317792275,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Engineering,167
+2011,B. Engineering,m,Sales/admin/service,NA,0.04844280682413719,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Engineering,168
+2011,B. Engineering,m,Labourer/machine,NA,0.014760047571184952,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Engineering,169
+2011,B. Engineering,m,Not working,NA,0.027385267786665578,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Engineering,170
+2011,B. Humanities,m,Manager/prof.,NA,0.5513884225239505,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Humanities,176
+2011,B. Humanities,m,Tech/trade,NA,0.04095869672562216,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Humanities,177
+2011,B. Humanities,m,Sales/admin/service,NA,0.28912788942350703,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Humanities,178
+2011,B. Humanities,m,Labourer/machine,NA,0.03913704209921197,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Humanities,179
+2011,B. Humanities,m,Not working,NA,0.07938794922770842,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Humanities,180
+2011,B. IT,m,Manager/prof.,NA,0.7357514226935334,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,IT,186
+2011,B. IT,m,Tech/trade,NA,0.10918261100336596,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,IT,187
+2011,B. IT,m,Sales/admin/service,NA,0.0880754227197311,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,IT,188
+2011,B. IT,m,Labourer/machine,NA,0.021268525251050004,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,IT,189
+2011,B. IT,m,Not working,NA,0.04572201833231952,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,IT,190
+2011,B. Law,m,Manager/prof.,NA,0.8449407987263684,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Law,196
+2011,B. Law,m,Tech/trade,NA,0.005098430194592516,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Law,197
+2011,B. Law,m,Sales/admin/service,NA,0.10419186449386034,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Law,198
+2011,B. Law,m,Labourer/machine,NA,0.006148491883299729,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Law,199
+2011,B. Law,m,Not working,NA,0.039620414701879055,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Law,200
+2011,B. Medicine,m,Manager/prof.,NA,0.9829220908673186,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Medicine,206
+2011,B. Medicine,m,Tech/trade,NA,0,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Medicine,207
+2011,B. Medicine,m,Sales/admin/service,NA,0.0026347914419913056,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Medicine,208
+2011,B. Medicine,m,Labourer/machine,NA,0,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Medicine,209
+2011,B. Medicine,m,Not working,NA,0.014443117690690057,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Medicine,210
+2011,B. Nursing,m,Manager/prof.,NA,0.9024578504069731,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Nursing,216
+2011,B. Nursing,m,Tech/trade,NA,0.00508859541443722,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Nursing,217
+2011,B. Nursing,m,Sales/admin/service,NA,0.07045488933666444,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Nursing,218
+2011,B. Nursing,m,Labourer/machine,NA,0.0013513513513513514,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Nursing,219
+2011,B. Nursing,m,Not working,NA,0.020647313490573915,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Nursing,220
+2011,B. Other health,m,Manager/prof.,NA,0.8076050257321649,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Other health,226
+2011,B. Other health,m,Tech/trade,NA,0.014733725305540093,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Other health,227
+2011,B. Other health,m,Sales/admin/service,NA,0.15104880412396268,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Other health,228
+2011,B. Other health,m,Labourer/machine,NA,0.00842709817111378,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Other health,229
+2011,B. Other health,m,Not working,NA,0.01818534666721855,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Other health,230
+2011,B. Performing Arts,m,Manager/prof.,NA,0.6091414613173088,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,236
+2011,B. Performing Arts,m,Tech/trade,NA,0.07970509384805746,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,237
+2011,B. Performing Arts,m,Sales/admin/service,NA,0.20857719781795578,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,238
+2011,B. Performing Arts,m,Labourer/machine,NA,0.034150502647183265,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,239
+2011,B. Performing Arts,m,Not working,NA,0.06842574436949471,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,240
+2011,B. Science (excl maths),m,Manager/prof.,NA,0.666106855376277,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),246
+2011,B. Science (excl maths),m,Tech/trade,NA,0.1034255231585787,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),247
+2011,B. Science (excl maths),m,Sales/admin/service,NA,0.1380438807033828,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),248
+2011,B. Science (excl maths),m,Labourer/machine,NA,0.03950186812886735,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),249
+2011,B. Science (excl maths),m,Not working,NA,0.05292187263289418,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),250
+2011,Y12,m,Manager/prof.,NA,0.23166810583396777,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,256
+2011,Y12,m,Tech/trade,NA,0.12051962688229778,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,257
+2011,Y12,m,Sales/admin/service,NA,0.2593537087679757,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,258
+2011,Y12,m,Labourer/machine,NA,0.26217779373682815,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,259
+2011,Y12,m,Not working,NA,0.12628076477893058,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,260
+2016,B. Commerce,m,Manager/prof.,NA,0.6236658346250284,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Commerce,276
+2016,B. Commerce,m,Tech/trade,NA,0.027097438917253698,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Commerce,277
+2016,B. Commerce,m,Sales/admin/service,NA,0.2661134147584084,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Commerce,278
+2016,B. Commerce,m,Labourer/machine,NA,0.0362441251134235,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Commerce,279
+2016,B. Commerce,m,Not working,NA,0.046879186585885975,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Commerce,280
+2016,B. Education,m,Manager/prof.,NA,0.8825634487145972,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Education,286
+2016,B. Education,m,Tech/trade,NA,0.012823882580965775,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Education,287
+2016,B. Education,m,Sales/admin/service,NA,0.06807398367114458,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Education,288
+2016,B. Education,m,Labourer/machine,NA,0.017903907392041167,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Education,289
+2016,B. Education,m,Not working,NA,0.018634777641251283,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Education,290
+2016,B. Engineering,m,Manager/prof.,NA,0.7919645839833807,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Engineering,296
+2016,B. Engineering,m,Tech/trade,NA,0.07027874422529422,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Engineering,297
+2016,B. Engineering,m,Sales/admin/service,NA,0.07073895175507856,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Engineering,298
+2016,B. Engineering,m,Labourer/machine,NA,0.026732268957271876,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Engineering,299
+2016,B. Engineering,m,Not working,NA,0.04028545107897464,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Engineering,300
+2016,B. Humanities,m,Manager/prof.,NA,0.5004116301619739,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Humanities,306
+2016,B. Humanities,m,Tech/trade,NA,0.03257739378973929,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Humanities,307
+2016,B. Humanities,m,Sales/admin/service,NA,0.3163416201976817,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Humanities,308
+2016,B. Humanities,m,Labourer/machine,NA,0.043328484728432155,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Humanities,309
+2016,B. Humanities,m,Not working,NA,0.10734087112217294,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Humanities,310
+2016,B. IT,m,Manager/prof.,NA,0.7091632179290389,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,IT,316
+2016,B. IT,m,Tech/trade,NA,0.11012305323594829,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,IT,317
+2016,B. IT,m,Sales/admin/service,NA,0.09014466074003658,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,IT,318
+2016,B. IT,m,Labourer/machine,NA,0.03190889349757609,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,IT,319
+2016,B. IT,m,Not working,NA,0.05866017459740015,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,IT,320
+2016,B. Law,m,Manager/prof.,NA,0.8016777553626618,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Law,326
+2016,B. Law,m,Tech/trade,NA,0.0052536465427078065,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Law,327
+2016,B. Law,m,Sales/admin/service,NA,0.14319872524281427,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Law,328
+2016,B. Law,m,Labourer/machine,NA,0.00840326000228766,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Law,329
+2016,B. Law,m,Not working,NA,0.041466612849528496,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Law,330
+2016,B. Medicine,m,Manager/prof.,NA,0.9794654548148612,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Medicine,336
+2016,B. Medicine,m,Tech/trade,NA,0,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Medicine,337
+2016,B. Medicine,m,Sales/admin/service,NA,0.0054788483510045324,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Medicine,338
+2016,B. Medicine,m,Labourer/machine,NA,0,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Medicine,339
+2016,B. Medicine,m,Not working,NA,0.015055696834134227,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Medicine,340
+2016,B. Nursing,m,Manager/prof.,NA,0.8810564935970323,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Nursing,346
+2016,B. Nursing,m,Tech/trade,NA,0.0063168487636572745,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Nursing,347
+2016,B. Nursing,m,Sales/admin/service,NA,0.07507301225100133,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Nursing,348
+2016,B. Nursing,m,Labourer/machine,NA,0.004178753494010388,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Nursing,349
+2016,B. Nursing,m,Not working,NA,0.0333748918942987,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Nursing,350
+2016,B. Other health,m,Manager/prof.,NA,0.7400749051933199,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Other health,356
+2016,B. Other health,m,Tech/trade,NA,0.016093532835196957,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Other health,357
+2016,B. Other health,m,Sales/admin/service,NA,0.2061343262390732,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Other health,358
+2016,B. Other health,m,Labourer/machine,NA,0.012890084378659638,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Other health,359
+2016,B. Other health,m,Not working,NA,0.0248071513537503,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Other health,360
+2016,B. Performing Arts,m,Manager/prof.,NA,0.5578709491803429,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,366
+2016,B. Performing Arts,m,Tech/trade,NA,0.08412687083997897,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,367
+2016,B. Performing Arts,m,Sales/admin/service,NA,0.23090934491232584,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,368
+2016,B. Performing Arts,m,Labourer/machine,NA,0.049091612905903796,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,369
+2016,B. Performing Arts,m,Not working,NA,0.07800122216144849,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,370
+2016,B. Science (excl maths),m,Manager/prof.,NA,0.5598095821684994,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),376
+2016,B. Science (excl maths),m,Tech/trade,NA,0.11739965106621662,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),377
+2016,B. Science (excl maths),m,Sales/admin/service,NA,0.175888646359372,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),378
+2016,B. Science (excl maths),m,Labourer/machine,NA,0.07194119123284132,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),379
+2016,B. Science (excl maths),m,Not working,NA,0.0749609291730707,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),380
+2016,Y12,m,Manager/prof.,NA,0.20771295871596235,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,386
+2016,Y12,m,Tech/trade,NA,0.10456756256962539,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,387
+2016,Y12,m,Sales/admin/service,NA,0.25872160826336116,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,388
+2016,Y12,m,Labourer/machine,NA,0.2636771212693568,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,389
+2016,Y12,m,Not working,NA,0.16532074918169437,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,390
+2006,B. all,m,Manager/prof.,NA,0.7659675990600163,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,all,6
+2006,B. all,m,Tech/trade,NA,0.049671490416179104,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,all,7
+2006,B. all,m,Sales/admin/service,NA,0.1293317755603543,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,all,8
+2006,B. all,m,Labourer/machine,NA,0.019876731308772863,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,all,9
+2006,B. all,m,Not working,NA,0.03515240365467745,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,all,10
+2006,Y12,m,Manager/prof.,NA,0.2415847192721799,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,126
+2006,Y12,m,Tech/trade,NA,0.12150570283159194,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,127
+2006,Y12,m,Sales/admin/service,NA,0.26342888782725415,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,128
+2006,Y12,m,Labourer/machine,NA,0.26430151770377,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,129
+2006,Y12,m,Not working,NA,0.10917917236520404,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,130
+2011,B. all,m,Manager/prof.,NA,0.7481737267048998,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,all,136
+2011,B. all,m,Tech/trade,NA,0.04837043658645691,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,all,137
+2011,B. all,m,Sales/admin/service,NA,0.14312389810504292,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,all,138
+2011,B. all,m,Labourer/machine,NA,0.021405395803717996,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,all,139
+2011,B. all,m,Not working,NA,0.0389265427998824,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,all,140
+2011,Y12,m,Manager/prof.,NA,0.23166810583396777,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,256
+2011,Y12,m,Tech/trade,NA,0.12051962688229778,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,257
+2011,Y12,m,Sales/admin/service,NA,0.2593537087679757,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,258
+2011,Y12,m,Labourer/machine,NA,0.26217779373682815,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,259
+2011,Y12,m,Not working,NA,0.12628076477893058,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,260
+2016,B. all,m,Manager/prof.,NA,0.7024195643364489,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,all,266
+2016,B. all,m,Tech/trade,NA,0.05142976804031616,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,all,267
+2016,B. all,m,Sales/admin/service,NA,0.165911017386485,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,all,268
+2016,B. all,m,Labourer/machine,NA,0.032096314050256286,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,all,269
+2016,B. all,m,Not working,NA,0.048143336186493677,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,all,270
+2016,Y12,m,Manager/prof.,NA,0.20771295871596235,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,386
+2016,Y12,m,Tech/trade,NA,0.10456756256962539,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,387
+2016,Y12,m,Sales/admin/service,NA,0.25872160826336116,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,388
+2016,Y12,m,Labourer/machine,NA,0.2636771212693568,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,389
+2016,Y12,m,Not working,NA,0.16532074918169437,occ.2534.uniform,NA,m,2534,m,FALSE,NA,Male,TRUE,TRUE,Y12,390

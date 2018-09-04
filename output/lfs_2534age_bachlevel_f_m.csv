@@ -1,0 +1,421 @@
+year,qualfield,gender_detail,lfs,count,pc,group,married,agegroup,code,gender,childgroup,child,mfc,bach,uniform,field,.group
+2006,B. Commerce,f,"Employed, worked full-time",NA,0.670345464122025,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Commerce,11
+2006,B. Commerce,f,"Employed, worked part-time",NA,0.15681008802213453,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Commerce,12
+2006,B. Commerce,f,"Employed, away from work",NA,0.05553977505677283,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Commerce,13
+2006,B. Commerce,f,Not in the labour force,NA,0.10453506155161503,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Commerce,14
+2006,B. Commerce,f,Unemployed,NA,0.012769611247452574,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Commerce,15
+2006,B. Education,f,"Employed, worked full-time",NA,0.5383484363575726,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Education,21
+2006,B. Education,f,"Employed, worked part-time",NA,0.2531141352900772,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Education,22
+2006,B. Education,f,"Employed, away from work",NA,0.06357100860738116,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Education,23
+2006,B. Education,f,Not in the labour force,NA,0.13669713192175748,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Education,24
+2006,B. Education,f,Unemployed,NA,0.008269287823211633,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Education,25
+2006,B. Engineering,f,"Employed, worked full-time",NA,0.6957262655919813,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Engineering,31
+2006,B. Engineering,f,"Employed, worked part-time",NA,0.13717232138692717,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Engineering,32
+2006,B. Engineering,f,"Employed, away from work",NA,0.06637517645414442,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Engineering,33
+2006,B. Engineering,f,Not in the labour force,NA,0.09171352767210435,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Engineering,34
+2006,B. Engineering,f,Unemployed,NA,0.009012708894842805,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Engineering,35
+2006,B. Humanities,f,"Employed, worked full-time",NA,0.5771643253484853,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Humanities,41
+2006,B. Humanities,f,"Employed, worked part-time",NA,0.20298296899545404,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Humanities,42
+2006,B. Humanities,f,"Employed, away from work",NA,0.04974909099155608,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Humanities,43
+2006,B. Humanities,f,Not in the labour force,NA,0.1451013483655322,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Humanities,44
+2006,B. Humanities,f,Unemployed,NA,0.02500226629897236,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Humanities,45
+2006,B. IT,f,"Employed, worked full-time",NA,0.6711199133279678,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,IT,51
+2006,B. IT,f,"Employed, worked part-time",NA,0.13975877861454072,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,IT,52
+2006,B. IT,f,"Employed, away from work",NA,0.06340546128201491,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,IT,53
+2006,B. IT,f,Not in the labour force,NA,0.1065841452505302,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,IT,54
+2006,B. IT,f,Unemployed,NA,0.019131701524946365,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,IT,55
+2006,B. Law,f,"Employed, worked full-time",NA,0.7109307197470381,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Law,61
+2006,B. Law,f,"Employed, worked part-time",NA,0.12426440324257898,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Law,62
+2006,B. Law,f,"Employed, away from work",NA,0.07207940781000469,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Law,63
+2006,B. Law,f,Not in the labour force,NA,0.07985794319508115,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Law,64
+2006,B. Law,f,Unemployed,NA,0.012867526005297029,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Law,65
+2006,B. Medicine,f,"Employed, worked full-time",NA,0.6926896887356776,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Medicine,71
+2006,B. Medicine,f,"Employed, worked part-time",NA,0.1685543957630212,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Medicine,72
+2006,B. Medicine,f,"Employed, away from work",NA,0.07941796396110011,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Medicine,73
+2006,B. Medicine,f,Not in the labour force,NA,0.05850229694410077,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Medicine,74
+2006,B. Medicine,f,Unemployed,NA,8.356545961002786e-4,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Medicine,75
+2006,B. Nursing,f,"Employed, worked full-time",NA,0.42348000923013474,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Nursing,81
+2006,B. Nursing,f,"Employed, worked part-time",NA,0.3579454332702193,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Nursing,82
+2006,B. Nursing,f,"Employed, away from work",NA,0.1054750266190144,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Nursing,83
+2006,B. Nursing,f,Not in the labour force,NA,0.10539839202915681,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Nursing,84
+2006,B. Nursing,f,Unemployed,NA,0.007701138851474678,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Nursing,85
+2006,B. Other health,f,"Employed, worked full-time",NA,0.5600001271747762,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Other health,91
+2006,B. Other health,f,"Employed, worked part-time",NA,0.2625521197331066,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Other health,92
+2006,B. Other health,f,"Employed, away from work",NA,0.07272073758596925,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Other health,93
+2006,B. Other health,f,Not in the labour force,NA,0.0999395829804619,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Other health,94
+2006,B. Other health,f,Unemployed,NA,0.004787432525686094,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Other health,95
+2006,B. Performing Arts,f,"Employed, worked full-time",NA,0.44511801231582765,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,101
+2006,B. Performing Arts,f,"Employed, worked part-time",NA,0.35929576583571987,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,102
+2006,B. Performing Arts,f,"Employed, away from work",NA,0.03720217461477941,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,103
+2006,B. Performing Arts,f,Not in the labour force,NA,0.14133096202937306,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,104
+2006,B. Performing Arts,f,Unemployed,NA,0.01705308520430002,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,105
+2006,B. Science (excl maths),f,"Employed, worked full-time",NA,0.61918502478067,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),111
+2006,B. Science (excl maths),f,"Employed, worked part-time",NA,0.18084184219585334,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),112
+2006,B. Science (excl maths),f,"Employed, away from work",NA,0.06541425893667842,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),113
+2006,B. Science (excl maths),f,Not in the labour force,NA,0.11608812800170959,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),114
+2006,B. Science (excl maths),f,Unemployed,NA,0.018470746085088724,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),115
+2006,Y12,f,"Employed, worked full-time",NA,0.4057022504912258,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,121
+2006,Y12,f,"Employed, worked part-time",NA,0.23542512660398737,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,122
+2006,Y12,f,"Employed, away from work",NA,0.048528394268917904,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,123
+2006,Y12,f,Not in the labour force,NA,0.2799900496386733,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,124
+2006,Y12,f,Unemployed,NA,0.030354178997195627,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,125
+2011,B. Commerce,f,"Employed, worked full-time",NA,0.6580569437078136,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Commerce,141
+2011,B. Commerce,f,"Employed, worked part-time",NA,0.16096395670960928,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Commerce,142
+2011,B. Commerce,f,"Employed, away from work",NA,0.06570012966258959,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Commerce,143
+2011,B. Commerce,f,Not in the labour force,NA,0.09658136976944887,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Commerce,144
+2011,B. Commerce,f,Unemployed,NA,0.018697600150538674,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Commerce,145
+2011,B. Education,f,"Employed, worked full-time",NA,0.530793379952347,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Education,151
+2011,B. Education,f,"Employed, worked part-time",NA,0.25977616109112484,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Education,152
+2011,B. Education,f,"Employed, away from work",NA,0.07979684638403514,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Education,153
+2011,B. Education,f,Not in the labour force,NA,0.11976905200357313,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Education,154
+2011,B. Education,f,Unemployed,NA,0.009864560568919864,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Education,155
+2011,B. Engineering,f,"Employed, worked full-time",NA,0.669025000604355,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Engineering,161
+2011,B. Engineering,f,"Employed, worked part-time",NA,0.1389979222813284,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Engineering,162
+2011,B. Engineering,f,"Employed, away from work",NA,0.0866238177540934,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Engineering,163
+2011,B. Engineering,f,Not in the labour force,NA,0.08819261205930407,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Engineering,164
+2011,B. Engineering,f,Unemployed,NA,0.017160647300919176,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Engineering,165
+2011,B. Humanities,f,"Employed, worked full-time",NA,0.5756295086172284,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Humanities,171
+2011,B. Humanities,f,"Employed, worked part-time",NA,0.19570718551229288,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Humanities,172
+2011,B. Humanities,f,"Employed, away from work",NA,0.07050267450693487,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Humanities,173
+2011,B. Humanities,f,Not in the labour force,NA,0.13002573328638617,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Humanities,174
+2011,B. Humanities,f,Unemployed,NA,0.028134898077157727,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Humanities,175
+2011,B. IT,f,"Employed, worked full-time",NA,0.6715496421045986,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,IT,181
+2011,B. IT,f,"Employed, worked part-time",NA,0.13455690346641971,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,IT,182
+2011,B. IT,f,"Employed, away from work",NA,0.07169455343337479,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,IT,183
+2011,B. IT,f,Not in the labour force,NA,0.10248790243274734,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,IT,184
+2011,B. IT,f,Unemployed,NA,0.01971099856285959,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,IT,185
+2011,B. Law,f,"Employed, worked full-time",NA,0.7009132462087413,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Law,191
+2011,B. Law,f,"Employed, worked part-time",NA,0.14032627431357317,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Law,192
+2011,B. Law,f,"Employed, away from work",NA,0.07384988604581444,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Law,193
+2011,B. Law,f,Not in the labour force,NA,0.06873292189198524,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Law,194
+2011,B. Law,f,Unemployed,NA,0.01617767153988582,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Law,195
+2011,B. Medicine,f,"Employed, worked full-time",NA,0.7105519661680321,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Medicine,201
+2011,B. Medicine,f,"Employed, worked part-time",NA,0.14459030328938846,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Medicine,202
+2011,B. Medicine,f,"Employed, away from work",NA,0.0886743025468916,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Medicine,203
+2011,B. Medicine,f,Not in the labour force,NA,0.05244759544259081,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Medicine,204
+2011,B. Medicine,f,Unemployed,NA,0.003735832553097127,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Medicine,205
+2011,B. Nursing,f,"Employed, worked full-time",NA,0.4216248205922678,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Nursing,211
+2011,B. Nursing,f,"Employed, worked part-time",NA,0.35953015169761915,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Nursing,212
+2011,B. Nursing,f,"Employed, away from work",NA,0.12869058650243811,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Nursing,213
+2011,B. Nursing,f,Not in the labour force,NA,0.08152876294436036,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Nursing,214
+2011,B. Nursing,f,Unemployed,NA,0.008625678263314536,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Nursing,215
+2011,B. Other health,f,"Employed, worked full-time",NA,0.553081597822693,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Other health,221
+2011,B. Other health,f,"Employed, worked part-time",NA,0.26376820846548127,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Other health,222
+2011,B. Other health,f,"Employed, away from work",NA,0.08519031624184112,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Other health,223
+2011,B. Other health,f,Not in the labour force,NA,0.08999056189286637,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Other health,224
+2011,B. Other health,f,Unemployed,NA,0.007969315577118297,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Other health,225
+2011,B. Performing Arts,f,"Employed, worked full-time",NA,0.446739758371211,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,231
+2011,B. Performing Arts,f,"Employed, worked part-time",NA,0.3525665632631346,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,232
+2011,B. Performing Arts,f,"Employed, away from work",NA,0.04491106361488664,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,233
+2011,B. Performing Arts,f,Not in the labour force,NA,0.12532379038358138,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,234
+2011,B. Performing Arts,f,Unemployed,NA,0.030458824367186322,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,235
+2011,B. Science (excl maths),f,"Employed, worked full-time",NA,0.6152946825504837,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),241
+2011,B. Science (excl maths),f,"Employed, worked part-time",NA,0.18166434534594875,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),242
+2011,B. Science (excl maths),f,"Employed, away from work",NA,0.07813159326526108,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),243
+2011,B. Science (excl maths),f,Not in the labour force,NA,0.1082320781185938,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),244
+2011,B. Science (excl maths),f,Unemployed,NA,0.016677300719712653,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),245
+2011,Y12,f,"Employed, worked full-time",NA,0.4034890751566395,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,251
+2011,Y12,f,"Employed, worked part-time",NA,0.23065069802544294,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,252
+2011,Y12,f,"Employed, away from work",NA,0.054292197423389824,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,253
+2011,Y12,f,Not in the labour force,NA,0.27897508789984216,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,254
+2011,Y12,f,Unemployed,NA,0.03259294149468557,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,255
+2016,B. Commerce,f,"Employed, worked full-time",NA,0.6636559215498964,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Commerce,271
+2016,B. Commerce,f,"Employed, worked part-time",NA,0.16550030933461543,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Commerce,272
+2016,B. Commerce,f,"Employed, away from work",NA,0.06526198223323419,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Commerce,273
+2016,B. Commerce,f,Not in the labour force,NA,0.0845546951918039,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Commerce,274
+2016,B. Commerce,f,Unemployed,NA,0.021027091690450094,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Commerce,275
+2016,B. Education,f,"Employed, worked full-time",NA,0.5660410246733505,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Education,281
+2016,B. Education,f,"Employed, worked part-time",NA,0.2503179186685279,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Education,282
+2016,B. Education,f,"Employed, away from work",NA,0.08317128808239277,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Education,283
+2016,B. Education,f,Not in the labour force,NA,0.09140508224944141,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Education,284
+2016,B. Education,f,Unemployed,NA,0.009064686326287446,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Education,285
+2016,B. Engineering,f,"Employed, worked full-time",NA,0.6781152828850445,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Engineering,291
+2016,B. Engineering,f,"Employed, worked part-time",NA,0.12875277575641986,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Engineering,292
+2016,B. Engineering,f,"Employed, away from work",NA,0.07798797304003931,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Engineering,293
+2016,B. Engineering,f,Not in the labour force,NA,0.08391272952292059,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Engineering,294
+2016,B. Engineering,f,Unemployed,NA,0.031231238795575694,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Engineering,295
+2016,B. Humanities,f,"Employed, worked full-time",NA,0.5617260206287904,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Humanities,301
+2016,B. Humanities,f,"Employed, worked part-time",NA,0.22485413643158547,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Humanities,302
+2016,B. Humanities,f,"Employed, away from work",NA,0.06191782056118831,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Humanities,303
+2016,B. Humanities,f,Not in the labour force,NA,0.11997822550054205,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Humanities,304
+2016,B. Humanities,f,Unemployed,NA,0.03152379687789372,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Humanities,305
+2016,B. IT,f,"Employed, worked full-time",NA,0.6454103378600788,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,IT,311
+2016,B. IT,f,"Employed, worked part-time",NA,0.14066529934451247,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,IT,312
+2016,B. IT,f,"Employed, away from work",NA,0.060317141441013016,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,IT,313
+2016,B. IT,f,Not in the labour force,NA,0.10795836856872804,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,IT,314
+2016,B. IT,f,Unemployed,NA,0.045648852785667646,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,IT,315
+2016,B. Law,f,"Employed, worked full-time",NA,0.7075277314831534,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Law,321
+2016,B. Law,f,"Employed, worked part-time",NA,0.1367245945582601,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Law,322
+2016,B. Law,f,"Employed, away from work",NA,0.07855492772125877,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Law,323
+2016,B. Law,f,Not in the labour force,NA,0.05909004522988024,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Law,324
+2016,B. Law,f,Unemployed,NA,0.01810270100744744,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Law,325
+2016,B. Medicine,f,"Employed, worked full-time",NA,0.7353938298032668,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Medicine,331
+2016,B. Medicine,f,"Employed, worked part-time",NA,0.14413126697973508,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Medicine,332
+2016,B. Medicine,f,"Employed, away from work",NA,0.06112413571295822,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Medicine,333
+2016,B. Medicine,f,Not in the labour force,NA,0.05207674115159283,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Medicine,334
+2016,B. Medicine,f,Unemployed,NA,0.007274026352446994,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Medicine,335
+2016,B. Nursing,f,"Employed, worked full-time",NA,0.41946941703764606,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Nursing,341
+2016,B. Nursing,f,"Employed, worked part-time",NA,0.3858470608761624,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Nursing,342
+2016,B. Nursing,f,"Employed, away from work",NA,0.12654976215132702,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Nursing,343
+2016,B. Nursing,f,Not in the labour force,NA,0.05867403900123836,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Nursing,344
+2016,B. Nursing,f,Unemployed,NA,0.00945972093362619,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Nursing,345
+2016,B. Other health,f,"Employed, worked full-time",NA,0.56413227620985,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Other health,351
+2016,B. Other health,f,"Employed, worked part-time",NA,0.2693253241082105,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Other health,352
+2016,B. Other health,f,"Employed, away from work",NA,0.08343625314685754,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Other health,353
+2016,B. Other health,f,Not in the labour force,NA,0.07347280521859384,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Other health,354
+2016,B. Other health,f,Unemployed,NA,0.009633341316488127,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Other health,355
+2016,B. Performing Arts,f,"Employed, worked full-time",NA,0.43075728950944686,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,361
+2016,B. Performing Arts,f,"Employed, worked part-time",NA,0.38122142798053976,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,362
+2016,B. Performing Arts,f,"Employed, away from work",NA,0.047969804051793526,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,363
+2016,B. Performing Arts,f,Not in the labour force,NA,0.10641115357939282,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,364
+2016,B. Performing Arts,f,Unemployed,NA,0.03364032487882705,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Performing Arts,365
+2016,B. Science (excl maths),f,"Employed, worked full-time",NA,0.6020908329134363,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),371
+2016,B. Science (excl maths),f,"Employed, worked part-time",NA,0.2098655905232263,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),372
+2016,B. Science (excl maths),f,"Employed, away from work",NA,0.07349562839632506,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),373
+2016,B. Science (excl maths),f,Not in the labour force,NA,0.08879968583445927,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),374
+2016,B. Science (excl maths),f,Unemployed,NA,0.025748262332553014,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Science (excl maths),375
+2016,Y12,f,"Employed, worked full-time",NA,0.40617438458751526,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,381
+2016,Y12,f,"Employed, worked part-time",NA,0.23888515318603412,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,382
+2016,Y12,f,"Employed, away from work",NA,0.05514978664934429,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,383
+2016,Y12,f,Not in the labour force,NA,0.26098728922174036,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,384
+2016,Y12,f,Unemployed,NA,0.03880338635536595,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,385
+2006,B. all,f,"Employed, worked full-time",NA,0.5886596638892049,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,all,1
+2006,B. all,f,"Employed, worked part-time",NA,0.2193637329702522,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,all,2
+2006,B. all,f,"Employed, away from work",NA,0.06589045246571762,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,all,3
+2006,B. all,f,Not in the labour force,NA,0.11418571473213568,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,all,4
+2006,B. all,f,Unemployed,NA,0.011900435942689651,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,all,5
+2006,Y12,f,"Employed, worked full-time",NA,0.4057022504912258,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,121
+2006,Y12,f,"Employed, worked part-time",NA,0.23542512660398737,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,122
+2006,Y12,f,"Employed, away from work",NA,0.048528394268917904,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,123
+2006,Y12,f,Not in the labour force,NA,0.2799900496386733,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,124
+2006,Y12,f,Unemployed,NA,0.030354178997195627,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,125
+2011,B. all,f,"Employed, worked full-time",NA,0.587200262592047,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,all,131
+2011,B. all,f,"Employed, worked part-time",NA,0.2188998194753305,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,all,132
+2011,B. all,f,"Employed, away from work",NA,0.07771382273138179,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,all,133
+2011,B. all,f,Not in the labour force,NA,0.10086068051209679,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,all,134
+2011,B. all,f,Unemployed,NA,0.015325414689143908,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,all,135
+2011,Y12,f,"Employed, worked full-time",NA,0.4034890751566395,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,251
+2011,Y12,f,"Employed, worked part-time",NA,0.23065069802544294,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,252
+2011,Y12,f,"Employed, away from work",NA,0.054292197423389824,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,253
+2011,Y12,f,Not in the labour force,NA,0.27897508789984216,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,254
+2011,Y12,f,Unemployed,NA,0.03259294149468557,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,255
+2016,B. all,f,"Employed, worked full-time",NA,0.5934621595577915,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,all,261
+2016,B. all,f,"Employed, worked part-time",NA,0.22893205354933524,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,all,262
+2016,B. all,f,"Employed, away from work",NA,0.07749859988661315,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,all,263
+2016,B. all,f,Not in the labour force,NA,0.08265724013830136,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,all,264
+2016,B. all,f,Unemployed,NA,0.01744994686795878,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,all,265
+2016,Y12,f,"Employed, worked full-time",NA,0.40617438458751526,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,381
+2016,Y12,f,"Employed, worked part-time",NA,0.23888515318603412,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,382
+2016,Y12,f,"Employed, away from work",NA,0.05514978664934429,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,383
+2016,Y12,f,Not in the labour force,NA,0.26098728922174036,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,384
+2016,Y12,f,Unemployed,NA,0.03880338635536595,lfs.2534.uniform,NA,2534,f,f,FALSE,NA,NA,TRUE,TRUE,Y12,385
+2006,B. Commerce,m,"Employed, worked full-time",NA,0.8949040163619743,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Commerce,16
+2006,B. Commerce,m,"Employed, worked part-time",NA,0.04375549017147108,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Commerce,17
+2006,B. Commerce,m,"Employed, away from work",NA,0.03236313060910786,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Commerce,18
+2006,B. Commerce,m,Not in the labour force,NA,0.012368141555082856,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Commerce,19
+2006,B. Commerce,m,Unemployed,NA,0.01660922130236398,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Commerce,20
+2006,B. Education,m,"Employed, worked full-time",NA,0.8203683465023787,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Education,26
+2006,B. Education,m,"Employed, worked part-time",NA,0.12904728056022527,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Education,27
+2006,B. Education,m,"Employed, away from work",NA,0.032356341228194134,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Education,28
+2006,B. Education,m,Not in the labour force,NA,0.00966198946907471,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Education,29
+2006,B. Education,m,Unemployed,NA,0.0085660422401272,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Education,30
+2006,B. Engineering,m,"Employed, worked full-time",NA,0.9051121308101989,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Engineering,36
+2006,B. Engineering,m,"Employed, worked part-time",NA,0.0419104573583724,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Engineering,37
+2006,B. Engineering,m,"Employed, away from work",NA,0.0322268777294363,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Engineering,38
+2006,B. Engineering,m,Not in the labour force,NA,0.012735155772971254,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Engineering,39
+2006,B. Engineering,m,Unemployed,NA,0.008015378329021093,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Engineering,40
+2006,B. Humanities,m,"Employed, worked full-time",NA,0.7782589545221686,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Humanities,46
+2006,B. Humanities,m,"Employed, worked part-time",NA,0.13075629549299864,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Humanities,47
+2006,B. Humanities,m,"Employed, away from work",NA,0.033764378727304124,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Humanities,48
+2006,B. Humanities,m,Not in the labour force,NA,0.034429317431379565,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Humanities,49
+2006,B. Humanities,m,Unemployed,NA,0.022791053826149044,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Humanities,50
+2006,B. IT,m,"Employed, worked full-time",NA,0.8634554368015589,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,IT,56
+2006,B. IT,m,"Employed, worked part-time",NA,0.06347902554807501,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,IT,57
+2006,B. IT,m,"Employed, away from work",NA,0.03424963882815461,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,IT,58
+2006,B. IT,m,Not in the labour force,NA,0.01786226264873949,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,IT,59
+2006,B. IT,m,Unemployed,NA,0.02095363617347204,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,IT,60
+2006,B. Law,m,"Employed, worked full-time",NA,0.8934784965926754,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Law,66
+2006,B. Law,m,"Employed, worked part-time",NA,0.043541147371161104,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Law,67
+2006,B. Law,m,"Employed, away from work",NA,0.03460791534712945,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Law,68
+2006,B. Law,m,Not in the labour force,NA,0.018176175940786413,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Law,69
+2006,B. Law,m,Unemployed,NA,0.010196264748247627,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Law,70
+2006,B. Medicine,m,"Employed, worked full-time",NA,0.8843036486277401,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Medicine,76
+2006,B. Medicine,m,"Employed, worked part-time",NA,0.054215049651607436,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Medicine,77
+2006,B. Medicine,m,"Employed, away from work",NA,0.048970763560603536,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Medicine,78
+2006,B. Medicine,m,Not in the labour force,NA,0.012510538160048938,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Medicine,79
+2006,B. Medicine,m,Unemployed,NA,0,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Medicine,80
+2006,B. Nursing,m,"Employed, worked full-time",NA,0.7954289381399074,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Nursing,86
+2006,B. Nursing,m,"Employed, worked part-time",NA,0.1375849026605433,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Nursing,87
+2006,B. Nursing,m,"Employed, away from work",NA,0.05841610553662743,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Nursing,88
+2006,B. Nursing,m,Not in the labour force,NA,0.008570053662921823,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Nursing,89
+2006,B. Nursing,m,Unemployed,NA,0,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Nursing,90
+2006,B. Other health,m,"Employed, worked full-time",NA,0.8784348760244992,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Other health,96
+2006,B. Other health,m,"Employed, worked part-time",NA,0.07931367753726618,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Other health,97
+2006,B. Other health,m,"Employed, away from work",NA,0.030462722868195548,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Other health,98
+2006,B. Other health,m,Not in the labour force,NA,0.00749526086301283,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Other health,99
+2006,B. Other health,m,Unemployed,NA,0.00429346270702624,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Other health,100
+2006,B. Performing Arts,m,"Employed, worked full-time",NA,0.5807256673884683,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,106
+2006,B. Performing Arts,m,"Employed, worked part-time",NA,0.33576328846162157,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,107
+2006,B. Performing Arts,m,"Employed, away from work",NA,0.027555659285312714,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,108
+2006,B. Performing Arts,m,Not in the labour force,NA,0.0242495831328598,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,109
+2006,B. Performing Arts,m,Unemployed,NA,0.03170580173173765,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,110
+2006,B. Science (excl maths),m,"Employed, worked full-time",NA,0.8504336942707078,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),116
+2006,B. Science (excl maths),m,"Employed, worked part-time",NA,0.08084404583464423,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),117
+2006,B. Science (excl maths),m,"Employed, away from work",NA,0.03338677561240841,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),118
+2006,B. Science (excl maths),m,Not in the labour force,NA,0.017661191561534464,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),119
+2006,B. Science (excl maths),m,Unemployed,NA,0.017674292720705084,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),120
+2006,Y12,m,"Employed, worked full-time",NA,0.7482670226227037,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,126
+2006,Y12,m,"Employed, worked part-time",NA,0.09865228437463296,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,127
+2006,Y12,m,"Employed, away from work",NA,0.050197407212028096,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,128
+2006,Y12,m,Not in the labour force,NA,0.06069511064692633,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,129
+2006,Y12,m,Unemployed,NA,0.04218817514370891,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,130
+2011,B. Commerce,m,"Employed, worked full-time",NA,0.8817450666655406,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Commerce,146
+2011,B. Commerce,m,"Employed, worked part-time",NA,0.0529396851893106,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Commerce,147
+2011,B. Commerce,m,"Employed, away from work",NA,0.029063158665025842,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Commerce,148
+2011,B. Commerce,m,Not in the labour force,NA,0.015963207930526885,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Commerce,149
+2011,B. Commerce,m,Unemployed,NA,0.020288881549595992,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Commerce,150
+2011,B. Education,m,"Employed, worked full-time",NA,0.8235279681461338,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Education,156
+2011,B. Education,m,"Employed, worked part-time",NA,0.1339716045786479,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Education,157
+2011,B. Education,m,"Employed, away from work",NA,0.026610090251319496,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Education,158
+2011,B. Education,m,Not in the labour force,NA,0.008452709652257348,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Education,159
+2011,B. Education,m,Unemployed,NA,0.007437627371641407,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Education,160
+2011,B. Engineering,m,"Employed, worked full-time",NA,0.9027318908013213,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Engineering,166
+2011,B. Engineering,m,"Employed, worked part-time",NA,0.04494566444629424,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Engineering,167
+2011,B. Engineering,m,"Employed, away from work",NA,0.028676551788820767,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Engineering,168
+2011,B. Engineering,m,Not in the labour force,NA,0.011855011862600661,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Engineering,169
+2011,B. Engineering,m,Unemployed,NA,0.011790881100963008,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Engineering,170
+2011,B. Humanities,m,"Employed, worked full-time",NA,0.7682114199899589,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Humanities,176
+2011,B. Humanities,m,"Employed, worked part-time",NA,0.14492170902161725,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Humanities,177
+2011,B. Humanities,m,"Employed, away from work",NA,0.020251741596706754,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Humanities,178
+2011,B. Humanities,m,Not in the labour force,NA,0.035790056986088524,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Humanities,179
+2011,B. Humanities,m,Unemployed,NA,0.0308250724056286,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Humanities,180
+2011,B. IT,m,"Employed, worked full-time",NA,0.8700364303456097,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,IT,186
+2011,B. IT,m,"Employed, worked part-time",NA,0.0589722667647019,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,IT,187
+2011,B. IT,m,"Employed, away from work",NA,0.02873727520633272,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,IT,188
+2011,B. IT,m,Not in the labour force,NA,0.02139297015304187,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,IT,189
+2011,B. IT,m,Unemployed,NA,0.020861057530313788,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,IT,190
+2011,B. Law,m,"Employed, worked full-time",NA,0.8784792269302302,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Law,196
+2011,B. Law,m,"Employed, worked part-time",NA,0.047648228969154396,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Law,197
+2011,B. Law,m,"Employed, away from work",NA,0.036740459918727576,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Law,198
+2011,B. Law,m,Not in the labour force,NA,0.016445884129856838,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Law,199
+2011,B. Law,m,Unemployed,NA,0.020686200052030992,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Law,200
+2011,B. Medicine,m,"Employed, worked full-time",NA,0.8921610030886595,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Medicine,206
+2011,B. Medicine,m,"Employed, worked part-time",NA,0.05012244564731554,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Medicine,207
+2011,B. Medicine,m,"Employed, away from work",NA,0.04380352319585966,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Medicine,208
+2011,B. Medicine,m,Not in the labour force,NA,0.010695010050147287,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Medicine,209
+2011,B. Medicine,m,Unemployed,NA,0.003218018018018018,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Medicine,210
+2011,B. Nursing,m,"Employed, worked full-time",NA,0.7874975474711424,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Nursing,216
+2011,B. Nursing,m,"Employed, worked part-time",NA,0.1505028338318115,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Nursing,217
+2011,B. Nursing,m,"Employed, away from work",NA,0.048320715695652106,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Nursing,218
+2011,B. Nursing,m,Not in the labour force,NA,0.012012236334727287,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Nursing,219
+2011,B. Nursing,m,Unemployed,NA,0.0016666666666666666,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Nursing,220
+2011,B. Other health,m,"Employed, worked full-time",NA,0.8563506211020075,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Other health,226
+2011,B. Other health,m,"Employed, worked part-time",NA,0.09990949620938427,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Other health,227
+2011,B. Other health,m,"Employed, away from work",NA,0.032222177235172275,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Other health,228
+2011,B. Other health,m,Not in the labour force,NA,0.005404015686750554,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Other health,229
+2011,B. Other health,m,Unemployed,NA,0.006113689766685347,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Other health,230
+2011,B. Performing Arts,m,"Employed, worked full-time",NA,0.5687195679979778,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,236
+2011,B. Performing Arts,m,"Employed, worked part-time",NA,0.34848615075365247,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,237
+2011,B. Performing Arts,m,"Employed, away from work",NA,0.03156670037547931,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,238
+2011,B. Performing Arts,m,Not in the labour force,NA,0.02187576194181866,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,239
+2011,B. Performing Arts,m,Unemployed,NA,0.02935181893107179,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,240
+2011,B. Science (excl maths),m,"Employed, worked full-time",NA,0.8370726161266743,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),246
+2011,B. Science (excl maths),m,"Employed, worked part-time",NA,0.08775270148816457,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),247
+2011,B. Science (excl maths),m,"Employed, away from work",NA,0.03203490417434356,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),248
+2011,B. Science (excl maths),m,Not in the labour force,NA,0.019439695784102866,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),249
+2011,B. Science (excl maths),m,Unemployed,NA,0.023700082426714727,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),250
+2011,Y12,m,"Employed, worked full-time",NA,0.7289186864521786,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,256
+2011,Y12,m,"Employed, worked part-time",NA,0.10394805244220415,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,257
+2011,Y12,m,"Employed, away from work",NA,0.04669184097031873,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,258
+2011,Y12,m,Not in the labour force,NA,0.07409437300693117,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,259
+2011,Y12,m,Unemployed,NA,0.04634704712836739,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,260
+2016,B. Commerce,m,"Employed, worked full-time",NA,0.8673370676245394,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Commerce,276
+2016,B. Commerce,m,"Employed, worked part-time",NA,0.06515308107200206,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Commerce,277
+2016,B. Commerce,m,"Employed, away from work",NA,0.024213474437644426,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Commerce,278
+2016,B. Commerce,m,Not in the labour force,NA,0.018975284190536377,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Commerce,279
+2016,B. Commerce,m,Unemployed,NA,0.024321092675277687,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Commerce,280
+2016,B. Education,m,"Employed, worked full-time",NA,0.8373004258810242,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Education,286
+2016,B. Education,m,"Employed, worked part-time",NA,0.12541115422484767,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Education,287
+2016,B. Education,m,"Employed, away from work",NA,0.020104587268807077,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Education,288
+2016,B. Education,m,Not in the labour force,NA,0.010285398759348242,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Education,289
+2016,B. Education,m,Unemployed,NA,0.006898433865972849,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Education,290
+2016,B. Engineering,m,"Employed, worked full-time",NA,0.883855395635807,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Engineering,296
+2016,B. Engineering,m,"Employed, worked part-time",NA,0.054646284874127864,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Engineering,297
+2016,B. Engineering,m,"Employed, away from work",NA,0.026378219097249935,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Engineering,298
+2016,B. Engineering,m,Not in the labour force,NA,0.014654366225175599,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Engineering,299
+2016,B. Engineering,m,Unemployed,NA,0.020465734167639665,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Engineering,300
+2016,B. Humanities,m,"Employed, worked full-time",NA,0.7144053047577189,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Humanities,306
+2016,B. Humanities,m,"Employed, worked part-time",NA,0.1714395690965312,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Humanities,307
+2016,B. Humanities,m,"Employed, away from work",NA,0.0158473399488177,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Humanities,308
+2016,B. Humanities,m,Not in the labour force,NA,0.04900972532951567,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Humanities,309
+2016,B. Humanities,m,Unemployed,NA,0.04929806086741657,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Humanities,310
+2016,B. IT,m,"Employed, worked full-time",NA,0.8453881693501961,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,IT,316
+2016,B. IT,m,"Employed, worked part-time",NA,0.07124254675601263,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,IT,317
+2016,B. IT,m,"Employed, away from work",NA,0.02642809954781222,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,IT,318
+2016,B. IT,m,Not in the labour force,NA,0.026332302035138862,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,IT,319
+2016,B. IT,m,Unemployed,NA,0.030608882310840153,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,IT,320
+2016,B. Law,m,"Employed, worked full-time",NA,0.8703202293606818,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Law,326
+2016,B. Law,m,"Employed, worked part-time",NA,0.06407999549075281,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Law,327
+2016,B. Law,m,"Employed, away from work",NA,0.02701467152077264,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Law,328
+2016,B. Law,m,Not in the labour force,NA,0.014958450610948687,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Law,329
+2016,B. Law,m,Unemployed,NA,0.02362665301684408,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Law,330
+2016,B. Medicine,m,"Employed, worked full-time",NA,0.900204871377848,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Medicine,336
+2016,B. Medicine,m,"Employed, worked part-time",NA,0.05445352051445341,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Medicine,337
+2016,B. Medicine,m,"Employed, away from work",NA,0.032377578836531314,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Medicine,338
+2016,B. Medicine,m,Not in the labour force,NA,0.009335976894188426,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Medicine,339
+2016,B. Medicine,m,Unemployed,NA,0.0036280523769788944,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Medicine,340
+2016,B. Nursing,m,"Employed, worked full-time",NA,0.7305255762157292,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Nursing,346
+2016,B. Nursing,m,"Employed, worked part-time",NA,0.20376582551844952,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Nursing,347
+2016,B. Nursing,m,"Employed, away from work",NA,0.039700862132990226,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Nursing,348
+2016,B. Nursing,m,Not in the labour force,NA,0.018768291247031246,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Nursing,349
+2016,B. Nursing,m,Unemployed,NA,0.007239444885799802,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Nursing,350
+2016,B. Other health,m,"Employed, worked full-time",NA,0.847443043095135,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Other health,356
+2016,B. Other health,m,"Employed, worked part-time",NA,0.10919301929591191,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Other health,357
+2016,B. Other health,m,"Employed, away from work",NA,0.025970676267185907,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Other health,358
+2016,B. Other health,m,Not in the labour force,NA,0.0102292531636837,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Other health,359
+2016,B. Other health,m,Unemployed,NA,0.00716400817808356,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Other health,360
+2016,B. Performing Arts,m,"Employed, worked full-time",NA,0.5546482829379467,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,366
+2016,B. Performing Arts,m,"Employed, worked part-time",NA,0.35586803373776,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,367
+2016,B. Performing Arts,m,"Employed, away from work",NA,0.02256816645930812,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,368
+2016,B. Performing Arts,m,Not in the labour force,NA,0.036325247496429874,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,369
+2016,B. Performing Arts,m,Unemployed,NA,0.03059026936855532,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Performing Arts,370
+2016,B. Science (excl maths),m,"Employed, worked full-time",NA,0.7908484725725793,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),376
+2016,B. Science (excl maths),m,"Employed, worked part-time",NA,0.11544584177304887,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),377
+2016,B. Science (excl maths),m,"Employed, away from work",NA,0.023156543382142594,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),378
+2016,B. Science (excl maths),m,Not in the labour force,NA,0.03032233197291121,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),379
+2016,B. Science (excl maths),m,Unemployed,NA,0.040226810299318065,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Science (excl maths),380
+2016,Y12,m,"Employed, worked full-time",NA,0.673237950253077,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,386
+2016,Y12,m,"Employed, worked part-time",NA,0.1289878348653779,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,387
+2016,Y12,m,"Employed, away from work",NA,0.03946448531159997,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,388
+2016,Y12,m,Not in the labour force,NA,0.09837614669405159,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,389
+2016,Y12,m,Unemployed,NA,0.0599335828758935,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,390
+2006,B. all,m,"Employed, worked full-time",NA,0.8641957813834854,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,all,6
+2006,B. all,m,"Employed, worked part-time",NA,0.07286979702796655,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,all,7
+2006,B. all,m,"Employed, away from work",NA,0.0332634885443029,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,all,8
+2006,B. all,m,Not in the labour force,NA,0.014786159670064546,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,all,9
+2006,B. all,m,Unemployed,NA,0.014884773374180574,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,all,10
+2006,Y12,m,"Employed, worked full-time",NA,0.7482670226227037,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,126
+2006,Y12,m,"Employed, worked part-time",NA,0.09865228437463296,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,127
+2006,Y12,m,"Employed, away from work",NA,0.050197407212028096,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,128
+2006,Y12,m,Not in the labour force,NA,0.06069511064692633,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,129
+2006,Y12,m,Unemployed,NA,0.04218817514370891,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,130
+2011,B. all,m,"Employed, worked full-time",NA,0.8591773458688935,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,all,136
+2011,B. all,m,"Employed, worked part-time",NA,0.0775325434082033,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,all,137
+2011,B. all,m,"Employed, away from work",NA,0.028936358362336212,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,all,138
+2011,B. all,m,Not in the labour force,NA,0.016535617856304002,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,all,139
+2011,B. all,m,Unemployed,NA,0.017818134504262947,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,all,140
+2011,Y12,m,"Employed, worked full-time",NA,0.7289186864521786,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,256
+2011,Y12,m,"Employed, worked part-time",NA,0.10394805244220415,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,257
+2011,Y12,m,"Employed, away from work",NA,0.04669184097031873,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,258
+2011,Y12,m,Not in the labour force,NA,0.07409437300693117,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,259
+2011,Y12,m,Unemployed,NA,0.04634704712836739,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,260
+2016,B. all,m,"Employed, worked full-time",NA,0.8395333081884971,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,all,266
+2016,B. all,m,"Employed, worked part-time",NA,0.0914678220856131,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,all,267
+2016,B. all,m,"Employed, away from work",NA,0.02489789106560616,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,all,268
+2016,B. all,m,Not in the labour force,NA,0.01972391232462354,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,all,269
+2016,B. all,m,Unemployed,NA,0.024377066335660013,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,all,270
+2016,Y12,m,"Employed, worked full-time",NA,0.673237950253077,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,386
+2016,Y12,m,"Employed, worked part-time",NA,0.1289878348653779,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,387
+2016,Y12,m,"Employed, away from work",NA,0.03946448531159997,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,388
+2016,Y12,m,Not in the labour force,NA,0.09837614669405159,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,389
+2016,Y12,m,Unemployed,NA,0.0599335828758935,lfs.2534.uniform,NA,2534,m,m,FALSE,NA,Male,TRUE,TRUE,Y12,390

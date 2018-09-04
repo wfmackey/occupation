@@ -1,8 +1,8 @@
 ## Census data:
 
-library(tidyverse)
 library(gridExtra)
-setwd("~/Dropbox (Grattan Institute)/Mapping Australian higher ed 2018/Mapping 2018 data/census/occupation")
+library(tidyverse)
+
 
 # Define some Grattan-y colours:
 glightyellow <- "#FFE07F"
@@ -12,12 +12,12 @@ gdark <- "#D4582A"
 gred <- "#A02226"
 gdarkest <- "#621214"
 
-ggrey <- "#828282"
+ggrey <- "#AEAEAE"
 gblack <- "#141413"
 
 ## Define groups
 married.def <- c("Married in a registered marriage", "Married in a de facto marriage")
-foe.table <- read_csv("foe_table.csv") %>% select(-X3)
+foe.table <- read_csv("data/foe_table.csv") %>% select(-X3)
 
 
 
@@ -57,8 +57,8 @@ fields <- c("Y12",
 ##Read in 2006 field data
 x <- "06"
 
-lfs06 <- read_csv(paste0("sheets/",x,"_long_bach_lfs.csv"), n_max = 478848) %>% 
-  dplyr::rename(qual = "QALLP - 1 Digit Level",
+lfs06 <- read_csv(paste0("data/",x,"_long_bach_lfs.csv"), n_max = 478848) %>% 
+  rename(qual = "QALLP - 1 Digit Level",
          age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          foe = "QALFP - 4 Digit Level",
@@ -85,7 +85,7 @@ lfs06 <- read_csv(paste0("sheets/",x,"_long_bach_lfs.csv"), n_max = 478848) %>%
          -marriage,
          -total) %>% 
   left_join(., foe.table, by = "foe") %>%  ## add Grattan fields 
-  dplyr::rename(field = broad, 
+  rename(field = broad, 
          foe4digit = foe) %>% 
   filter(lfs != "Not applicable" & lfs != "Not stated", 
          field != "Not applicable" & field != "Not stated")
@@ -94,8 +94,8 @@ lfs06 <- read_csv(paste0("sheets/",x,"_long_bach_lfs.csv"), n_max = 478848) %>%
 
 
 # 2006 Year 12 data  
-lfs06.y12 <- read_csv(paste0("sheets/",x,"_long_y12_lfs.csv")) %>% 
-  dplyr::rename(age = "AGEP Age",
+lfs06.y12 <- read_csv(paste0("data/",x,"_long_y12_lfs.csv")) %>% 
+  rename(age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          lfs = "LFSP Labour Force Status",
          f.nochild = "None",
@@ -131,8 +131,8 @@ lfs06 <- bind_rows(lfs06, lfs06.y12)
 ##Read in 2011 data
 x <- 11
 
-lfs11 <- read_csv(paste0("sheets/",x,"_long_bach_lfs.csv")) %>% 
-  dplyr::rename(qual = "QALLP Non-School Qualification: Level of Education",
+lfs11 <- read_csv(paste0("data/",x,"_long_bach_lfs.csv")) %>% 
+  rename(qual = "QALLP Non-School Qualification: Level of Education",
          age = "AGEP Age in Single Years",
          marriage = "MDCP Social Marital Status",
          foe = "QALFP Non-School Qualification: Field of Study",
@@ -161,15 +161,15 @@ lfs11 <- read_csv(paste0("sheets/",x,"_long_bach_lfs.csv")) %>%
          -marriage,
          -total) %>% 
   left_join(., foe.table, by = "foe") %>%  ## add Grattan fields 
-  dplyr::rename(field = broad, 
-         foe4digit = foe) %>% 
+         rename(field = broad, 
+                foe4digit = foe) %>% 
   filter(lfs != "Not applicable" & lfs != "Not stated", 
          field != "Not applicable" & field != "Not stated")
 
 
 # 2011 Year 12 data 
-lfs11.y12 <- read_csv(paste0("sheets/",x,"_long_y12_lfs.csv")) %>% 
-  dplyr::rename(age = "AGEP Age",
+lfs11.y12 <- read_csv(paste0("data/",x,"_long_y12_lfs.csv")) %>% 
+  rename(age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          lfs = "LFSP Labour Force Status",
          f.nochild = "No children",
@@ -206,8 +206,8 @@ lfs11 <- bind_rows(lfs11, lfs11.y12)
 ## Read in 2016 data
 x <- 16
 # Field
-lfs16 <- read_csv(paste0("sheets/",x,"_long_bach_lfs.csv")) %>% 
-  dplyr::rename(qual = "QALLP - 1 Digit Level",
+lfs16 <- read_csv(paste0("data/",x,"_long_bach_lfs.csv")) %>% 
+  rename(qual = "QALLP - 1 Digit Level",
          age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          foe = "QALFP - 4 Digit Level",
@@ -245,8 +245,8 @@ lfs16 <- read_csv(paste0("sheets/",x,"_long_bach_lfs.csv")) %>%
 
 
 # 2016 Year 12 data  
-lfs16.y12 <- read_csv(paste0("sheets/",x,"_long_y12_lfs.csv")) %>% 
-  dplyr::rename(age = "AGEP Age",
+lfs16.y12 <- read_csv(paste0("data/",x,"_long_y12_lfs.csv")) %>% 
+  rename(age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          lfs = "LFSP Labour Force Status",
          f.nochild = "No children",
@@ -314,8 +314,8 @@ lfs <- lfs %>% mutate(lfs = factor(lfs, levels = lfs.order))
 ##Read in 2006 field data
 x <- "06"
 
-occ06 <- read_csv(paste0("sheets/",x,"_long_bach_occ.csv"), n_max = 658416) %>% 
-  dplyr::rename(qual = "QALLP - 1 Digit Level",
+occ06 <- read_csv(paste0("data/",x,"_long_bach_occ.csv"), n_max = 658416) %>% 
+  rename(qual = "QALLP - 1 Digit Level",
          age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          foe = "QALFP - 4 Digit Level",
@@ -342,7 +342,7 @@ occ06 <- read_csv(paste0("sheets/",x,"_long_bach_occ.csv"), n_max = 658416) %>%
          -marriage,
          -total) %>% 
   left_join(., foe.table, by = "foe") %>%  ## add Grattan fields 
-  dplyr::rename(field = broad, 
+  rename(field = broad, 
          foe4digit = foe) %>% 
   filter(occ != "Inadequately described" & occ != "Not stated", 
          field != "Not applicable" & field != "Not stated")
@@ -350,8 +350,8 @@ occ06 <- read_csv(paste0("sheets/",x,"_long_bach_occ.csv"), n_max = 658416) %>%
 
 
 # 2006 Year 12 data  
-occ06.y12 <- read_csv(paste0("sheets/",x,"_long_y12_occ.csv"))%>% 
-  dplyr::rename(age = "AGEP Age",
+occ06.y12 <- read_csv(paste0("data/",x,"_long_y12_occ.csv"))%>% 
+  rename(age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          occ = "OCC06P Occupation 06 (ANZSCO)",
          f.nochild = "None",
@@ -386,8 +386,8 @@ occ06 <- bind_rows(occ06, occ06.y12)
 ##Read in 2011 occupation field data
 x <- "11"
 
-occ11 <- read_csv(paste0("sheets/",x,"_long_bach_occ.csv"), n_max = 658416) %>% 
-  dplyr::rename(qual = "QALLP - 1 Digit Level",
+occ11 <- read_csv(paste0("data/",x,"_long_bach_occ.csv"), n_max = 658416) %>% 
+  rename(qual = "QALLP - 1 Digit Level",
          age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          foe = "QALFP - 4 Digit Level",
@@ -424,8 +424,8 @@ occ11 <- read_csv(paste0("sheets/",x,"_long_bach_occ.csv"), n_max = 658416) %>%
 
 
 # 2011 occupation Year 12 data  
-occ11.y12 <- read_csv(paste0("sheets/",x,"_long_y12_occ.csv")) %>%  
-  dplyr::rename(age = "AGEP Age in Single Years",
+occ11.y12 <- read_csv(paste0("data/",x,"_long_y12_occ.csv")) %>%  
+  rename(age = "AGEP Age in Single Years",
          marriage = "MDCP Social Marital Status",
          occ = "OCCP Occupation",
          f.nochild = "No children",
@@ -462,8 +462,8 @@ occ11 <- bind_rows(occ11, occ11.y12)
 ##Read in 2016 occupation field data
 x <- "16"
 
-occ16 <- read_csv(paste0("sheets/",x,"_long_bach_occ.csv"), n_max = 658416) %>% 
-  dplyr::rename(qual = "QALLP - 1 Digit Level",
+occ16 <- read_csv(paste0("data/",x,"_long_bach_occ.csv"), n_max = 658416) %>% 
+  rename(qual = "QALLP - 1 Digit Level",
          age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          foe = "QALFP - 4 Digit Level",
@@ -500,8 +500,8 @@ occ16 <- read_csv(paste0("sheets/",x,"_long_bach_occ.csv"), n_max = 658416) %>%
 
 
 # 2016 occupation Year 12 data  
-occ16.y12 <- read_csv(paste0("sheets/",x,"_long_y12_occ.csv")) %>%  
-  dplyr::rename(age = "AGEP Age",
+occ16.y12 <- read_csv(paste0("data/",x,"_long_y12_occ.csv")) %>%  
+  rename(age = "AGEP Age",
          marriage = "MDCP Social Marital Status",
          occ = "OCC06P Occupation 06 (ANZSCO)",
          f.nochild = "No children",
@@ -574,7 +574,7 @@ occgroup <- as_tibble(data.frame("occ" = occlist, "occgroup" = occgrouplist))
 
 # Then merge into occ data, and rename for ease of use
 occ <- left_join(occ, occgroup, by = "occ") %>% 
-  dplyr::rename(occ.detail = occ,
+  rename(occ.detail = occ,
          occ = occgroup)
 
 # And change factor levels of occ to something more logical
@@ -1356,7 +1356,7 @@ lfs.chart <- function(age = "all",
   
   current.chart.name <- paste0("lfs_",age,"age_",level,"level_",pair[1],"_",pair[2],".pdf")
   
-  ggsave(current.chart.name, plot = last_plot(), device = "pdf", path = "plots",
+  ggsave(paste0("atlas/plots/",current.chart.name), plot = last_plot(), device = "pdf", path = "plots",
          scale = 1, width = 297, height = 210, units = "mm",
          dpi = 320, limitsize = TRUE)
   
@@ -1498,7 +1498,7 @@ occ.chart <- function(age = "all",
   
   current.chart.name <- paste0("occ_",age,"age_",level,"level_",pair[1],"_",pair[2],".pdf")
   
-  ggsave(current.chart.name, plot = last_plot(), device = "pdf", path = "plots",
+  ggsave(paste0("atlas/plots/",current.chart.name), plot = last_plot(), device = "pdf", path = "plots",
          scale = 1, width = 297, height = 210, units = "mm",
          dpi = 320, limitsize = TRUE)
   
@@ -1694,13 +1694,13 @@ flex.chart <- function(type = lfs,
   
   if (exportdata == TRUE) {
   write_csv(current.chart$data,
-            path = paste0("chartdata/",chart.name,".csv"))
+            path = paste0("output/",chart.name,".csv"))
   }
   
   if (display == TRUE) plot(current.chart)
   
   if (save == TRUE) {
-    ggsave(paste0(chart.name,".pdf"), 
+    ggsave(paste0("atlas/",chart.name,".pdf"), 
            plot = last_plot(), device = "pdf", path = "plots",
            scale = 1, width = 297, height = 210, units = "mm",
            dpi = 320, limitsize = TRUE)

@@ -1,0 +1,421 @@
+year,qualfield,gender_detail,occ,count,pc,group,married,code,agegroup,gender,childgroup,child,mfc,bach,uniform,field,.group
+2006,B. Commerce,f.haschild,Manager/prof.,NA,0.40967813123135133,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,11
+2006,B. Commerce,f.haschild,Tech/trade,NA,0.013727418122957559,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,12
+2006,B. Commerce,f.haschild,Sales/admin/service,NA,0.2546950768449295,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,13
+2006,B. Commerce,f.haschild,Labourer/machine,NA,0.02333933275082725,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,14
+2006,B. Commerce,f.haschild,Not working,NA,0.2985600410499344,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,15
+2006,B. Education,f.haschild,Manager/prof.,NA,0.5797137782516384,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,21
+2006,B. Education,f.haschild,Tech/trade,NA,0.006148048877446938,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,22
+2006,B. Education,f.haschild,Sales/admin/service,NA,0.08150314040804763,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,23
+2006,B. Education,f.haschild,Labourer/machine,NA,0.008840997559465703,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,24
+2006,B. Education,f.haschild,Not working,NA,0.3237940349034014,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,25
+2006,B. Engineering,f.haschild,Manager/prof.,NA,0.482142653220399,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,31
+2006,B. Engineering,f.haschild,Tech/trade,NA,0.06001411971175745,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,32
+2006,B. Engineering,f.haschild,Sales/admin/service,NA,0.19349340587045433,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,33
+2006,B. Engineering,f.haschild,Labourer/machine,NA,0.04009790541371746,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,34
+2006,B. Engineering,f.haschild,Not working,NA,0.22425191578367176,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,35
+2006,B. Humanities,f.haschild,Manager/prof.,NA,0.24613023825083852,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,41
+2006,B. Humanities,f.haschild,Tech/trade,NA,0.0347610106526016,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,42
+2006,B. Humanities,f.haschild,Sales/admin/service,NA,0.32771512628081984,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,43
+2006,B. Humanities,f.haschild,Labourer/machine,NA,0.030119005327937716,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,44
+2006,B. Humanities,f.haschild,Not working,NA,0.3612746194878023,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,45
+2006,B. IT,f.haschild,Manager/prof.,NA,0.4383734371678256,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,51
+2006,B. IT,f.haschild,Tech/trade,NA,0.06089378548875711,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,52
+2006,B. IT,f.haschild,Sales/admin/service,NA,0.22477046614490584,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,53
+2006,B. IT,f.haschild,Labourer/machine,NA,0.018818931341091402,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,54
+2006,B. IT,f.haschild,Not working,NA,0.25714337985742003,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,55
+2006,B. Law,f.haschild,Manager/prof.,NA,0.48338632922663016,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,61
+2006,B. Law,f.haschild,Tech/trade,NA,0.01036916634365018,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,62
+2006,B. Law,f.haschild,Sales/admin/service,NA,0.19541895517515676,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,63
+2006,B. Law,f.haschild,Labourer/machine,NA,0.007523997925442585,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,64
+2006,B. Law,f.haschild,Not working,NA,0.3033015513291203,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,65
+2006,B. Medicine,f.haschild,Manager/prof.,NA,0.5961786480418269,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,71
+2006,B. Medicine,f.haschild,Tech/trade,NA,0.04019802313071544,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,72
+2006,B. Medicine,f.haschild,Sales/admin/service,NA,0.09060470305428044,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,73
+2006,B. Medicine,f.haschild,Labourer/machine,NA,0,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,74
+2006,B. Medicine,f.haschild,Not working,NA,0.2730186257731773,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,75
+2006,B. Nursing,f.haschild,Manager/prof.,NA,0.716253353556576,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,81
+2006,B. Nursing,f.haschild,Tech/trade,NA,0.005289807699093188,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,82
+2006,B. Nursing,f.haschild,Sales/admin/service,NA,0.06797598912447725,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,83
+2006,B. Nursing,f.haschild,Labourer/machine,NA,0.006279409477016967,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,84
+2006,B. Nursing,f.haschild,Not working,NA,0.2042014401428365,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,85
+2006,B. Other health,f.haschild,Manager/prof.,NA,0.5405157245649507,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,91
+2006,B. Other health,f.haschild,Tech/trade,NA,0.02033780720644531,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,92
+2006,B. Other health,f.haschild,Sales/admin/service,NA,0.16526184747898545,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,93
+2006,B. Other health,f.haschild,Labourer/machine,NA,0.004680547048307104,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,94
+2006,B. Other health,f.haschild,Not working,NA,0.2692040737013115,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,95
+2006,B. Performing Arts,f.haschild,Manager/prof.,NA,0.3392279671602958,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,101
+2006,B. Performing Arts,f.haschild,Tech/trade,NA,0.04619785013595984,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,102
+2006,B. Performing Arts,f.haschild,Sales/admin/service,NA,0.26383271553249105,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,103
+2006,B. Performing Arts,f.haschild,Labourer/machine,NA,0.05269234713456509,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,104
+2006,B. Performing Arts,f.haschild,Not working,NA,0.2980491200366882,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,105
+2006,B. Science (excl maths),f.haschild,Manager/prof.,NA,0.3353602179658663,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),111
+2006,B. Science (excl maths),f.haschild,Tech/trade,NA,0.08963555066514485,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),112
+2006,B. Science (excl maths),f.haschild,Sales/admin/service,NA,0.21135999340540082,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),113
+2006,B. Science (excl maths),f.haschild,Labourer/machine,NA,0.04305534056271037,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),114
+2006,B. Science (excl maths),f.haschild,Not working,NA,0.3205888974008777,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),115
+2006,Y12,f.haschild,Manager/prof.,NA,0.08204612951656573,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,121
+2006,Y12,f.haschild,Tech/trade,NA,0.015888095971716934,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,122
+2006,Y12,f.haschild,Sales/admin/service,NA,0.3483361611199991,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,123
+2006,Y12,f.haschild,Labourer/machine,NA,0.05794086379805599,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,124
+2006,Y12,f.haschild,Not working,NA,0.4957887495936622,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,125
+2011,B. Commerce,f.haschild,Manager/prof.,NA,0.41022970651540025,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,141
+2011,B. Commerce,f.haschild,Tech/trade,NA,0.01773993894808522,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,142
+2011,B. Commerce,f.haschild,Sales/admin/service,NA,0.27497911942018216,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,143
+2011,B. Commerce,f.haschild,Labourer/machine,NA,0.019301864102498647,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,144
+2011,B. Commerce,f.haschild,Not working,NA,0.2777493710138337,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,145
+2011,B. Education,f.haschild,Manager/prof.,NA,0.6247866660808019,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,151
+2011,B. Education,f.haschild,Tech/trade,NA,0.005474892774747041,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,152
+2011,B. Education,f.haschild,Sales/admin/service,NA,0.08168415260740322,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,153
+2011,B. Education,f.haschild,Labourer/machine,NA,0.009084701612485684,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,154
+2011,B. Education,f.haschild,Not working,NA,0.2789695869245622,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,155
+2011,B. Engineering,f.haschild,Manager/prof.,NA,0.5010333644371512,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,161
+2011,B. Engineering,f.haschild,Tech/trade,NA,0.08091495650372416,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,162
+2011,B. Engineering,f.haschild,Sales/admin/service,NA,0.1614205559954965,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,163
+2011,B. Engineering,f.haschild,Labourer/machine,NA,0.03377831341030859,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,164
+2011,B. Engineering,f.haschild,Not working,NA,0.2228528096533196,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,165
+2011,B. Humanities,f.haschild,Manager/prof.,NA,0.26002189088160266,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,171
+2011,B. Humanities,f.haschild,Tech/trade,NA,0.03517067056081779,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,172
+2011,B. Humanities,f.haschild,Sales/admin/service,NA,0.33903715527154554,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,173
+2011,B. Humanities,f.haschild,Labourer/machine,NA,0.03610130161342166,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,174
+2011,B. Humanities,f.haschild,Not working,NA,0.3296689816726124,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,175
+2011,B. IT,f.haschild,Manager/prof.,NA,0.40094007796560266,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,181
+2011,B. IT,f.haschild,Tech/trade,NA,0.0855271618730669,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,182
+2011,B. IT,f.haschild,Sales/admin/service,NA,0.251902078675098,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,183
+2011,B. IT,f.haschild,Labourer/machine,NA,0.03314833159402949,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,184
+2011,B. IT,f.haschild,Not working,NA,0.22848234989220292,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,185
+2011,B. Law,f.haschild,Manager/prof.,NA,0.5468090027591065,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,191
+2011,B. Law,f.haschild,Tech/trade,NA,0.005390992756969386,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,192
+2011,B. Law,f.haschild,Sales/admin/service,NA,0.1866811660490415,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,193
+2011,B. Law,f.haschild,Labourer/machine,NA,0.023999089660167373,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,194
+2011,B. Law,f.haschild,Not working,NA,0.23711974877471526,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,195
+2011,B. Medicine,f.haschild,Manager/prof.,NA,0.7115362484454566,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,201
+2011,B. Medicine,f.haschild,Tech/trade,NA,0.018073758109914472,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,202
+2011,B. Medicine,f.haschild,Sales/admin/service,NA,0.06132144387160983,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,203
+2011,B. Medicine,f.haschild,Labourer/machine,NA,0,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,204
+2011,B. Medicine,f.haschild,Not working,NA,0.20906854957301907,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,205
+2011,B. Nursing,f.haschild,Manager/prof.,NA,0.7778011997832783,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,211
+2011,B. Nursing,f.haschild,Tech/trade,NA,0.00656798734811635,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,212
+2011,B. Nursing,f.haschild,Sales/admin/service,NA,0.050500064251673846,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,213
+2011,B. Nursing,f.haschild,Labourer/machine,NA,0.0032341079586225598,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,214
+2011,B. Nursing,f.haschild,Not working,NA,0.16189664065830897,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,215
+2011,B. Other health,f.haschild,Manager/prof.,NA,0.5842806753264149,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,221
+2011,B. Other health,f.haschild,Tech/trade,NA,0.01328946631324825,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,222
+2011,B. Other health,f.haschild,Sales/admin/service,NA,0.15352956961355302,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,223
+2011,B. Other health,f.haschild,Labourer/machine,NA,0.009474720632530607,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,224
+2011,B. Other health,f.haschild,Not working,NA,0.2394255681142532,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,225
+2011,B. Performing Arts,f.haschild,Manager/prof.,NA,0.3543557599877732,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,231
+2011,B. Performing Arts,f.haschild,Tech/trade,NA,0.040136690604181284,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,232
+2011,B. Performing Arts,f.haschild,Sales/admin/service,NA,0.2532044923812484,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,233
+2011,B. Performing Arts,f.haschild,Labourer/machine,NA,0.05530228502432506,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,234
+2011,B. Performing Arts,f.haschild,Not working,NA,0.29700077200247205,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,235
+2011,B. Science (excl maths),f.haschild,Manager/prof.,NA,0.3745884518514232,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),241
+2011,B. Science (excl maths),f.haschild,Tech/trade,NA,0.08346305195397095,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),242
+2011,B. Science (excl maths),f.haschild,Sales/admin/service,NA,0.22785275404088354,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),243
+2011,B. Science (excl maths),f.haschild,Labourer/machine,NA,0.03427491384892928,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),244
+2011,B. Science (excl maths),f.haschild,Not working,NA,0.27982082830479305,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),245
+2011,Y12,f.haschild,Manager/prof.,NA,0.0847334614946304,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,251
+2011,Y12,f.haschild,Tech/trade,NA,0.017189122842349604,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,252
+2011,Y12,f.haschild,Sales/admin/service,NA,0.35521942843019455,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,253
+2011,Y12,f.haschild,Labourer/machine,NA,0.05109675373959663,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,254
+2011,Y12,f.haschild,Not working,NA,0.4917612334932288,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,255
+2016,B. Commerce,f.haschild,Manager/prof.,NA,0.4169555158138289,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,271
+2016,B. Commerce,f.haschild,Tech/trade,NA,0.01636853833712282,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,272
+2016,B. Commerce,f.haschild,Sales/admin/service,NA,0.3045772791231446,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,273
+2016,B. Commerce,f.haschild,Labourer/machine,NA,0.023749361127747757,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,274
+2016,B. Commerce,f.haschild,Not working,NA,0.23834930559815595,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,275
+2016,B. Education,f.haschild,Manager/prof.,NA,0.6724481023850958,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,281
+2016,B. Education,f.haschild,Tech/trade,NA,0.006564100372083013,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,282
+2016,B. Education,f.haschild,Sales/admin/service,NA,0.09289199736608733,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,283
+2016,B. Education,f.haschild,Labourer/machine,NA,0.006450629786803721,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,284
+2016,B. Education,f.haschild,Not working,NA,0.22164517008993015,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,285
+2016,B. Engineering,f.haschild,Manager/prof.,NA,0.4539163795434192,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,291
+2016,B. Engineering,f.haschild,Tech/trade,NA,0.07907716645148051,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,292
+2016,B. Engineering,f.haschild,Sales/admin/service,NA,0.20450315788318033,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,293
+2016,B. Engineering,f.haschild,Labourer/machine,NA,0.046089606430959724,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,294
+2016,B. Engineering,f.haschild,Not working,NA,0.21641368969096028,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,295
+2016,B. Humanities,f.haschild,Manager/prof.,NA,0.25240762695839475,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,301
+2016,B. Humanities,f.haschild,Tech/trade,NA,0.036349201344536335,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,302
+2016,B. Humanities,f.haschild,Sales/admin/service,NA,0.33850258348856826,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,303
+2016,B. Humanities,f.haschild,Labourer/machine,NA,0.06197208971118386,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,304
+2016,B. Humanities,f.haschild,Not working,NA,0.3107684984973168,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,305
+2016,B. IT,f.haschild,Manager/prof.,NA,0.37607060435578654,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,311
+2016,B. IT,f.haschild,Tech/trade,NA,0.07586599829469971,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,312
+2016,B. IT,f.haschild,Sales/admin/service,NA,0.2948954930849731,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,313
+2016,B. IT,f.haschild,Labourer/machine,NA,0.016640892640383015,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,314
+2016,B. IT,f.haschild,Not working,NA,0.23652701162415765,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,315
+2016,B. Law,f.haschild,Manager/prof.,NA,0.5658209200114143,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,321
+2016,B. Law,f.haschild,Tech/trade,NA,0.0072854287444288285,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,322
+2016,B. Law,f.haschild,Sales/admin/service,NA,0.2212470788852363,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,323
+2016,B. Law,f.haschild,Labourer/machine,NA,0.011285180706599762,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,324
+2016,B. Law,f.haschild,Not working,NA,0.19436139165232086,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,325
+2016,B. Medicine,f.haschild,Manager/prof.,NA,0.7398728348038667,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,331
+2016,B. Medicine,f.haschild,Tech/trade,NA,0.0075607457903004065,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,332
+2016,B. Medicine,f.haschild,Sales/admin/service,NA,0.0723863008520214,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,333
+2016,B. Medicine,f.haschild,Labourer/machine,NA,0,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,334
+2016,B. Medicine,f.haschild,Not working,NA,0.18018011855381152,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,335
+2016,B. Nursing,f.haschild,Manager/prof.,NA,0.8081519300440061,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,341
+2016,B. Nursing,f.haschild,Tech/trade,NA,0.004860504223349662,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,342
+2016,B. Nursing,f.haschild,Sales/admin/service,NA,0.05337696999819656,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,343
+2016,B. Nursing,f.haschild,Labourer/machine,NA,0.005663394641796083,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,344
+2016,B. Nursing,f.haschild,Not working,NA,0.1279472010926516,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,345
+2016,B. Other health,f.haschild,Manager/prof.,NA,0.5710336109654357,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,351
+2016,B. Other health,f.haschild,Tech/trade,NA,0.02862351318703244,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,352
+2016,B. Other health,f.haschild,Sales/admin/service,NA,0.1800959295191578,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,353
+2016,B. Other health,f.haschild,Labourer/machine,NA,0.012574396807641611,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,354
+2016,B. Other health,f.haschild,Not working,NA,0.2076725495207324,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,355
+2016,B. Performing Arts,f.haschild,Manager/prof.,NA,0.38721755691560605,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,361
+2016,B. Performing Arts,f.haschild,Tech/trade,NA,0.05861051748233957,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,362
+2016,B. Performing Arts,f.haschild,Sales/admin/service,NA,0.2213743181963269,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,363
+2016,B. Performing Arts,f.haschild,Labourer/machine,NA,0.08604546769734366,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,364
+2016,B. Performing Arts,f.haschild,Not working,NA,0.24675213970838383,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,365
+2016,B. Science (excl maths),f.haschild,Manager/prof.,NA,0.3650857408344271,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),371
+2016,B. Science (excl maths),f.haschild,Tech/trade,NA,0.09599990672079076,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),372
+2016,B. Science (excl maths),f.haschild,Sales/admin/service,NA,0.23038841288368586,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),373
+2016,B. Science (excl maths),f.haschild,Labourer/machine,NA,0.049626026999820536,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),374
+2016,B. Science (excl maths),f.haschild,Not working,NA,0.2588999125612758,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),375
+2016,Y12,f.haschild,Manager/prof.,NA,0.09867848543904129,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,381
+2016,Y12,f.haschild,Tech/trade,NA,0.018491778506503218,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,382
+2016,Y12,f.haschild,Sales/admin/service,NA,0.3676702802322216,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,383
+2016,Y12,f.haschild,Labourer/machine,NA,0.05330810973155988,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,384
+2016,Y12,f.haschild,Not working,NA,0.46185134609067396,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,385
+2006,B. all,f.haschild,Manager/prof.,NA,0.4947246248394766,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,1
+2006,B. all,f.haschild,Tech/trade,NA,0.02429979077596817,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,2
+2006,B. all,f.haschild,Sales/admin/service,NA,0.16812371814226731,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,3
+2006,B. all,f.haschild,Labourer/machine,NA,0.020963290635449845,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,4
+2006,B. all,f.haschild,Not working,NA,0.29188857560683806,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,5
+2006,Y12,f.haschild,Manager/prof.,NA,0.08204612951656573,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,121
+2006,Y12,f.haschild,Tech/trade,NA,0.015888095971716934,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,122
+2006,Y12,f.haschild,Sales/admin/service,NA,0.3483361611199991,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,123
+2006,Y12,f.haschild,Labourer/machine,NA,0.05794086379805599,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,124
+2006,Y12,f.haschild,Not working,NA,0.4957887495936622,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,125
+2011,B. all,f.haschild,Manager/prof.,NA,0.5271689594714606,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,131
+2011,B. all,f.haschild,Tech/trade,NA,0.024465236660299684,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,132
+2011,B. all,f.haschild,Sales/admin/service,NA,0.17203061806558193,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,133
+2011,B. all,f.haschild,Labourer/machine,NA,0.0180482441626825,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,134
+2011,B. all,f.haschild,Not working,NA,0.2582869416399753,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,135
+2011,Y12,f.haschild,Manager/prof.,NA,0.0847334614946304,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,251
+2011,Y12,f.haschild,Tech/trade,NA,0.017189122842349604,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,252
+2011,Y12,f.haschild,Sales/admin/service,NA,0.35521942843019455,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,253
+2011,Y12,f.haschild,Labourer/machine,NA,0.05109675373959663,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,254
+2011,Y12,f.haschild,Not working,NA,0.4917612334932288,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,255
+2016,B. all,f.haschild,Manager/prof.,NA,0.5516043461132296,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,261
+2016,B. all,f.haschild,Tech/trade,NA,0.024528941310317562,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,262
+2016,B. all,f.haschild,Sales/admin/service,NA,0.18623735181715578,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,263
+2016,B. all,f.haschild,Labourer/machine,NA,0.021434269571131568,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,264
+2016,B. all,f.haschild,Not working,NA,0.21619509118816543,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,265
+2016,Y12,f.haschild,Manager/prof.,NA,0.09867848543904129,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,381
+2016,Y12,f.haschild,Tech/trade,NA,0.018491778506503218,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,382
+2016,Y12,f.haschild,Sales/admin/service,NA,0.3676702802322216,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,383
+2016,Y12,f.haschild,Labourer/machine,NA,0.05330810973155988,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,384
+2016,Y12,f.haschild,Not working,NA,0.46185134609067396,occ.2534.uniform,NA,f.haschild,2534,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,385
+2006,B. Commerce,f.nochild,Manager/prof.,NA,0.6901197418714636,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,16
+2006,B. Commerce,f.nochild,Tech/trade,NA,0.006400072489811436,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,17
+2006,B. Commerce,f.nochild,Sales/admin/service,NA,0.2627320143970016,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,18
+2006,B. Commerce,f.nochild,Labourer/machine,NA,0.0026088534608948223,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,19
+2006,B. Commerce,f.nochild,Not working,NA,0.038139317780828484,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,20
+2006,B. Education,f.nochild,Manager/prof.,NA,0.8791656608807237,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,26
+2006,B. Education,f.nochild,Tech/trade,NA,0.00398039208193402,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,27
+2006,B. Education,f.nochild,Sales/admin/service,NA,0.08431582165537807,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,28
+2006,B. Education,f.nochild,Labourer/machine,NA,0.003347937485807183,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,29
+2006,B. Education,f.nochild,Not working,NA,0.029190187896157016,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,30
+2006,B. Engineering,f.nochild,Manager/prof.,NA,0.8341335221244139,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,36
+2006,B. Engineering,f.nochild,Tech/trade,NA,0.03504396338804696,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,37
+2006,B. Engineering,f.nochild,Sales/admin/service,NA,0.07927851283527243,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,38
+2006,B. Engineering,f.nochild,Labourer/machine,NA,0.004373522458628841,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,39
+2006,B. Engineering,f.nochild,Not working,NA,0.04717047919363778,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,40
+2006,B. Humanities,f.nochild,Manager/prof.,NA,0.4576589888419602,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,46
+2006,B. Humanities,f.nochild,Tech/trade,NA,0.02011326790892765,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,47
+2006,B. Humanities,f.nochild,Sales/admin/service,NA,0.4036360287803952,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,48
+2006,B. Humanities,f.nochild,Labourer/machine,NA,0.0060426352895419,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,49
+2006,B. Humanities,f.nochild,Not working,NA,0.11254907917917503,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,50
+2006,B. IT,f.nochild,Manager/prof.,NA,0.695915315453429,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,56
+2006,B. IT,f.nochild,Tech/trade,NA,0.0834197931073388,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,57
+2006,B. IT,f.nochild,Sales/admin/service,NA,0.1612645006185902,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,58
+2006,B. IT,f.nochild,Labourer/machine,NA,0.004645436766233098,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,59
+2006,B. IT,f.nochild,Not working,NA,0.05475495405440894,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,60
+2006,B. Law,f.nochild,Manager/prof.,NA,0.8220568221302647,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,66
+2006,B. Law,f.nochild,Tech/trade,NA,0.0021199432171238927,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,67
+2006,B. Law,f.nochild,Sales/admin/service,NA,0.13645664815964137,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,68
+2006,B. Law,f.nochild,Labourer/machine,NA,0,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,69
+2006,B. Law,f.nochild,Not working,NA,0.03936658649297002,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,70
+2006,B. Medicine,f.nochild,Manager/prof.,NA,0.9671682249267133,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,76
+2006,B. Medicine,f.nochild,Tech/trade,NA,0,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,77
+2006,B. Medicine,f.nochild,Sales/admin/service,NA,0.003057868340821789,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,78
+2006,B. Medicine,f.nochild,Labourer/machine,NA,0,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,79
+2006,B. Medicine,f.nochild,Not working,NA,0.02977390673246494,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,80
+2006,B. Nursing,f.nochild,Manager/prof.,NA,0.9134253008346414,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,86
+2006,B. Nursing,f.nochild,Tech/trade,NA,0.0018933758582140039,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,87
+2006,B. Nursing,f.nochild,Sales/admin/service,NA,0.05161007926728161,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,88
+2006,B. Nursing,f.nochild,Labourer/machine,NA,0.001572340192169697,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,89
+2006,B. Nursing,f.nochild,Not working,NA,0.0314989038476933,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,90
+2006,B. Other health,f.nochild,Manager/prof.,NA,0.845373791299478,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,96
+2006,B. Other health,f.nochild,Tech/trade,NA,0.008088110437224912,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,97
+2006,B. Other health,f.nochild,Sales/admin/service,NA,0.11165538493596829,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,98
+2006,B. Other health,f.nochild,Labourer/machine,NA,3.9100684261974585e-4,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,99
+2006,B. Other health,f.nochild,Not working,NA,0.034491706484709096,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,100
+2006,B. Performing Arts,f.nochild,Manager/prof.,NA,0.5646876724726225,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,106
+2006,B. Performing Arts,f.nochild,Tech/trade,NA,0.011527304343474841,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,107
+2006,B. Performing Arts,f.nochild,Sales/admin/service,NA,0.3206623295410998,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,108
+2006,B. Performing Arts,f.nochild,Labourer/machine,NA,0.01518368187733048,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,109
+2006,B. Performing Arts,f.nochild,Not working,NA,0.08793901176547235,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,110
+2006,B. Science (excl maths),f.nochild,Manager/prof.,NA,0.5844529320256681,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),116
+2006,B. Science (excl maths),f.nochild,Tech/trade,NA,0.09103813428132419,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),117
+2006,B. Science (excl maths),f.nochild,Sales/admin/service,NA,0.2101323267049225,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),118
+2006,B. Science (excl maths),f.nochild,Labourer/machine,NA,0.015092069452646151,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),119
+2006,B. Science (excl maths),f.nochild,Not working,NA,0.09928453753543909,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),120
+2006,Y12,f.nochild,Manager/prof.,NA,0.21361244299322307,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,126
+2006,Y12,f.nochild,Tech/trade,NA,0.031955868266290516,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,127
+2006,Y12,f.nochild,Sales/admin/service,NA,0.5861192630456511,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,128
+2006,Y12,f.nochild,Labourer/machine,NA,0.06847950177099309,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,129
+2006,Y12,f.nochild,Not working,NA,0.09983292392384222,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,130
+2011,B. Commerce,f.nochild,Manager/prof.,NA,0.6475275430630724,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,146
+2011,B. Commerce,f.nochild,Tech/trade,NA,0.00779757796686145,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,147
+2011,B. Commerce,f.nochild,Sales/admin/service,NA,0.29218169509846814,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,148
+2011,B. Commerce,f.nochild,Labourer/machine,NA,0.0034356029288289676,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,149
+2011,B. Commerce,f.nochild,Not working,NA,0.049057580942769095,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,150
+2011,B. Education,f.nochild,Manager/prof.,NA,0.8806965193884989,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,156
+2011,B. Education,f.nochild,Tech/trade,NA,0.0031080614862335084,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,157
+2011,B. Education,f.nochild,Sales/admin/service,NA,0.08250407380431705,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,158
+2011,B. Education,f.nochild,Labourer/machine,NA,0.0028905536214600233,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,159
+2011,B. Education,f.nochild,Not working,NA,0.030800791699490536,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,160
+2011,B. Engineering,f.nochild,Manager/prof.,NA,0.8401224782064757,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,166
+2011,B. Engineering,f.nochild,Tech/trade,NA,0.030894896573813942,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,167
+2011,B. Engineering,f.nochild,Sales/admin/service,NA,0.07088714007845286,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,168
+2011,B. Engineering,f.nochild,Labourer/machine,NA,0.002777777777777778,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,169
+2011,B. Engineering,f.nochild,Not working,NA,0.05531770736347974,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,170
+2011,B. Humanities,f.nochild,Manager/prof.,NA,0.4565779747179477,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,176
+2011,B. Humanities,f.nochild,Tech/trade,NA,0.017504419293662758,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,177
+2011,B. Humanities,f.nochild,Sales/admin/service,NA,0.39113020976561036,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,178
+2011,B. Humanities,f.nochild,Labourer/machine,NA,0.00495076747439085,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,179
+2011,B. Humanities,f.nochild,Not working,NA,0.12983662874838833,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,180
+2011,B. IT,f.nochild,Manager/prof.,NA,0.6969768254039533,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,186
+2011,B. IT,f.nochild,Tech/trade,NA,0.06991036312927712,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,187
+2011,B. IT,f.nochild,Sales/admin/service,NA,0.16771277949943494,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,188
+2011,B. IT,f.nochild,Labourer/machine,NA,0.003721175631341117,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,189
+2011,B. IT,f.nochild,Not working,NA,0.06167885633599346,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,190
+2011,B. Law,f.nochild,Manager/prof.,NA,0.8051926849154707,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,196
+2011,B. Law,f.nochild,Tech/trade,NA,7.159940844118674e-4,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,197
+2011,B. Law,f.nochild,Sales/admin/service,NA,0.1457902514921888,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,198
+2011,B. Law,f.nochild,Labourer/machine,NA,5.080986824563111e-4,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,199
+2011,B. Law,f.nochild,Not working,NA,0.047792970825472354,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,200
+2011,B. Medicine,f.nochild,Manager/prof.,NA,0.9585293266399586,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,206
+2011,B. Medicine,f.nochild,Tech/trade,NA,9.433962264150943e-4,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,207
+2011,B. Medicine,f.nochild,Sales/admin/service,NA,0.008547711242797695,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,208
+2011,B. Medicine,f.nochild,Labourer/machine,NA,0,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,209
+2011,B. Medicine,f.nochild,Not working,NA,0.0319795658908286,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,210
+2011,B. Nursing,f.nochild,Manager/prof.,NA,0.9164327754830768,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,216
+2011,B. Nursing,f.nochild,Tech/trade,NA,0.003033079540043237,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,217
+2011,B. Nursing,f.nochild,Sales/admin/service,NA,0.049364474977038435,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,218
+2011,B. Nursing,f.nochild,Labourer/machine,NA,0.0012483006821002922,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,219
+2011,B. Nursing,f.nochild,Not working,NA,0.02992136931774123,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,220
+2011,B. Other health,f.nochild,Manager/prof.,NA,0.8106186467217387,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,226
+2011,B. Other health,f.nochild,Tech/trade,NA,0.008050247270736033,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,227
+2011,B. Other health,f.nochild,Sales/admin/service,NA,0.13639849330617387,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,228
+2011,B. Other health,f.nochild,Labourer/machine,NA,0.0014705178489988603,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,229
+2011,B. Other health,f.nochild,Not working,NA,0.04346209485235258,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,230
+2011,B. Performing Arts,f.nochild,Manager/prof.,NA,0.5697290412186409,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,236
+2011,B. Performing Arts,f.nochild,Tech/trade,NA,0.014505103800342534,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,237
+2011,B. Performing Arts,f.nochild,Sales/admin/service,NA,0.3132317428906461,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,238
+2011,B. Performing Arts,f.nochild,Labourer/machine,NA,0.0058982947774343965,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,239
+2011,B. Performing Arts,f.nochild,Not working,NA,0.09663581731293612,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,240
+2011,B. Science (excl maths),f.nochild,Manager/prof.,NA,0.5701995373321854,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),246
+2011,B. Science (excl maths),f.nochild,Tech/trade,NA,0.09355073894969859,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),247
+2011,B. Science (excl maths),f.nochild,Sales/admin/service,NA,0.21178886885944354,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),248
+2011,B. Science (excl maths),f.nochild,Labourer/machine,NA,0.01217976962624651,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),249
+2011,B. Science (excl maths),f.nochild,Not working,NA,0.11228108523242596,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),250
+2011,Y12,f.nochild,Manager/prof.,NA,0.21925454713931755,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,256
+2011,Y12,f.nochild,Tech/trade,NA,0.03099513102721703,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,257
+2011,Y12,f.nochild,Sales/admin/service,NA,0.5652530906731749,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,258
+2011,Y12,f.nochild,Labourer/machine,NA,0.06470158668534952,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,259
+2011,Y12,f.nochild,Not working,NA,0.11979564447494098,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,260
+2016,B. Commerce,f.nochild,Manager/prof.,NA,0.6204061010523503,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,276
+2016,B. Commerce,f.nochild,Tech/trade,NA,0.0084139791405144,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,277
+2016,B. Commerce,f.nochild,Sales/admin/service,NA,0.3127346904980014,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,278
+2016,B. Commerce,f.nochild,Labourer/machine,NA,0.00668180098687113,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,279
+2016,B. Commerce,f.nochild,Not working,NA,0.051763428322262814,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,280
+2016,B. Education,f.nochild,Manager/prof.,NA,0.879967656314098,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,286
+2016,B. Education,f.nochild,Tech/trade,NA,0.004727289863813269,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,287
+2016,B. Education,f.nochild,Sales/admin/service,NA,0.08328001852656142,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,288
+2016,B. Education,f.nochild,Labourer/machine,NA,0.00383087018830971,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,289
+2016,B. Education,f.nochild,Not working,NA,0.02819416510721765,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,290
+2016,B. Engineering,f.nochild,Manager/prof.,NA,0.7833050531797401,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,296
+2016,B. Engineering,f.nochild,Tech/trade,NA,0.04815413141969872,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,297
+2016,B. Engineering,f.nochild,Sales/admin/service,NA,0.09769645214553684,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,298
+2016,B. Engineering,f.nochild,Labourer/machine,NA,0.007385691202235849,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,299
+2016,B. Engineering,f.nochild,Not working,NA,0.06345867205278853,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,300
+2016,B. Humanities,f.nochild,Manager/prof.,NA,0.42044064437476464,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,306
+2016,B. Humanities,f.nochild,Tech/trade,NA,0.017681366352527005,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,307
+2016,B. Humanities,f.nochild,Sales/admin/service,NA,0.4237241048930151,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,308
+2016,B. Humanities,f.nochild,Labourer/machine,NA,0.009127728637770349,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,309
+2016,B. Humanities,f.nochild,Not working,NA,0.12902615574192292,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,310
+2016,B. IT,f.nochild,Manager/prof.,NA,0.7038138782735639,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,316
+2016,B. IT,f.nochild,Tech/trade,NA,0.06615109471603005,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,317
+2016,B. IT,f.nochild,Sales/admin/service,NA,0.17140913605818486,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,318
+2016,B. IT,f.nochild,Labourer/machine,NA,0.0010273972602739725,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,319
+2016,B. IT,f.nochild,Not working,NA,0.05759849369194726,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,320
+2016,B. Law,f.nochild,Manager/prof.,NA,0.7678107733562386,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,326
+2016,B. Law,f.nochild,Tech/trade,NA,0.0016788401695978037,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,327
+2016,B. Law,f.nochild,Sales/admin/service,NA,0.17683728124328532,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,328
+2016,B. Law,f.nochild,Labourer/machine,NA,7.133280927631797e-4,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,329
+2016,B. Law,f.nochild,Not working,NA,0.05295977713811509,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,330
+2016,B. Medicine,f.nochild,Manager/prof.,NA,0.9546080386488557,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,336
+2016,B. Medicine,f.nochild,Tech/trade,NA,0.00132070723296708,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,337
+2016,B. Medicine,f.nochild,Sales/admin/service,NA,0.008023554658017037,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,338
+2016,B. Medicine,f.nochild,Labourer/machine,NA,0,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,339
+2016,B. Medicine,f.nochild,Not working,NA,0.03604769946016018,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,340
+2016,B. Nursing,f.nochild,Manager/prof.,NA,0.907064278781894,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,346
+2016,B. Nursing,f.nochild,Tech/trade,NA,0.0035830125742247537,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,347
+2016,B. Nursing,f.nochild,Sales/admin/service,NA,0.05782003699829497,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,348
+2016,B. Nursing,f.nochild,Labourer/machine,NA,0.0016957100183425102,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,349
+2016,B. Nursing,f.nochild,Not working,NA,0.029836961627243825,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,350
+2016,B. Other health,f.nochild,Manager/prof.,NA,0.7701024805642729,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,356
+2016,B. Other health,f.nochild,Tech/trade,NA,0.009537942238611923,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,357
+2016,B. Other health,f.nochild,Sales/admin/service,NA,0.17453222434880986,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,358
+2016,B. Other health,f.nochild,Labourer/machine,NA,0.0037738195342592847,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,359
+2016,B. Other health,f.nochild,Not working,NA,0.04205353331404609,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,360
+2016,B. Performing Arts,f.nochild,Manager/prof.,NA,0.5368161341401753,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,366
+2016,B. Performing Arts,f.nochild,Tech/trade,NA,0.02596506433176204,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,367
+2016,B. Performing Arts,f.nochild,Sales/admin/service,NA,0.33484756210850664,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,368
+2016,B. Performing Arts,f.nochild,Labourer/machine,NA,0.011140804614345225,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,369
+2016,B. Performing Arts,f.nochild,Not working,NA,0.09123043480521079,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,370
+2016,B. Science (excl maths),f.nochild,Manager/prof.,NA,0.5227358594801831,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),376
+2016,B. Science (excl maths),f.nochild,Tech/trade,NA,0.10164527207319406,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),377
+2016,B. Science (excl maths),f.nochild,Sales/admin/service,NA,0.23518737189850797,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),378
+2016,B. Science (excl maths),f.nochild,Labourer/machine,NA,0.015033903403132013,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),379
+2016,B. Science (excl maths),f.nochild,Not working,NA,0.1253975931449829,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),380
+2016,Y12,f.nochild,Manager/prof.,NA,0.21653282433980361,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,386
+2016,Y12,f.nochild,Tech/trade,NA,0.029449677570199274,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,387
+2016,Y12,f.nochild,Sales/admin/service,NA,0.5324370238930857,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,388
+2016,Y12,f.nochild,Labourer/machine,NA,0.07254277488979283,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,389
+2016,Y12,f.nochild,Not working,NA,0.14903769930711863,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,390
+2006,B. all,f.nochild,Manager/prof.,NA,0.7423443297475767,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,6
+2006,B. all,f.nochild,Tech/trade,NA,0.019545251853621368,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,7
+2006,B. all,f.nochild,Sales/admin/service,NA,0.18309891374450948,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,8
+2006,B. all,f.nochild,Labourer/machine,NA,0.004690633529097784,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,9
+2006,B. all,f.nochild,Not working,NA,0.05032087112519464,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,10
+2006,Y12,f.nochild,Manager/prof.,NA,0.21361244299322307,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,126
+2006,Y12,f.nochild,Tech/trade,NA,0.031955868266290516,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,127
+2006,Y12,f.nochild,Sales/admin/service,NA,0.5861192630456511,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,128
+2006,Y12,f.nochild,Labourer/machine,NA,0.06847950177099309,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,129
+2006,Y12,f.nochild,Not working,NA,0.09983292392384222,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,130
+2011,B. all,f.nochild,Manager/prof.,NA,0.7290426287257825,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,136
+2011,B. all,f.nochild,Tech/trade,NA,0.01814625295597322,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,137
+2011,B. all,f.nochild,Sales/admin/service,NA,0.19254216484374864,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,138
+2011,B. all,f.nochild,Labourer/machine,NA,0.0038605619083939263,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,139
+2011,B. all,f.nochild,Not working,NA,0.056408391566101654,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,140
+2011,Y12,f.nochild,Manager/prof.,NA,0.21925454713931755,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,256
+2011,Y12,f.nochild,Tech/trade,NA,0.03099513102721703,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,257
+2011,Y12,f.nochild,Sales/admin/service,NA,0.5652530906731749,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,258
+2011,Y12,f.nochild,Labourer/machine,NA,0.06470158668534952,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,259
+2011,Y12,f.nochild,Not working,NA,0.11979564447494098,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,260
+2016,B. all,f.nochild,Manager/prof.,NA,0.7114773529619354,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,266
+2016,B. all,f.nochild,Tech/trade,NA,0.01940555274234378,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,267
+2016,B. all,f.nochild,Sales/admin/service,NA,0.2057579163085958,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,268
+2016,B. all,f.nochild,Labourer/machine,NA,0.006321651595783264,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,269
+2016,B. all,f.nochild,Not working,NA,0.05703752639134183,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,270
+2016,Y12,f.nochild,Manager/prof.,NA,0.21653282433980361,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,386
+2016,Y12,f.nochild,Tech/trade,NA,0.029449677570199274,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,387
+2016,Y12,f.nochild,Sales/admin/service,NA,0.5324370238930857,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,388
+2016,Y12,f.nochild,Labourer/machine,NA,0.07254277488979283,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,389
+2016,Y12,f.nochild,Not working,NA,0.14903769930711863,occ.2534.uniform,NA,f.nochild,2534,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,390

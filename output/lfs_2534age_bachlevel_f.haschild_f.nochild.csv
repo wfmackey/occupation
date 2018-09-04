@@ -1,0 +1,421 @@
+year,qualfield,gender_detail,lfs,count,pc,group,married,agegroup,code,gender,childgroup,child,mfc,bach,uniform,field,.group
+2006,B. Commerce,f.haschild,"Employed, worked full-time",NA,0.2288324064956501,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,11
+2006,B. Commerce,f.haschild,"Employed, worked part-time",NA,0.34046013306201395,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,12
+2006,B. Commerce,f.haschild,"Employed, away from work",NA,0.11955864160503145,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,13
+2006,B. Commerce,f.haschild,Not in the labour force,NA,0.2843806631311002,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,14
+2006,B. Commerce,f.haschild,Unemployed,NA,0.026768155706204298,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,15
+2006,B. Education,f.haschild,"Employed, worked full-time",NA,0.19139176716819747,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,21
+2006,B. Education,f.haschild,"Employed, worked part-time",NA,0.3780329769792576,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,22
+2006,B. Education,f.haschild,"Employed, away from work",NA,0.10886202905055156,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,23
+2006,B. Education,f.haschild,Not in the labour force,NA,0.3075452822742851,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,24
+2006,B. Education,f.haschild,Unemployed,NA,0.014167944527708263,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,25
+2006,B. Engineering,f.haschild,"Employed, worked full-time",NA,0.3849206931554496,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,31
+2006,B. Engineering,f.haschild,"Employed, worked part-time",NA,0.2634550674918139,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,32
+2006,B. Engineering,f.haschild,"Employed, away from work",NA,0.13712202942462895,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,33
+2006,B. Engineering,f.haschild,Not in the labour force,NA,0.18706754755898852,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,34
+2006,B. Engineering,f.haschild,Unemployed,NA,0.027434662369119043,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,35
+2006,B. Humanities,f.haschild,"Employed, worked full-time",NA,0.15171419170650097,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,41
+2006,B. Humanities,f.haschild,"Employed, worked part-time",NA,0.30179211805192613,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,42
+2006,B. Humanities,f.haschild,"Employed, away from work",NA,0.10432384395350584,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,43
+2006,B. Humanities,f.haschild,Not in the labour force,NA,0.38907425347388946,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,44
+2006,B. Humanities,f.haschild,Unemployed,NA,0.05309559281417761,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,45
+2006,B. IT,f.haschild,"Employed, worked full-time",NA,0.32106027799578385,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,51
+2006,B. IT,f.haschild,"Employed, worked part-time",NA,0.25111100927073465,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,52
+2006,B. IT,f.haschild,"Employed, away from work",NA,0.12722157517791888,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,53
+2006,B. IT,f.haschild,Not in the labour force,NA,0.24109558541683931,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,54
+2006,B. IT,f.haschild,Unemployed,NA,0.05951155213872332,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,55
+2006,B. Law,f.haschild,"Employed, worked full-time",NA,0.2134396479722763,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,61
+2006,B. Law,f.haschild,"Employed, worked part-time",NA,0.29853735356398714,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,62
+2006,B. Law,f.haschild,"Employed, away from work",NA,0.1528957903553513,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,63
+2006,B. Law,f.haschild,Not in the labour force,NA,0.2890329353955153,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,64
+2006,B. Law,f.haschild,Unemployed,NA,0.04609427271286996,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,65
+2006,B. Medicine,f.haschild,"Employed, worked full-time",NA,0.28931561636401065,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,71
+2006,B. Medicine,f.haschild,"Employed, worked part-time",NA,0.31133082350299124,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,72
+2006,B. Medicine,f.haschild,"Employed, away from work",NA,0.20836692856652714,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,73
+2006,B. Medicine,f.haschild,Not in the labour force,NA,0.190986631566471,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,74
+2006,B. Medicine,f.haschild,Unemployed,NA,0,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,75
+2006,B. Nursing,f.haschild,"Employed, worked full-time",NA,0.1340924298238482,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,81
+2006,B. Nursing,f.haschild,"Employed, worked part-time",NA,0.4935767439105881,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,82
+2006,B. Nursing,f.haschild,"Employed, away from work",NA,0.16251479533435795,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,83
+2006,B. Nursing,f.haschild,Not in the labour force,NA,0.19899501412524334,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,84
+2006,B. Nursing,f.haschild,Unemployed,NA,0.010821016805962431,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,85
+2006,B. Other health,f.haschild,"Employed, worked full-time",NA,0.16817561190519847,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,91
+2006,B. Other health,f.haschild,"Employed, worked part-time",NA,0.4336479935063769,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,92
+2006,B. Other health,f.haschild,"Employed, away from work",NA,0.14534257880999735,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,93
+2006,B. Other health,f.haschild,Not in the labour force,NA,0.24053308407033774,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,94
+2006,B. Other health,f.haschild,Unemployed,NA,0.012300731708089528,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,95
+2006,B. Performing Arts,f.haschild,"Employed, worked full-time",NA,0.09692631462993277,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,101
+2006,B. Performing Arts,f.haschild,"Employed, worked part-time",NA,0.3796173670129372,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,102
+2006,B. Performing Arts,f.haschild,"Employed, away from work",NA,0.06397319641022882,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,103
+2006,B. Performing Arts,f.haschild,Not in the labour force,NA,0.3980358156213966,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,104
+2006,B. Performing Arts,f.haschild,Unemployed,NA,0.061447306325504575,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,105
+2006,B. Science (excl maths),f.haschild,"Employed, worked full-time",NA,0.20769157879403055,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),111
+2006,B. Science (excl maths),f.haschild,"Employed, worked part-time",NA,0.3149029042363829,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),112
+2006,B. Science (excl maths),f.haschild,"Employed, away from work",NA,0.14267746942535472,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),113
+2006,B. Science (excl maths),f.haschild,Not in the labour force,NA,0.2909139781229448,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),114
+2006,B. Science (excl maths),f.haschild,Unemployed,NA,0.04381406942128706,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),115
+2006,Y12,f.haschild,"Employed, worked full-time",NA,0.15756107008987222,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,121
+2006,Y12,f.haschild,"Employed, worked part-time",NA,0.30245459562332466,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,122
+2006,Y12,f.haschild,"Employed, away from work",NA,0.05175507300166813,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,123
+2006,Y12,f.haschild,Not in the labour force,NA,0.4566637574615363,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,124
+2006,Y12,f.haschild,Unemployed,NA,0.031565503823598705,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,125
+2011,B. Commerce,f.haschild,"Employed, worked full-time",NA,0.23345152078538306,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,141
+2011,B. Commerce,f.haschild,"Employed, worked part-time",NA,0.32096634858631523,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,142
+2011,B. Commerce,f.haschild,"Employed, away from work",NA,0.14679238039661094,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,143
+2011,B. Commerce,f.haschild,Not in the labour force,NA,0.2602965642437947,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,144
+2011,B. Commerce,f.haschild,Unemployed,NA,0.03849318598789604,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,145
+2011,B. Education,f.haschild,"Employed, worked full-time",NA,0.17724757407479294,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,151
+2011,B. Education,f.haschild,"Employed, worked part-time",NA,0.38319150492046294,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,152
+2011,B. Education,f.haschild,"Employed, away from work",NA,0.15909086031375685,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,153
+2011,B. Education,f.haschild,Not in the labour force,NA,0.2646495841343569,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,154
+2011,B. Education,f.haschild,Unemployed,NA,0.01582047655663036,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,155
+2011,B. Engineering,f.haschild,"Employed, worked full-time",NA,0.3586069629728697,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,161
+2011,B. Engineering,f.haschild,"Employed, worked part-time",NA,0.2583864165291213,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,162
+2011,B. Engineering,f.haschild,"Employed, away from work",NA,0.17663455686207385,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,163
+2011,B. Engineering,f.haschild,Not in the labour force,NA,0.1723788970071769,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,164
+2011,B. Engineering,f.haschild,Unemployed,NA,0.03399316662875825,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,165
+2011,B. Humanities,f.haschild,"Employed, worked full-time",NA,0.2049832127075324,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,171
+2011,B. Humanities,f.haschild,"Employed, worked part-time",NA,0.2787173706119758,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,172
+2011,B. Humanities,f.haschild,"Employed, away from work",NA,0.15564232487353483,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,173
+2011,B. Humanities,f.haschild,Not in the labour force,NA,0.3056941075825025,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,174
+2011,B. Humanities,f.haschild,Unemployed,NA,0.054962984224454475,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,175
+2011,B. IT,f.haschild,"Employed, worked full-time",NA,0.32112373313897535,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,181
+2011,B. IT,f.haschild,"Employed, worked part-time",NA,0.2531227772135574,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,182
+2011,B. IT,f.haschild,"Employed, away from work",NA,0.15319422033354493,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,183
+2011,B. IT,f.haschild,Not in the labour force,NA,0.23584786985856773,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,184
+2011,B. IT,f.haschild,Unemployed,NA,0.03671139945535458,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,185
+2011,B. Law,f.haschild,"Employed, worked full-time",NA,0.23890616381761856,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,191
+2011,B. Law,f.haschild,"Employed, worked part-time",NA,0.3157285207949202,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,192
+2011,B. Law,f.haschild,"Employed, away from work",NA,0.2059154240613824,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,193
+2011,B. Law,f.haschild,Not in the labour force,NA,0.19876290348923462,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,194
+2011,B. Law,f.haschild,Unemployed,NA,0.04068698783684422,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,195
+2011,B. Medicine,f.haschild,"Employed, worked full-time",NA,0.2793679987619952,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,201
+2011,B. Medicine,f.haschild,"Employed, worked part-time",NA,0.3512131014665524,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,202
+2011,B. Medicine,f.haschild,"Employed, away from work",NA,0.1929427035750732,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,203
+2011,B. Medicine,f.haschild,Not in the labour force,NA,0.16905124310069447,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,204
+2011,B. Medicine,f.haschild,Unemployed,NA,0.007424953095684804,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,205
+2011,B. Nursing,f.haschild,"Employed, worked full-time",NA,0.14238530992006837,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,211
+2011,B. Nursing,f.haschild,"Employed, worked part-time",NA,0.4805801183948106,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,212
+2011,B. Nursing,f.haschild,"Employed, away from work",NA,0.21551196652060364,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,213
+2011,B. Nursing,f.haschild,Not in the labour force,NA,0.14935484699067586,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,214
+2011,B. Nursing,f.haschild,Unemployed,NA,0.01216775817384155,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,215
+2011,B. Other health,f.haschild,"Employed, worked full-time",NA,0.1589644307621422,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,221
+2011,B. Other health,f.haschild,"Employed, worked part-time",NA,0.42886465009155744,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,222
+2011,B. Other health,f.haschild,"Employed, away from work",NA,0.17700158774984082,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,223
+2011,B. Other health,f.haschild,Not in the labour force,NA,0.21447849411862896,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,224
+2011,B. Other health,f.haschild,Unemployed,NA,0.020690837277830568,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,225
+2011,B. Performing Arts,f.haschild,"Employed, worked full-time",NA,0.15795827616237074,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,231
+2011,B. Performing Arts,f.haschild,"Employed, worked part-time",NA,0.33957454688365424,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,232
+2011,B. Performing Arts,f.haschild,"Employed, away from work",NA,0.10280700170261506,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,233
+2011,B. Performing Arts,f.haschild,Not in the labour force,NA,0.33845484557191874,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,234
+2011,B. Performing Arts,f.haschild,Unemployed,NA,0.061205329679441214,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,235
+2011,B. Science (excl maths),f.haschild,"Employed, worked full-time",NA,0.21605439215490083,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),241
+2011,B. Science (excl maths),f.haschild,"Employed, worked part-time",NA,0.3069529813693943,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),242
+2011,B. Science (excl maths),f.haschild,"Employed, away from work",NA,0.16661496462307024,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),243
+2011,B. Science (excl maths),f.haschild,Not in the labour force,NA,0.2773242327628444,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),244
+2011,B. Science (excl maths),f.haschild,Unemployed,NA,0.03305342908979019,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),245
+2011,Y12,f.haschild,"Employed, worked full-time",NA,0.1596599269301464,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,251
+2011,Y12,f.haschild,"Employed, worked part-time",NA,0.2914537100189289,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,252
+2011,Y12,f.haschild,"Employed, away from work",NA,0.06420415611473779,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,253
+2011,Y12,f.haschild,Not in the labour force,NA,0.4511354473789924,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,254
+2011,Y12,f.haschild,Unemployed,NA,0.03354675955719445,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,255
+2016,B. Commerce,f.haschild,"Employed, worked full-time",NA,0.2872679183222094,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,271
+2016,B. Commerce,f.haschild,"Employed, worked part-time",NA,0.302112500754788,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,272
+2016,B. Commerce,f.haschild,"Employed, away from work",NA,0.15703515061751505,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,273
+2016,B. Commerce,f.haschild,Not in the labour force,NA,0.21475527022081572,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,274
+2016,B. Commerce,f.haschild,Unemployed,NA,0.03882916008467182,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Commerce,275
+2016,B. Education,f.haschild,"Employed, worked full-time",NA,0.2334486921441971,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,281
+2016,B. Education,f.haschild,"Employed, worked part-time",NA,0.3788676149342396,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,282
+2016,B. Education,f.haschild,"Employed, away from work",NA,0.1715360387512131,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,283
+2016,B. Education,f.haschild,Not in the labour force,NA,0.20443222469133393,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,284
+2016,B. Education,f.haschild,Unemployed,NA,0.01171542947901631,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Education,285
+2016,B. Engineering,f.haschild,"Employed, worked full-time",NA,0.4065470546671349,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,291
+2016,B. Engineering,f.haschild,"Employed, worked part-time",NA,0.22148832215058417,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,292
+2016,B. Engineering,f.haschild,"Employed, away from work",NA,0.154406053933858,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,293
+2016,B. Engineering,f.haschild,Not in the labour force,NA,0.154032375984866,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,294
+2016,B. Engineering,f.haschild,Unemployed,NA,0.06352619326355693,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Engineering,295
+2016,B. Humanities,f.haschild,"Employed, worked full-time",NA,0.2093216656151336,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,301
+2016,B. Humanities,f.haschild,"Employed, worked part-time",NA,0.3123256344985756,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,302
+2016,B. Humanities,f.haschild,"Employed, away from work",NA,0.12620153961609487,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,303
+2016,B. Humanities,f.haschild,Not in the labour force,NA,0.30786094347218085,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,304
+2016,B. Humanities,f.haschild,Unemployed,NA,0.04429021679801509,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Humanities,305
+2016,B. IT,f.haschild,"Employed, worked full-time",NA,0.3800490719464403,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,311
+2016,B. IT,f.haschild,"Employed, worked part-time",NA,0.19606232919462765,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,312
+2016,B. IT,f.haschild,"Employed, away from work",NA,0.12113827279198656,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,313
+2016,B. IT,f.haschild,Not in the labour force,NA,0.2040631254666959,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,314
+2016,B. IT,f.haschild,Unemployed,NA,0.09868720060024962,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,IT,315
+2016,B. Law,f.haschild,"Employed, worked full-time",NA,0.2998113992558764,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,321
+2016,B. Law,f.haschild,"Employed, worked part-time",NA,0.28541126732316885,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,322
+2016,B. Law,f.haschild,"Employed, away from work",NA,0.19471740774965163,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,323
+2016,B. Law,f.haschild,Not in the labour force,NA,0.1806210251253383,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,324
+2016,B. Law,f.haschild,Unemployed,NA,0.03943890054596479,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Law,325
+2016,B. Medicine,f.haschild,"Employed, worked full-time",NA,0.4011004774406869,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,331
+2016,B. Medicine,f.haschild,"Employed, worked part-time",NA,0.27294838266319865,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,332
+2016,B. Medicine,f.haschild,"Employed, away from work",NA,0.15035906501265192,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,333
+2016,B. Medicine,f.haschild,Not in the labour force,NA,0.1596787540683155,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,334
+2016,B. Medicine,f.haschild,Unemployed,NA,0.01591332081514698,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Medicine,335
+2016,B. Nursing,f.haschild,"Employed, worked full-time",NA,0.19676008946984747,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,341
+2016,B. Nursing,f.haschild,"Employed, worked part-time",NA,0.4575898663469927,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,342
+2016,B. Nursing,f.haschild,"Employed, away from work",NA,0.22259781732053707,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,343
+2016,B. Nursing,f.haschild,Not in the labour force,NA,0.10901462992947303,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,344
+2016,B. Nursing,f.haschild,Unemployed,NA,0.014037596933149741,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Nursing,345
+2016,B. Other health,f.haschild,"Employed, worked full-time",NA,0.18042825819377198,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,351
+2016,B. Other health,f.haschild,"Employed, worked part-time",NA,0.4305118437244629,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,352
+2016,B. Other health,f.haschild,"Employed, away from work",NA,0.19107727729823082,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,353
+2016,B. Other health,f.haschild,Not in the labour force,NA,0.1738069269967589,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,354
+2016,B. Other health,f.haschild,Unemployed,NA,0.02417569378677541,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Other health,355
+2016,B. Performing Arts,f.haschild,"Employed, worked full-time",NA,0.14714028385501396,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,361
+2016,B. Performing Arts,f.haschild,"Employed, worked part-time",NA,0.35204820452151886,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,362
+2016,B. Performing Arts,f.haschild,"Employed, away from work",NA,0.12911365773588335,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,363
+2016,B. Performing Arts,f.haschild,Not in the labour force,NA,0.2785595538689156,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,364
+2016,B. Performing Arts,f.haschild,Unemployed,NA,0.09313830001866821,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Performing Arts,365
+2016,B. Science (excl maths),f.haschild,"Employed, worked full-time",NA,0.2455622690392692,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),371
+2016,B. Science (excl maths),f.haschild,"Employed, worked part-time",NA,0.3149630523060647,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),372
+2016,B. Science (excl maths),f.haschild,"Employed, away from work",NA,0.17330735406322698,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),373
+2016,B. Science (excl maths),f.haschild,Not in the labour force,NA,0.2121902495984496,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),374
+2016,B. Science (excl maths),f.haschild,Unemployed,NA,0.05397707499298956,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Science (excl maths),375
+2016,Y12,f.haschild,"Employed, worked full-time",NA,0.18110009441928288,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,381
+2016,Y12,f.haschild,"Employed, worked part-time",NA,0.2928273026677676,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,382
+2016,Y12,f.haschild,"Employed, away from work",NA,0.07339645476399738,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,383
+2016,Y12,f.haschild,Not in the labour force,NA,0.4130684802386323,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,384
+2016,Y12,f.haschild,Unemployed,NA,0.03960766791031983,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,385
+2006,B. all,f.haschild,"Employed, worked full-time",NA,0.19738575138335931,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,1
+2006,B. all,f.haschild,"Employed, worked part-time",NA,0.37111254004011157,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,2
+2006,B. all,f.haschild,"Employed, away from work",NA,0.1280056359022659,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,3
+2006,B. all,f.haschild,Not in the labour force,NA,0.27924777797722317,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,4
+2006,B. all,f.haschild,Unemployed,NA,0.024248294697040058,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,5
+2006,Y12,f.haschild,"Employed, worked full-time",NA,0.15756107008987222,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,121
+2006,Y12,f.haschild,"Employed, worked part-time",NA,0.30245459562332466,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,122
+2006,Y12,f.haschild,"Employed, away from work",NA,0.05175507300166813,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,123
+2006,Y12,f.haschild,Not in the labour force,NA,0.4566637574615363,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,124
+2006,Y12,f.haschild,Unemployed,NA,0.031565503823598705,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,125
+2011,B. all,f.haschild,"Employed, worked full-time",NA,0.19843731486608396,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,131
+2011,B. all,f.haschild,"Employed, worked part-time",NA,0.3654742907304767,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,132
+2011,B. all,f.haschild,"Employed, away from work",NA,0.16585901111670265,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,133
+2011,B. all,f.haschild,Not in the labour force,NA,0.24117469979080364,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,134
+2011,B. all,f.haschild,Unemployed,NA,0.0290546834959331,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,135
+2011,Y12,f.haschild,"Employed, worked full-time",NA,0.1596599269301464,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,251
+2011,Y12,f.haschild,"Employed, worked part-time",NA,0.2914537100189289,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,252
+2011,Y12,f.haschild,"Employed, away from work",NA,0.06420415611473779,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,253
+2011,Y12,f.haschild,Not in the labour force,NA,0.4511354473789924,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,254
+2011,Y12,f.haschild,Unemployed,NA,0.03354675955719445,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,255
+2016,B. all,f.haschild,"Employed, worked full-time",NA,0.24587736606744692,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,261
+2016,B. all,f.haschild,"Employed, worked part-time",NA,0.35716944163184233,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,262
+2016,B. all,f.haschild,"Employed, away from work",NA,0.17451667274555338,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,263
+2016,B. all,f.haschild,Not in the labour force,NA,0.1920821241854123,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,264
+2016,B. all,f.haschild,Unemployed,NA,0.030354395369745067,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,all,265
+2016,Y12,f.haschild,"Employed, worked full-time",NA,0.18110009441928288,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,381
+2016,Y12,f.haschild,"Employed, worked part-time",NA,0.2928273026677676,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,382
+2016,Y12,f.haschild,"Employed, away from work",NA,0.07339645476399738,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,383
+2016,Y12,f.haschild,Not in the labour force,NA,0.4130684802386323,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,384
+2016,Y12,f.haschild,Unemployed,NA,0.03960766791031983,lfs.2534.uniform,NA,2534,f.haschild,f,TRUE,TRUE,"Female, with child",TRUE,TRUE,Y12,385
+2006,B. Commerce,f.nochild,"Employed, worked full-time",NA,0.8808767376911812,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,16
+2006,B. Commerce,f.nochild,"Employed, worked part-time",NA,0.058756105411074316,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,17
+2006,B. Commerce,f.nochild,"Employed, away from work",NA,0.030760697123088557,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,18
+2006,B. Commerce,f.nochild,Not in the labour force,NA,0.018958428189460183,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,19
+2006,B. Commerce,f.nochild,Unemployed,NA,0.01064803158519573,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,20
+2006,B. Education,f.nochild,"Employed, worked full-time",NA,0.7986731899363697,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,26
+2006,B. Education,f.nochild,"Employed, worked part-time",NA,0.14268398151047756,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,27
+2006,B. Education,f.nochild,"Employed, away from work",NA,0.0367204352827258,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,28
+2006,B. Education,f.nochild,Not in the labour force,NA,0.01695917736250817,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,29
+2006,B. Education,f.nochild,Unemployed,NA,0.004963215907918784,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,30
+2006,B. Engineering,f.nochild,"Employed, worked full-time",NA,0.9241115530842285,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,36
+2006,B. Engineering,f.nochild,"Employed, worked part-time",NA,0.03874883547982784,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,37
+2006,B. Engineering,f.nochild,"Employed, away from work",NA,0.024871936308908583,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,38
+2006,B. Engineering,f.nochild,Not in the labour force,NA,0.010460446211372433,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,39
+2006,B. Engineering,f.nochild,Unemployed,NA,0.0018072289156626504,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,40
+2006,B. Humanities,f.nochild,"Employed, worked full-time",NA,0.762873083404499,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,46
+2006,B. Humanities,f.nochild,"Employed, worked part-time",NA,0.15437217060632075,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,47
+2006,B. Humanities,f.nochild,"Employed, away from work",NA,0.029579240756294225,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,48
+2006,B. Humanities,f.nochild,Not in the labour force,NA,0.03564633767041276,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,49
+2006,B. Humanities,f.nochild,Unemployed,NA,0.01752916756247323,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,50
+2006,B. IT,f.nochild,"Employed, worked full-time",NA,0.8702205071126184,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,56
+2006,B. IT,f.nochild,"Employed, worked part-time",NA,0.06646949837838814,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,57
+2006,B. IT,f.nochild,"Employed, away from work",NA,0.03383936265090002,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,58
+2006,B. IT,f.nochild,Not in the labour force,NA,0.025670375666005423,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,59
+2006,B. IT,f.nochild,Unemployed,NA,0.0038002561920879654,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,60
+2006,B. Law,f.nochild,"Employed, worked full-time",NA,0.8802559362612286,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,66
+2006,B. Law,f.nochild,"Employed, worked part-time",NA,0.053801971347422095,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,67
+2006,B. Law,f.nochild,"Employed, away from work",NA,0.041569133575666675,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,68
+2006,B. Law,f.nochild,Not in the labour force,NA,0.0168827334395116,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,69
+2006,B. Law,f.nochild,Unemployed,NA,0.007490225376171117,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,70
+2006,B. Medicine,f.nochild,"Employed, worked full-time",NA,0.8348669614833306,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,76
+2006,B. Medicine,f.nochild,"Employed, worked part-time",NA,0.08979979915050927,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,77
+2006,B. Medicine,f.nochild,"Employed, away from work",NA,0.061495276944405285,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,78
+2006,B. Medicine,f.nochild,Not in the labour force,NA,0.012851120316491629,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,79
+2006,B. Medicine,f.nochild,Unemployed,NA,9.86842105263158e-4,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,80
+2006,B. Nursing,f.nochild,"Employed, worked full-time",NA,0.7015721856120335,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,86
+2006,B. Nursing,f.nochild,"Employed, worked part-time",NA,0.21451212473462627,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,87
+2006,B. Nursing,f.nochild,"Employed, away from work",NA,0.058693719905906445,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,88
+2006,B. Nursing,f.nochild,Not in the labour force,NA,0.01933298034413678,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,89
+2006,B. Nursing,f.nochild,Unemployed,NA,0.005888989403297,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,90
+2006,B. Other health,f.nochild,"Employed, worked full-time",NA,0.8140069621785648,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,96
+2006,B. Other health,f.nochild,"Employed, worked part-time",NA,0.1374765935999568,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,97
+2006,B. Other health,f.nochild,"Employed, away from work",NA,0.03123999337125934,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,98
+2006,B. Other health,f.nochild,Not in the labour force,NA,0.012778699505546349,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,99
+2006,B. Other health,f.nochild,Unemployed,NA,0.004497751344672676,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,100
+2006,B. Performing Arts,f.nochild,"Employed, worked full-time",NA,0.6129283016827977,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,106
+2006,B. Performing Arts,f.nochild,"Employed, worked part-time",NA,0.3258161650783198,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,107
+2006,B. Performing Arts,f.nochild,"Employed, away from work",NA,0.030708264689529478,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,108
+2006,B. Performing Arts,f.nochild,Not in the labour force,NA,0.027062574095495572,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,109
+2006,B. Performing Arts,f.nochild,Unemployed,NA,0.0034846944538574494,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,110
+2006,B. Science (excl maths),f.nochild,"Employed, worked full-time",NA,0.8442635527691114,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),116
+2006,B. Science (excl maths),f.nochild,"Employed, worked part-time",NA,0.09438281908771494,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),117
+2006,B. Science (excl maths),f.nochild,"Employed, away from work",NA,0.03303290318395278,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),118
+2006,B. Science (excl maths),f.nochild,Not in the labour force,NA,0.017284112670604097,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),119
+2006,B. Science (excl maths),f.nochild,Unemployed,NA,0.011036612288616889,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),120
+2006,Y12,f.nochild,"Employed, worked full-time",NA,0.7223597874191922,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,126
+2006,Y12,f.nochild,"Employed, worked part-time",NA,0.1372153572563889,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,127
+2006,Y12,f.nochild,"Employed, away from work",NA,0.044373366841910365,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,128
+2006,Y12,f.nochild,Not in the labour force,NA,0.06739173535981723,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,129
+2006,Y12,f.nochild,Unemployed,NA,0.028659753122691343,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,130
+2011,B. Commerce,f.nochild,"Employed, worked full-time",NA,0.8698240456551122,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,146
+2011,B. Commerce,f.nochild,"Employed, worked part-time",NA,0.06449619853002894,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,147
+2011,B. Commerce,f.nochild,"Employed, away from work",NA,0.03050426936043042,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,148
+2011,B. Commerce,f.nochild,Not in the labour force,NA,0.018824653498257172,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,149
+2011,B. Commerce,f.nochild,Unemployed,NA,0.0163508329561713,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,150
+2011,B. Education,f.nochild,"Employed, worked full-time",NA,0.8072182308119039,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,156
+2011,B. Education,f.nochild,"Employed, worked part-time",NA,0.14015772165938847,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,157
+2011,B. Education,f.nochild,"Employed, away from work",NA,0.031079561288064293,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,158
+2011,B. Education,f.nochild,Not in the labour force,NA,0.013500803708592184,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,159
+2011,B. Education,f.nochild,Unemployed,NA,0.008043682532051134,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,160
+2011,B. Engineering,f.nochild,"Employed, worked full-time",NA,0.9153495101946,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,166
+2011,B. Engineering,f.nochild,"Employed, worked part-time",NA,0.04684821417065062,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,167
+2011,B. Engineering,f.nochild,"Employed, away from work",NA,0.02172954917653854,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,168
+2011,B. Engineering,f.nochild,Not in the labour force,NA,0.007470322963543839,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,169
+2011,B. Engineering,f.nochild,Unemployed,NA,0.008602403494667035,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,170
+2011,B. Humanities,f.nochild,"Employed, worked full-time",NA,0.7628943571010367,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,176
+2011,B. Humanities,f.nochild,"Employed, worked part-time",NA,0.14442101460374715,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,177
+2011,B. Humanities,f.nochild,"Employed, away from work",NA,0.03330766433741844,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,178
+2011,B. Humanities,f.nochild,Not in the labour force,NA,0.040020245240602215,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,179
+2011,B. Humanities,f.nochild,Unemployed,NA,0.01935671871719553,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,180
+2011,B. IT,f.nochild,"Employed, worked full-time",NA,0.8668151100903358,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,186
+2011,B. IT,f.nochild,"Employed, worked part-time",NA,0.07246091099007607,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,187
+2011,B. IT,f.nochild,"Employed, away from work",NA,0.03015377300791792,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,188
+2011,B. IT,f.nochild,Not in the labour force,NA,0.015228207139018004,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,189
+2011,B. IT,f.nochild,Unemployed,NA,0.015341998772652094,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,190
+2011,B. Law,f.nochild,"Employed, worked full-time",NA,0.8723966840636729,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,196
+2011,B. Law,f.nochild,"Employed, worked part-time",NA,0.06098057541042049,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,197
+2011,B. Law,f.nochild,"Employed, away from work",NA,0.032793448034546265,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,198
+2011,B. Law,f.nochild,Not in the labour force,NA,0.018822200248775078,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,199
+2011,B. Law,f.nochild,Unemployed,NA,0.015007092242585323,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,200
+2011,B. Medicine,f.nochild,"Employed, worked full-time",NA,0.8559888077796614,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,206
+2011,B. Medicine,f.nochild,"Employed, worked part-time",NA,0.06984732177117228,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,207
+2011,B. Medicine,f.nochild,"Employed, away from work",NA,0.06335996186149018,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,208
+2011,B. Medicine,f.nochild,Not in the labour force,NA,0.010072201270603015,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,209
+2011,B. Medicine,f.nochild,Unemployed,NA,7.317073170731707e-4,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,210
+2011,B. Nursing,f.nochild,"Employed, worked full-time",NA,0.6804471205993348,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,216
+2011,B. Nursing,f.nochild,"Employed, worked part-time",NA,0.231662635321814,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,217
+2011,B. Nursing,f.nochild,"Employed, away from work",NA,0.06299946792091635,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,218
+2011,B. Nursing,f.nochild,Not in the labour force,NA,0.019972922617186823,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,219
+2011,B. Nursing,f.nochild,Unemployed,NA,0.004917853540748052,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,220
+2011,B. Other health,f.nochild,"Employed, worked full-time",NA,0.8086036918916946,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,226
+2011,B. Other health,f.nochild,"Employed, worked part-time",NA,0.140939536316406,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,227
+2011,B. Other health,f.nochild,"Employed, away from work",NA,0.03673768213736129,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,228
+2011,B. Other health,f.nochild,Not in the labour force,NA,0.009882729045532647,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,229
+2011,B. Other health,f.nochild,Unemployed,NA,0.0038363606090055084,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,230
+2011,B. Performing Arts,f.nochild,"Employed, worked full-time",NA,0.5882681293969646,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,236
+2011,B. Performing Arts,f.nochild,"Employed, worked part-time",NA,0.3237107494180978,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,237
+2011,B. Performing Arts,f.nochild,"Employed, away from work",NA,0.02640272336224299,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,238
+2011,B. Performing Arts,f.nochild,Not in the labour force,NA,0.0318400658107421,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,239
+2011,B. Performing Arts,f.nochild,Unemployed,NA,0.029778332011952555,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,240
+2011,B. Science (excl maths),f.nochild,"Employed, worked full-time",NA,0.838344331670602,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),246
+2011,B. Science (excl maths),f.nochild,"Employed, worked part-time",NA,0.09375568463922208,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),247
+2011,B. Science (excl maths),f.nochild,"Employed, away from work",NA,0.03684416503106124,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),248
+2011,B. Science (excl maths),f.nochild,Not in the labour force,NA,0.01889437048713527,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),249
+2011,B. Science (excl maths),f.nochild,Unemployed,NA,0.012161448171979464,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),250
+2011,Y12,f.nochild,"Employed, worked full-time",NA,0.7012814285164305,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,256
+2011,Y12,f.nochild,"Employed, worked part-time",NA,0.13911945153290284,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,257
+2011,Y12,f.nochild,"Employed, away from work",NA,0.04299924902018547,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,258
+2011,Y12,f.nochild,Not in the labour force,NA,0.08448227827981142,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,259
+2011,Y12,f.nochild,Unemployed,NA,0.03211759265066984,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,260
+2016,B. Commerce,f.nochild,"Employed, worked full-time",NA,0.8616679250174143,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,276
+2016,B. Commerce,f.nochild,"Employed, worked part-time",NA,0.07486457175015254,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,277
+2016,B. Commerce,f.nochild,"Employed, away from work",NA,0.023772903818523393,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,278
+2016,B. Commerce,f.nochild,Not in the labour force,NA,0.0218325010162804,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,279
+2016,B. Commerce,f.nochild,Unemployed,NA,0.017862098397629363,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Commerce,280
+2016,B. Education,f.nochild,"Employed, worked full-time",NA,0.8292006471199916,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,286
+2016,B. Education,f.nochild,"Employed, worked part-time",NA,0.12641526946296164,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,287
+2016,B. Education,f.nochild,"Employed, away from work",NA,0.023856393567017718,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,288
+2016,B. Education,f.nochild,Not in the labour force,NA,0.012338874020690838,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,289
+2016,B. Education,f.nochild,Unemployed,NA,0.008188815829338184,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Education,290
+2016,B. Engineering,f.nochild,"Employed, worked full-time",NA,0.9179094660255886,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,296
+2016,B. Engineering,f.nochild,"Employed, worked part-time",NA,0.04722151220162018,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,297
+2016,B. Engineering,f.nochild,"Employed, away from work",NA,0.011038337435290797,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,298
+2016,B. Engineering,f.nochild,Not in the labour force,NA,0.014645308304104501,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,299
+2016,B. Engineering,f.nochild,Unemployed,NA,0.009185376033395936,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Engineering,300
+2016,B. Humanities,f.nochild,"Employed, worked full-time",NA,0.7372908683868633,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,306
+2016,B. Humanities,f.nochild,"Employed, worked part-time",NA,0.1656082712817401,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,307
+2016,B. Humanities,f.nochild,"Employed, away from work",NA,0.028620628802189792,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,308
+2016,B. Humanities,f.nochild,Not in the labour force,NA,0.040514146816130484,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,309
+2016,B. Humanities,f.nochild,Unemployed,NA,0.027966084713076305,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Humanities,310
+2016,B. IT,f.nochild,"Employed, worked full-time",NA,0.8546571141858641,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,316
+2016,B. IT,f.nochild,"Employed, worked part-time",NA,0.09501524073378403,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,317
+2016,B. IT,f.nochild,"Employed, away from work",NA,0.014498891602365064,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,318
+2016,B. IT,f.nochild,Not in the labour force,NA,0.01938716705728935,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,319
+2016,B. IT,f.nochild,Unemployed,NA,0.016441586420697478,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,IT,320
+2016,B. Law,f.nochild,"Employed, worked full-time",NA,0.875458468546849,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,326
+2016,B. Law,f.nochild,"Employed, worked part-time",NA,0.05955255523250442,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,327
+2016,B. Law,f.nochild,"Employed, away from work",NA,0.028399396267196914,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,328
+2016,B. Law,f.nochild,Not in the labour force,NA,0.01782495469593675,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,329
+2016,B. Law,f.nochild,Unemployed,NA,0.018764625257512924,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Law,330
+2016,B. Medicine,f.nochild,"Employed, worked full-time",NA,0.8632009713855384,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,336
+2016,B. Medicine,f.nochild,"Employed, worked part-time",NA,0.09330113206069514,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,337
+2016,B. Medicine,f.nochild,"Employed, away from work",NA,0.03287396624995322,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,338
+2016,B. Medicine,f.nochild,Not in the labour force,NA,0.00683263309009324,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,339
+2016,B. Medicine,f.nochild,Unemployed,NA,0.003791297213719984,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Medicine,340
+2016,B. Nursing,f.nochild,"Employed, worked full-time",NA,0.641118854240797,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,346
+2016,B. Nursing,f.nochild,"Employed, worked part-time",NA,0.2847404792510713,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,347
+2016,B. Nursing,f.nochild,"Employed, away from work",NA,0.052364907669553665,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,348
+2016,B. Nursing,f.nochild,Not in the labour force,NA,0.014800884781952297,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,349
+2016,B. Nursing,f.nochild,Unemployed,NA,0.0069748740566258375,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Nursing,350
+2016,B. Other health,f.nochild,"Employed, worked full-time",NA,0.8069029774707026,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,356
+2016,B. Other health,f.nochild,"Employed, worked part-time",NA,0.1486346776402709,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,357
+2016,B. Other health,f.nochild,"Employed, away from work",NA,0.024920015764782404,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,358
+2016,B. Other health,f.nochild,Not in the labour force,NA,0.013723279194274324,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,359
+2016,B. Other health,f.nochild,Unemployed,NA,0.0058190499299698014,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Other health,360
+2016,B. Performing Arts,f.nochild,"Employed, worked full-time",NA,0.554767782222216,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,366
+2016,B. Performing Arts,f.nochild,"Employed, worked part-time",NA,0.36090210921522986,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,367
+2016,B. Performing Arts,f.nochild,"Employed, away from work",NA,0.022258446876599183,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,368
+2016,B. Performing Arts,f.nochild,Not in the labour force,NA,0.04021801575055799,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,369
+2016,B. Performing Arts,f.nochild,Unemployed,NA,0.021853645935396997,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Performing Arts,370
+2016,B. Science (excl maths),f.nochild,"Employed, worked full-time",NA,0.8034133121329449,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),376
+2016,B. Science (excl maths),f.nochild,"Employed, worked part-time",NA,0.12989072270294494,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),377
+2016,B. Science (excl maths),f.nochild,"Employed, away from work",NA,0.023988060747730876,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),378
+2016,B. Science (excl maths),f.nochild,Not in the labour force,NA,0.020035101032026256,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),379
+2016,B. Science (excl maths),f.nochild,Unemployed,NA,0.022672803384353044,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Science (excl maths),380
+2016,Y12,f.nochild,"Employed, worked full-time",NA,0.6569855976687249,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,386
+2016,Y12,f.nochild,"Employed, worked part-time",NA,0.16291625356627867,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,387
+2016,Y12,f.nochild,"Employed, away from work",NA,0.03602994825776433,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,388
+2016,Y12,f.nochild,Not in the labour force,NA,0.10554628952350179,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,389
+2016,Y12,f.nochild,Unemployed,NA,0.03852191098373029,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,390
+2006,B. all,f.nochild,"Employed, worked full-time",NA,0.8190098170397615,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,6
+2006,B. all,f.nochild,"Employed, worked part-time",NA,0.11649596963022397,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,7
+2006,B. all,f.nochild,"Employed, away from work",NA,0.03597353583730284,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,8
+2006,B. all,f.nochild,Not in the labour force,NA,0.019623590748219552,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,9
+2006,B. all,f.nochild,Unemployed,NA,0.008897086744492178,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,10
+2006,Y12,f.nochild,"Employed, worked full-time",NA,0.7223597874191922,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,126
+2006,Y12,f.nochild,"Employed, worked part-time",NA,0.1372153572563889,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,127
+2006,Y12,f.nochild,"Employed, away from work",NA,0.044373366841910365,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,128
+2006,Y12,f.nochild,Not in the labour force,NA,0.06739173535981723,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,129
+2006,Y12,f.nochild,Unemployed,NA,0.028659753122691343,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,130
+2011,B. all,f.nochild,"Employed, worked full-time",NA,0.8183709773961427,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,136
+2011,B. all,f.nochild,"Employed, worked part-time",NA,0.11647526864019556,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,137
+2011,B. all,f.nochild,"Employed, away from work",NA,0.034222591400322355,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,138
+2011,B. all,f.nochild,Not in the labour force,NA,0.018285245695701113,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,139
+2011,B. all,f.nochild,Unemployed,NA,0.0126459168676382,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,140
+2011,Y12,f.nochild,"Employed, worked full-time",NA,0.7012814285164305,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,256
+2011,Y12,f.nochild,"Employed, worked part-time",NA,0.13911945153290284,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,257
+2011,Y12,f.nochild,"Employed, away from work",NA,0.04299924902018547,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,258
+2011,Y12,f.nochild,Not in the labour force,NA,0.08448227827981142,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,259
+2011,Y12,f.nochild,Unemployed,NA,0.03211759265066984,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,260
+2016,B. all,f.nochild,"Employed, worked full-time",NA,0.8086874293072157,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,266
+2016,B. all,f.nochild,"Employed, worked part-time",NA,0.13077031829626828,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,267
+2016,B. all,f.nochild,"Employed, away from work",NA,0.026112306767718977,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,268
+2016,B. all,f.nochild,Not in the labour force,NA,0.01973247305630559,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,269
+2016,B. all,f.nochild,Unemployed,NA,0.014697472572491394,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,all,270
+2016,Y12,f.nochild,"Employed, worked full-time",NA,0.6569855976687249,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,386
+2016,Y12,f.nochild,"Employed, worked part-time",NA,0.16291625356627867,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,387
+2016,Y12,f.nochild,"Employed, away from work",NA,0.03602994825776433,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,388
+2016,Y12,f.nochild,Not in the labour force,NA,0.10554628952350179,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,389
+2016,Y12,f.nochild,Unemployed,NA,0.03852191098373029,lfs.2534.uniform,NA,2534,f.nochild,f,TRUE,FALSE,"Female, no child",TRUE,TRUE,Y12,390
