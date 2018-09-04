@@ -936,7 +936,7 @@ for(agel in seq(from=15, to=55, by=10)){
 
 
 # single-year-old analysis
-for (x in 22:24) {
+for (x in 23:65) {
 
 a <- lfs %>%
   filter(age == x) %>%
@@ -1613,3 +1613,100 @@ flex.chart(type = lfs,
 )
 
 
+
+
+
+
+#5: Animation(?) ####
+library(gganimate)
+library(tweenr)
+
+
+library(gapminder)
+
+ggplot(gapminder, aes(gdpPercap, lifeExp, size = pop, colour = country)) +
+  geom_point(alpha = 0.7, show.legend = FALSE) +
+  scale_colour_manual(values = country_colors) +
+  scale_size(range = c(2, 12)) +
+  scale_x_log10() +
+  facet_wrap(~continent) +
+  # Here comes the gganimate specific bits
+  labs(title = 'Year: {frame_time}', x = 'GDP per capita', y = 'life expectancy') +
+  transition_time(year) +
+  ease_aes('linear')
+
+# Prep animate
+  ## Set labels and colours for each TYPE (this is called via TYPE within the ggplot function)
+lfs.labels = c( "Unemployed",
+                "NILF",
+                "Employed AWAY",
+                "Employed PT",
+                "Employed FT")
+lfs.colors = c( gred,
+                ggrey,
+                gdark,
+                gorange,
+                gyellow
+                )
+
+
+# Prep data
+  animate <- lfs.combined %>% 
+             mutate(single = grepl("^[0-9]{2}$", agegroup)) %>% 
+             filter(single == TRUE,
+                    qualfield == "Y12" | qualfield == "B. all",
+                    uniform == TRUE) %>% 
+             mutate(age = as.integer(agegroup)) %>% 
+             group_by(year, qualfield, gender_detail, age, lfs) %>% 
+             summarise(pc = mean(pc)) %>% ungroup() %>% 
+             mutate(gender_detail = case_when(gender_detail == "f" ~ "Female",
+                                              gender_detail == "f.nochild" ~ "Female, no child",
+                                              gender_detail == "f.haschild" ~ "Female, has child",
+                                              gender_detail == "m" ~ "Male"),
+                    qualfield = case_when(qualfield == "Y12" ~ "Year 12 only",
+                                          qualfield == "B. all" ~ "Bachelor graduate"))
+  
+  
+  animate %>% 
+    filter(gender_detail == "Male" |  gender_detail == "Female") %>% 
+    # filter(age == 30) %>%  ##
+    ggplot(aes(y = pc, x = year, fill = lfs, order = as.numeric(lfs))) + 
+      geom_bar(stat="identity") +
+      theme_minimal() +
+      labs(title = "Labour-force status",
+           x = "",
+           y = ""
+      ) +
+      theme(plot.title    = element_text(size = 12, hjust = 0.5),
+            plot.subtitle = element_text(size = 12, hjust = 0.5, face = "italic"),
+            legend.position="bottom",
+            legend.title = element_blank(),
+            legend.text = element_text(size=10),
+            strip.text.x = element_text(size = 12, colour = "black", angle = 0, hjust = 1, vjust = 1),
+            axis.text.x=element_text(size=12, angle = 0),
+            panel.grid.major.x=element_blank()
+      ) +
+      scale_fill_manual(values = c("Not in the labour force" = ggrey,
+                                   "Unemployed" = gred,
+                                   "Employed, away from work" = gdark,
+                                   "Employed, worked part-time" = gorange,
+                                   "Employed, worked full-time" = gyellow),
+                        breaks = c("Not in the labour force",
+                                   "Unemployed",
+                                   "Employed, away from work",
+                                   "Employed, worked part-time",
+                                   "Employed, worked full-time"),
+                        labels = c("NILF",
+                                   "Unemployed",
+                                   "Employed AWAY",
+                                   "Employed PT",
+                                   "Employed FT")) +
+     facet_grid(. ~ qualfield + gender_detail) +
+      # ## gganimate
+      labs(title = 'Age: {frame_time}', x = 'Year', y = '') +
+      transition_time(age) +
+      enter_grow() +
+      exit_shrink() +
+      ease_aes('sine-in-out') +
+      NULL
+    
